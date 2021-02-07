@@ -8,5 +8,5 @@ Allow: /hot/
 Disallow: /archives/154.html/
 
 
-Sitemap: https://blog.qust.cc/baidusitemap.xml
-Sitemap: https://blog.qust.cc/sitemap.xml
+Sitemap: https://blog.garryde.com/baidusitemap.xml
+Sitemap: https://blog.garryde.com/sitemap.xml

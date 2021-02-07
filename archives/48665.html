@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.garryde.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="使用LeanCloud记录hexo文章的阅读量，next主题对LeanCloud进行了适配，只需简单的配置。 本文综合参考了多篇文章以及自己的部署经历。并且修复了安全漏洞。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo Next主题 使用LeanCloud统计文章阅读次数、添加热度排行页面">
+<meta property="og:url" content="https://blog.garryde.com/archives/48665.html">
+<meta property="og:site_name" content="Garry de Blog">
+<meta property="og:description" content="使用LeanCloud记录hexo文章的阅读量，next主题对LeanCloud进行了适配，只需简单的配置。 本文综合参考了多篇文章以及自己的部署经历。并且修复了安全漏洞。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://file.qust.cc/images/2019-08-05-1.54.13.png">
+<meta property="og:image" content="https://file.qust.cc/images/2019-08-05-2.05.59.png">
+<meta property="article:published_time" content="2019-08-05T12:26:53.000Z">
+<meta property="article:modified_time" content="2020-06-22T15:40:06.000Z">
+<meta property="article:author" content="Garry">
+<meta property="article:tag" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://file.qust.cc/images/2019-08-05-1.54.13.png">
+
+<link rel="canonical" href="https://blog.garryde.com/archives/48665.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Hexo Next主题 使用LeanCloud统计文章阅读次数、添加热度排行页面 | Garry de Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Garry de Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">条条大路通罗马，而我就在罗马</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-hot">
+
+    <a href="/hot/" rel="section"><i class="signal fa-fw"></i>hot</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.garryde.com/archives/48665.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Garry">
+      <meta itemprop="description" content="Garry 的个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Garry de Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hexo Next主题 使用LeanCloud统计文章阅读次数、添加热度排行页面
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-08-05 12:26:53" itemprop="dateCreated datePublished" datetime="2019-08-05T12:26:53+00:00">2019-08-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-22 15:40:06" itemprop="dateModified" datetime="2020-06-22T15:40:06+00:00">2020-06-22</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo折腾</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>使用LeanCloud记录hexo文章的阅读量，next主题对LeanCloud进行了适配，只需简单的配置。</p>
+<p>本文综合参考了多篇文章以及自己的部署经历。并且修复了安全漏洞。</p>
+<a id="more"></a>
+
+<h1 id="1-注册-LeanCloud"><a href="#1-注册-LeanCloud" class="headerlink" title="1. 注册 LeanCloud"></a>1. 注册 LeanCloud</h1><p>详细注册步骤略</p>
+<h2 id="1-1-LeanCloud配置"><a href="#1-1-LeanCloud配置" class="headerlink" title="1.1 LeanCloud配置"></a>1.1 LeanCloud配置</h2><p>进入之后点击存储，创建Class，名称必须为<code>Counter</code>。</p>
+<p>ACL权限选择<code>无限制</code>，点击<code>创建Class</code>按钮。</p>
+<p>记录相关<code>App ID</code>和<code>App Key</code></p>
+<h2 id="1-2配置域名绑定"><a href="#1-2配置域名绑定" class="headerlink" title="1.2配置域名绑定"></a>1.2配置域名绑定</h2><p>前提：个人<code>已备案</code>域名</p>
+<p>进入LeanCloud<code>设置</code>-&gt;<code>域名绑定</code>-&gt;<code>API 访问域名</code>-&gt;<code>绑定新域名</code></p>
+<p>输入域名后配置CNAME解析</p>
+<p>系统会自动检测备案、解析、以及配置SSL证书</p>
+<h1 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h1><h2 id="2-1-主题配置"><a href="#2-1-主题配置" class="headerlink" title="2.1 主题配置"></a>2.1 主题配置</h2><p><strong>若同时安装了Valine评论系统会产生冲突，请参考：<a target="_blank" rel="noopener" href="https://blog.qust.cc/archives/63320.html">Hexo Next阅读次数不正常、显示多个阅读次数</a></strong></p>
+<p>修改<code>主题配置</code>文件，修改以下字段，每一项都需要修改</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Show number of visitors to each article.</span></span><br><span class="line"><span class="comment"># You can visit https://leancloud.cn get AppID and AppKey.</span></span><br><span class="line"><span class="attr">leancloud_visitors:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="string">&lt;App</span> <span class="string">ID&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="string">&lt;App</span> <span class="string">Key&gt;</span></span><br><span class="line">  <span class="comment">#1.2中配置的域名</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="string">&lt;your</span> <span class="string">server</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="comment"># Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security</span></span><br><span class="line">  <span class="comment"># If you don&#x27;t care about security in lc counter and just want to use it directly</span></span><br><span class="line">  <span class="comment"># (without hexo-leancloud-counter-security plugin), set the `security` to `false`.</span></span><br><span class="line">  <span class="attr">security:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h2 id="2-2-站点配置"><a href="#2-2-站点配置" class="headerlink" title="2.2 站点配置"></a>2.2 站点配置</h2><p>打开<code>站点配置</code>文件，新增以下内容</p>
+<h3 id="2-2-1-配置安全访问"><a href="#2-2-1-配置安全访问" class="headerlink" title="2.2.1 配置安全访问"></a>2.2.1 配置安全访问</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">leancloud_counter_security:</span></span><br><span class="line">  <span class="attr">enable_sync:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="string">&lt;&lt;your</span> <span class="string">app</span> <span class="string">id&gt;&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="string">&lt;&lt;your</span> <span class="string">app</span> <span class="string">key&gt;</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="string">&lt;your</span> <span class="string">server</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="attr">username:</span> <span class="string">&lt;&lt;your</span> <span class="string">username&gt;&gt;</span></span><br><span class="line">  <span class="attr">password:</span> <span class="string">&lt;&lt;your</span> <span class="string">password&gt;&gt;</span></span><br></pre></td></tr></table></figure>
+<p>前两项的 id 与 key 为网站提供。后两项username和 password 自己定义。</p>
+<h3 id="2-2-2-配置deploy"><a href="#2-2-2-配置deploy" class="headerlink" title="2.2.2 配置deploy"></a>2.2.2 配置deploy</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">leancloud_counter_security_sync</span></span><br></pre></td></tr></table></figure>
+<p>注意：存在多项 deploy，需要在 type 前加上<code>-</code></p>
+<p>例如：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">		<span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">baidu_url_submitter</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">leancloud_counter_security_sync</span></span><br></pre></td></tr></table></figure>
+<h1 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h1><p>打开命令终端，切换到博客根目录。安装<code>hexo-leancloud-counter-security</code>插件</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-leancloud-counter-security --save</span><br></pre></td></tr></table></figure>
+<p>等待安装结束之后，注册一个用户</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo lc-counter r username password</span><br></pre></td></tr></table></figure>
+<p>这里的用户名和密码与<code>2.2.1</code>中配置的一致</p>
+<p>注：若出现异常，提示</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Error: Cannot find module &#x27;babel-runtime/regenerator&#x27;</span><br></pre></td></tr></table></figure>
+<p>可以运行</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i babel-runtime --save</span><br></pre></td></tr></table></figure>
+<h1 id="4-部署云引擎以保证访客数量不被随意篡改"><a href="#4-部署云引擎以保证访客数量不被随意篡改" class="headerlink" title="4.部署云引擎以保证访客数量不被随意篡改"></a>4.部署云引擎以保证访客数量不被随意篡改</h1><p>依次点击左侧<code>云引擎</code> -&gt; <code>部署</code> -&gt; <code>在线编辑</code>：</p>
+<img src="https://file.qust.cc/images/2019-08-05-1.54.13.png" width="800" align="center" />
+
+<p>点击创建函数</p>
+<img src="https://file.qust.cc/images/2019-08-05-2.05.59.png" width="600" align="center" />
+
+<p>在弹出窗口选择<code>Hook</code>类型，在<code>选择 Hook</code>处选择<code>beforeUpdate</code>，在<code>选择 Class</code>处选择<code>Counter</code>类。粘贴下方代码后，点保存。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&quot;Counter&quot;</span>);</span><br><span class="line"><span class="keyword">if</span> (request.object.updatedKeys.indexOf(<span class="string">&#x27;time&#x27;</span>) !== -<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> query.get(request.object.id).then(<span class="function"><span class="keyword">function</span> (<span class="params">obj</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (obj.get(<span class="string">&quot;time&quot;</span>) + <span class="number">1</span> !== request.object.get(<span class="string">&quot;time&quot;</span>)) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> AV.Cloud.Error(<span class="string">&#x27;Invalid update!&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后单击<code>创建按钮</code>右侧的<code>部署</code> -&gt; <code>生产环境</code> -&gt; <code>部署</code></p>
+<p>待显示<code>部署完成：1 个实例部署成功</code>即可</p>
+<h1 id="5-添加热度排行页面"><a href="#5-添加热度排行页面" class="headerlink" title="5.添加热度排行页面"></a>5.添加热度排行页面</h1><h3 id="5-1-新建页面"><a href="#5-1-新建页面" class="headerlink" title="5.1 新建页面"></a>5.1 新建页面</h3><p>在博客目录下执行<code>hexo n page hot</code>新建一个hot页面，编辑其中的<code>index.md</code>文件，将其中的代码替换如下</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章热度排行</span><br><span class="line">date: 2019-08-14 10:29:51</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;hot&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript">AV.initialize(<span class="string">&quot;YOUR_APPID&quot;</span>, <span class="string">&quot;YOUR_APPKEY&quot;</span>);</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> time=<span class="number">0</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> title=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> url=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&#x27;Counter&#x27;</span>);</span></span><br><span class="line"><span class="javascript">  query.notEqualTo(<span class="string">&#x27;id&#x27;</span>,<span class="number">0</span>);</span></span><br><span class="line"><span class="javascript">  query.descending(<span class="string">&#x27;time&#x27;</span>);</span></span><br><span class="line">  query.limit(1000);</span><br><span class="line"><span class="javascript">  query.find().then(<span class="function"><span class="keyword">function</span> (<span class="params">todo</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="number">1000</span>;i++)&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> result=todo[i].attributes;</span></span><br><span class="line">      time=result.time;</span><br><span class="line">      title=result.title;</span><br><span class="line">      url=result.url;</span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> content=<span class="string">&quot;&lt;p&gt;&quot;</span>+<span class="string">&quot;&lt;font color=&#x27;#1C1C1C&#x27;&gt;&quot;</span>+<span class="string">&quot;【文章热度:&quot;</span>+time+<span class="string">&quot;℃】&quot;</span>+<span class="string">&quot;&lt;/font&gt;&quot;</span>+<span class="string">&quot;&lt;a href=&#x27;&quot;</span>+<span class="string">&quot;YOUR_URL&quot;</span>+url+<span class="string">&quot;&#x27;&gt;&quot;</span>+title+<span class="string">&quot;&lt;/a&gt;&quot;</span>+<span class="string">&quot;&lt;/p&gt;&quot;</span>;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">&quot;hot&quot;</span>).innerHTML+=content</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="javascript">  &#125;, <span class="function"><span class="keyword">function</span> (<span class="params">error</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">console</span>.log(<span class="string">&quot;error&quot;</span>);</span></span><br><span class="line">  &#125;);</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>将其中的<code>YOUR_APPID</code>和<code>YOUR_APPKEY</code>替换为 learncloud 的 id 和 key</p>
+<p>将<code>YOUR_URL</code>替换为你的博客地址，包含<code>协议</code>并以<code>/</code>结束，例如：<code>https://blog.qust.cc/</code></p>
+<h3 id="5-2-配置主题侧边栏"><a href="#5-2-配置主题侧边栏" class="headerlink" title="5.2 配置主题侧边栏"></a>5.2 配置主题侧边栏</h3><p>打开<code>主题配置</code>文件，搜索menu，添加</p>
+<p><code>hot: /hot/ || fa fa-thermometer-half</code></p>
+<p>图标预览：<i class="fa fa-thermometer-half" aria-hidden="true"></i></p>
+<p>或 <code>hot: /hot/ || fa fa-signal</code></p>
+<p>图标预览：<i class="fa fa-signal" aria-hidden="true"></i></p>
+<h3 id="5-3-配置侧边栏中文"><a href="#5-3-配置侧边栏中文" class="headerlink" title="5.3 配置侧边栏中文"></a>5.3 配置侧边栏中文</h3><p>打开<strong>hexo/theme/next/languages/zh-Hans.yml</strong>，搜索menu，添加<code>hot: 热度排行</code>即可汉化</p>
+<h1 id="6-异常"><a href="#6-异常" class="headerlink" title="6.异常"></a>6.异常</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">TypeError: serverURL option is required for apps from CN region</span><br></pre></td></tr></table></figure>
+<p>没有设置server_url项，或者账户不是来自<a target="_blank" rel="noopener" href="https://leancloud.cn/">https://leancloud.cn</a></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/archives/52802.html" rel="prev" title="HomeAssistant升级0.94无法使用博联插排mp1">
+      <i class="fa fa-chevron-left"></i> HomeAssistant升级0.94无法使用博联插排mp1
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/archives/17947.html" rel="next" title="意大利罗马税号申请指南">
+      意大利罗马税号申请指南 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81MjY5Mi8yOTE2OQ=="></div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E6%B3%A8%E5%86%8C-LeanCloud"><span class="nav-text">1. 注册 LeanCloud</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-LeanCloud%E9%85%8D%E7%BD%AE"><span class="nav-text">1.1 LeanCloud配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2%E9%85%8D%E7%BD%AE%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A"><span class="nav-text">1.2配置域名绑定</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E9%85%8D%E7%BD%AE"><span class="nav-text">2.配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="nav-text">2.1 主题配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE"><span class="nav-text">2.2 站点配置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-%E5%AE%89%E8%A3%85"><span class="nav-text">3.安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-%E9%83%A8%E7%BD%B2%E4%BA%91%E5%BC%95%E6%93%8E%E4%BB%A5%E4%BF%9D%E8%AF%81%E8%AE%BF%E5%AE%A2%E6%95%B0%E9%87%8F%E4%B8%8D%E8%A2%AB%E9%9A%8F%E6%84%8F%E7%AF%A1%E6%94%B9"><span class="nav-text">4.部署云引擎以保证访客数量不被随意篡改</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-%E6%B7%BB%E5%8A%A0%E7%83%AD%E5%BA%A6%E6%8E%92%E8%A1%8C%E9%A1%B5%E9%9D%A2"><span class="nav-text">5.添加热度排行页面</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-%E5%BC%82%E5%B8%B8"><span class="nav-text">6.异常</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Garry"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Garry</p>
+  <div class="site-description" itemprop="description">Garry 的个人博客</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:garry@garryde.com" title="E-Mail → mailto:garry@garryde.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/garry.zhong" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;garry.zhong" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">鲁ICP备15002201号</br> </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Garry</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+</body>
+</html>

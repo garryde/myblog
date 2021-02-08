@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.garryde.com/hot/index.html</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.garryde.com/archives/50112.html</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.garryde.com/archives/20986.html</loc>
     
     <lastmod>2021-02-07</lastmod>
@@ -165,7 +179,7 @@
   <url>
     <loc>https://blog.garryde.com/archives/46261.html</loc>
     
-    <lastmod>2020-02-25</lastmod>
+    <lastmod>2020-02-08</lastmod>
     
   </url>
   
@@ -179,7 +193,7 @@
   <url>
     <loc>https://blog.garryde.com/archives/48329.html</loc>
     
-    <lastmod>2019-12-02</lastmod>
+    <lastmod>2019-12-12</lastmod>
     
   </url>
   
@@ -212,14 +226,14 @@
   </url>
   
   <url>
-    <loc>https://blog.garryde.com/archives/58096.html</loc>
+    <loc>https://blog.garryde.com/archives/29752.html</loc>
     
     <lastmod>2019-09-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.garryde.com/archives/29752.html</loc>
+    <loc>https://blog.garryde.com/archives/58096.html</loc>
     
     <lastmod>2019-09-24</lastmod>
     
@@ -234,13 +248,6 @@
   
   <url>
     <loc>https://blog.garryde.com/categories/index.html</loc>
-    
-    <lastmod>2019-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.garryde.com/hot/index.html</loc>
     
     <lastmod>2019-08-14</lastmod>
     

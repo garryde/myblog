@@ -65,20 +65,25 @@
     <link href="https://blog.garryde.com/archives/25636.html"/>
     <id>https://blog.garryde.com/archives/25636.html</id>
     <published>2020-06-21T21:20:37.000Z</published>
-    <updated>2021-02-08T17:09:03.139Z</updated>
+    <updated>2020-06-21T21:20:37.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>转载自：<a href="https://www.youtube.com/watch?v=8xfFp1bVByQ">https://www.youtube.com/watch?v=8xfFp1bVByQ</a></p></blockquote><p>中国中部的武汉在今年年初遭到新冠肺炎疫情重创，在封城超过两个月后，4月8日恢复与外界的交通。</p><p>解封后的武汉街头逐渐恢复了往日的喧嚣，商业活动也逐渐复苏。但这场疫情是否已经真的过去，它对当地市民的生活带来了怎样的改变？</p><a id="more"></a><p>BBC中文与BBC世界台《Our World》节目曾在今年3月联合推出微纪录片《武汉「封城」之后》受到很多读者的关注。在武汉解封后，我们制作了该纪录片的续集，带你深入武汉街头，了解当地民众的喜与忧。</p><p>本片是今年3月，BBC中文与BBC世界台《Our World》节目推出的纪录片《武汉「封城」之后》的姊妹篇。如果你错过了，请点击这里：<a href="https://www.youtube.com/watch?v=QH680p8Aor0&amp;t=0s">https://www.youtube.com/watch?v=QH680p8Aor0&amp;t=0s</a></p><p>摄影：洪楚天</p><p>制片：娜塔莉亚·左（Natalia Zuo）</p><p>剪辑：戈登·瓦特（Gordon Watt）、娜塔莉亚·左（Natalia Zuo）、汪宜青</p><p>监制：克莱尔·威廉姆斯（Claire Williams）、亚当·格里姆利（Adam Grimley）、张晧宇、薇薇安·吴（Vivian Wu）</p><iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.you</summary>
-      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;转载自：&lt;a href=&quot;https://www.youtube.com/watch?v=8xfFp1bVByQ&quot;&gt;https://www.youtube.com/watch?v=8xfFp1bVByQ&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;中国中部的武汉在今年年初遭到新冠肺炎疫情重创，在封城超过两个月后，4月8日恢复与外界的交通。&lt;/p&gt;
+&lt;p&gt;解封后的武汉街头逐渐恢复了往日的喧嚣，商业活动也逐渐复苏。但这场疫情是否已经真的过去，它对当地市民的生活带来了怎样的改变？&lt;/p&gt;</summary>
     
     
     
     <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
     
+    
+    <category term="杂谈" scheme="https://blog.garryde.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+    <category term="纪录片" scheme="https://blog.garryde.com/tags/%E7%BA%AA%E5%BD%95%E7%89%87/"/>
     
   </entry>
   
@@ -87,12 +92,12 @@
     <link href="https://blog.garryde.com/archives/34278.html"/>
     <id>https://blog.garryde.com/archives/34278.html</id>
     <published>2020-06-11T21:27:28.000Z</published>
-    <updated>2021-02-08T17:08:10.525Z</updated>
+    <updated>2021-02-08T17:36:16.921Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装node版本管理模块n</span></span><br><span class="line">sudo npm install n -g</span><br><span class="line"><span class="meta">#</span><span class="bash"> 降低到12.14版本</span></span><br><span class="line">sudo n 12.14</span><br></pre></td></tr></table></figure><a id="more"></a><h2 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br><span class="line">(Use &#96;node --trace-warnings ...&#96; to show where the warning was created)</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;column&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;filename&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br><span class="line">(Use &#96;node --trace-warnings ...&#96; to show where the warning was created)</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;column&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;filename&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br></pre></td></tr></table></figure><a id="more"></a><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装node版本管理模块n</span></span><br><span class="line">sudo npm install n -g</span><br><span class="line"><span class="meta">#</span><span class="bash"> 降低到12.14版本</span></span><br><span class="line">sudo n 12.14</span><br></pre></td></tr></table></figure>]]></content>
     
     
-    <summary type="html">&lt;h2 id=&quot;解决方法&quot;&gt;&lt;a href=&quot;#解决方法&quot; class=&quot;headerlink&quot; title=&quot;解决方法&quot;&gt;&lt;/a&gt;解决方法&lt;/h2&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; 安装node版本管理模块n&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo npm install n -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; 降低到12.14版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo n 12.14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;异常&quot;&gt;&lt;a href=&quot;#异常&quot; class=&quot;headerlink&quot; title=&quot;异常&quot;&gt;&lt;/a&gt;异常&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;(node:1081) Warning: Accessing non-existent property &amp;#39;lineno&amp;#39; of module exports inside circular dependency&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(Use &amp;#96;node --trace-warnings ...&amp;#96; to show where the warning was created)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(node:1081) Warning: Accessing non-existent property &amp;#39;column&amp;#39; of module exports inside circular dependency&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(node:1081) Warning: Accessing non-existent property &amp;#39;filename&amp;#39; of module exports inside circular dependency&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(node:1081) Warning: Accessing non-existent property &amp;#39;lineno&amp;#39; of module exports inside circular dependency&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -110,12 +115,15 @@
     <link href="https://blog.garryde.com/archives/46144.html"/>
     <id>https://blog.garryde.com/archives/46144.html</id>
     <published>2020-06-10T10:22:58.000Z</published>
-    <updated>2020-07-09T16:45:24.000Z</updated>
+    <updated>2021-02-08T17:27:52.904Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/OHDyrwClPvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=625945314&bvid=BV1st4y1y7uT&cid=200437689&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 75%; Left: 0; top: 0;"></iframe></div>]]></content>
+    <content type="html"><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><!--width="448" height="252"--><iframe width="358.4" height="201.6" src="https://www.youtube.com/embed/OHDyrwClPvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=625945314&bvid=BV1st4y1y7uT&cid=200437689&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 75%; Left: 0; top: 0;"></iframe></div>]]></content>
     
     
-    <summary type="html">&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OHDyrwClPvI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;!--
+width=&quot;448&quot; height=&quot;252&quot;
+--&gt;
+&lt;iframe width=&quot;358.4&quot; height=&quot;201.6&quot; src=&quot;https://www.youtube.com/embed/OHDyrwClPvI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
     
     
     
@@ -135,14 +143,15 @@
     <link href="https://blog.garryde.com/archives/17191.html"/>
     <id>https://blog.garryde.com/archives/17191.html</id>
     <published>2020-05-12T14:49:23.000Z</published>
-    <updated>2020-07-09T16:45:00.000Z</updated>
+    <updated>2020-05-12T14:49:23.000Z</updated>
     
-    <content type="html"><![CDATA[<p>你们先宅着，我出去玩了！</p><p>顺便帮ITALO提速到361km/h</p><h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/Kwg2zljFDyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=370635155&bvid=BV16Z4y1s719&cid=190125122&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 75%; Left: 0; top: 0;"></iframe></div>##  游戏：[Transport Fever 2](https://store.steampowered.com/app/1066780/Transport_Fever_2/)<p>MOD：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1996248583&searchtext=italo">Italo动车</a></p><p>配音：<a href="https://www.youtube.com/watch?v=8Xkfd5FTZpE&list=WL&index=19&t=30s">Annunci Trenitalia dalla stazione di Roma Termini</a></p><p>​           <a href="https://www.youtube.com/watch?v=M9rFCxRTdKE&list=WL&index=20&t=0s">La voce di Italo</a></p>]]></content>
+    <content type="html"><![CDATA[<p>意大利 Italo 高速铁路</p><p>罗马 Termini -  佛罗伦萨 Santa Maria Novella</p><p>你们先宅着，我出去玩了！</p><p>顺便帮ITALO提速到361km/h</p><a id="more"></a><h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/Kwg2zljFDyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!-- more --><h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=370635155&bvid=BV16Z4y1s719&cid=190125122&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 75%; Left: 0; top: 0;"></iframe></div>##  游戏：[Transport Fever 2](https://store.steampowered.com/app/1066780/Transport_Fever_2/)<p>MOD：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1996248583&searchtext=italo">Italo动车</a></p><p>配音：<a href="https://www.youtube.com/watch?v=8Xkfd5FTZpE&list=WL&index=19&t=30s">Annunci Trenitalia dalla stazione di Roma Termini</a></p><p>​           <a href="https://www.youtube.com/watch?v=M9rFCxRTdKE&list=WL&index=20&t=0s">La voce di Italo</a></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;你们先宅着，我出去玩了！&lt;/p&gt;
-&lt;p&gt;顺便帮ITALO提速到361km/h&lt;/p&gt;
-&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Kwg2zljFDyU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
+    <summary type="html">&lt;p&gt;意大利 Italo 高速铁路&lt;/p&gt;
+&lt;p&gt;罗马 Termini -  佛罗伦萨 Santa Maria Novella&lt;/p&gt;
+&lt;p&gt;你们先宅着，我出去玩了！&lt;/p&gt;
+&lt;p&gt;顺便帮ITALO提速到361km/h&lt;/p&gt;</summary>
     
     
     
@@ -150,6 +159,8 @@
     
     
     <category term="Transport Fever 2" scheme="https://blog.garryde.com/tags/Transport-Fever-2/"/>
+    
+    <category term="游戏" scheme="https://blog.garryde.com/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   

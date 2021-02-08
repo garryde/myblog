@@ -1022,11 +1022,15 @@
   <entry>
     <title>Transport Fever 2 Roma - Firenze</title>
     <url>/archives/17191.html</url>
-    <content><![CDATA[<p>你们先宅着，我出去玩了！</p>
+    <content><![CDATA[<p>意大利 Italo 高速铁路</p>
+<p>罗马 Termini -  佛罗伦萨 Santa Maria Novella</p>
+<p>你们先宅着，我出去玩了！</p>
 <p>顺便帮ITALO提速到361km/h</p>
+<a id="more"></a>
+
 <h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/Kwg2zljFDyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<a id="more"></a>
+<!-- more -->
 <h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
 <iframe src="//player.bilibili.com/player.html?aid=370635155&bvid=BV16Z4y1s719&cid=190125122&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 75%; Left: 0; top: 0;"></iframe></div>
 ##  
@@ -1041,12 +1045,16 @@
       </categories>
       <tags>
         <tag>Transport Fever 2</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
     <title>蓬莱航拍</title>
     <url>/archives/46144.html</url>
-    <content><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/OHDyrwClPvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <content><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><!--
+width="448" height="252"
+-->
+<iframe width="358.4" height="201.6" src="https://www.youtube.com/embed/OHDyrwClPvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a id="more"></a>
 <h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
@@ -1063,13 +1071,10 @@
   <entry>
     <title>nodejs版本引发的hexo异常</title>
     <url>/archives/34278.html</url>
-    <content><![CDATA[<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装node版本管理模块n</span></span><br><span class="line">sudo npm install n -g</span><br><span class="line"><span class="meta">#</span><span class="bash"> 降低到12.14版本</span></span><br><span class="line">sudo n 12.14</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br><span class="line">(Use &#96;node --trace-warnings ...&#96; to show where the warning was created)</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;column&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;filename&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 
-<h2 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br><span class="line">(Use &#96;node --trace-warnings ...&#96; to show where the warning was created)</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;column&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;filename&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装node版本管理模块n</span></span><br><span class="line">sudo npm install n -g</span><br><span class="line"><span class="meta">#</span><span class="bash"> 降低到12.14版本</span></span><br><span class="line">sudo n 12.14</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo折腾</category>
       </categories>
@@ -1081,10 +1086,27 @@
   <entry>
     <title>BBC新冠疫情纪录片：武汉「解封」之后 一切都重启了吗？</title>
     <url>/archives/25636.html</url>
-    <content><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    <content><![CDATA[<blockquote>
+<p>转载自：<a href="https://www.youtube.com/watch?v=8xfFp1bVByQ">https://www.youtube.com/watch?v=8xfFp1bVByQ</a></p>
+</blockquote>
+<p>中国中部的武汉在今年年初遭到新冠肺炎疫情重创，在封城超过两个月后，4月8日恢复与外界的交通。</p>
+<p>解封后的武汉街头逐渐恢复了往日的喧嚣，商业活动也逐渐复苏。但这场疫情是否已经真的过去，它对当地市民的生活带来了怎样的改变？</p>
+<a id="more"></a>
+
+<p>BBC中文与BBC世界台《Our World》节目曾在今年3月联合推出微纪录片《武汉「封城」之后》受到很多读者的关注。在武汉解封后，我们制作了该纪录片的续集，带你深入武汉街头，了解当地民众的喜与忧。</p>
+<p>本片是今年3月，BBC中文与BBC世界台《Our World》节目推出的纪录片《武汉「封城」之后》的姊妹篇。如果你错过了，请点击这里：<a href="https://www.youtube.com/watch?v=QH680p8Aor0&amp;t=0s">https://www.youtube.com/watch?v=QH680p8Aor0&amp;t=0s</a></p>
+<p>摄影：洪楚天</p>
+<p>制片：娜塔莉亚·左（Natalia Zuo）</p>
+<p>剪辑：戈登·瓦特（Gordon Watt）、娜塔莉亚·左（Natalia Zuo）、汪宜青</p>
+<p>监制：克莱尔·威廉姆斯（Claire Williams）、亚当·格里姆利（Adam Grimley）、张晧宇、薇薇安·吴（Vivian Wu）</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
       <categories>
         <category>杂谈</category>
       </categories>
+      <tags>
+        <tag>杂谈</tag>
+        <tag>纪录片</tag>
+      </tags>
   </entry>
   <entry>
     <title>崔健：这不是一个高大上的标准，这是一个底线</title>

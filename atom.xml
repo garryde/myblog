@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>咖里De</title>
+  
+  <subtitle>条条大路通罗马，而我就在罗马</subtitle>
+  <link href="https://blog.garryde.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.garryde.com/"/>
+  <updated>2020-07-09T16:39:17.000Z</updated>
+  <id>https://blog.garryde.com/</id>
+  
+  <author>
+    <name>Garry</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>崔健：这不是一个高大上的标准，这是一个底线</title>
+    <link href="https://blog.garryde.com/archives/1205.html"/>
+    <id>https://blog.garryde.com/archives/1205.html</id>
+    <published>2020-07-07T17:28:00.000Z</published>
+    <updated>2020-07-09T16:39:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>“所有面对现实的所有的所有的努力，全都是被他们屏蔽掉的，而且有人拍手叫好。像我还被屏蔽掉，大兴演出（被）北京屏蔽，还有十二年的禁期。”</p><p>“我们自己，我们在走向何处，这个基本的问题。谁都不会去真正去想这个事现在，因为艺术家没有话语权，有这种思考的基础的人没有这个话语权。”</p><a id="more"></a><p>“实际上我们这个国家，还有我们文化人，还有我们所有人，实际上都有一个愿望危机。 我们不知道我们要干吗，我们挣钱都不知道为了干吗。攀比、稳定是两个唯一能够看得见摸得着的一种价值。”</p><p>“中国的话语权从来就没有落在国思想者和艺术家手上。”</p><p>“既得利益我们都有，我也有既得利益。而且我们就是我们所讨厌的那个体系里的一个簇拥者，一个拥护者。我们没有什么高大上的那种境界，所谓的你格调高，没有。你跟他们一模一样。”</p><p>“我们也偷税漏税，我们也在这个体制中钻空子，我们也撒谎，一样都会。完了我们自己还视而不见，完了我们还去贬低年轻人，看不透这些人，甚至他们在诋毁我们的时候我们还觉得不高兴。”</p><p>“其实我们就是那些人，我们就是我们自己内心里边理想中反对的那些人，我们自己在年轻人面前也一样。”</p><iframe width="560" height="400" src="https://v.qq.com/txp/iframe/player.html?vid=c03329cdpup" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;“所有面对现实的所有的所有的努力，全都是被他们屏蔽掉的，而且有人拍手叫好。像我还被屏蔽掉，大兴演出（被）北京屏蔽，还有十二年的禁期。”&lt;/p&gt;
+&lt;p&gt;“我们自己，我们在走向何处，这个基本的问题。谁都不会去真正去想这个事现在，因为艺术家没有话语权，有这种思考的基础的人没有这个话语权。”&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    
+    
+    <category term="人物访谈" scheme="https://blog.garryde.com/tags/%E4%BA%BA%E7%89%A9%E8%AE%BF%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BBC新冠疫情纪录片：武汉「解封」之后 一切都重启了吗？</title>
+    <link href="https://blog.garryde.com/archives/25636.html"/>
+    <id>https://blog.garryde.com/archives/25636.html</id>
+    <published>2020-06-21T21:20:37.000Z</published>
+    <updated>2020-07-09T16:43:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.you</summary>
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nodejs版本引发的hexo异常</title>
+    <link href="https://blog.garryde.com/archives/34278.html"/>
+    <id>https://blog.garryde.com/archives/34278.html</id>
+    <published>2020-06-11T21:27:28.000Z</published>
+    <updated>2020-06-21T13:33:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装node版本管理模块n</span></span><br><span class="line">sudo npm install n -g</span><br><span class="line"><span class="meta">#</span><span class="bash"> 降低到12.14版本</span></span><br><span class="line">sudo n 12.14</span><br></pre></td></tr></table></figure><a id="more"></a><h2 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br><span class="line">(Use &#96;node --trace-warnings ...&#96; to show where the warning was created)</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;column&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;filename&#39; of module exports inside circular dependency</span><br><span class="line">(node:1081) Warning: Accessing non-existent property &#39;lineno&#39; of module exports inside circular dependency</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;解决方法&quot;&gt;&lt;a href=&quot;#解决方法&quot; class=&quot;headerlink&quot; title=&quot;解决方法&quot;&gt;&lt;/a&gt;解决方法&lt;/h2&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; 安装node版本管理模块n&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo npm install n -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; 降低到12.14版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo n 12.14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>蓬莱航拍</title>
+    <link href="https://blog.garryde.com/archives/46144.html"/>
+    <id>https://blog.garryde.com/archives/46144.html</id>
+    <published>2020-06-10T10:22:58.000Z</published>
+    <updated>2020-07-09T16:45:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/OHDyrwClPvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=625945314&bvid=BV1st4y1y7uT&cid=200437689&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 75%; Left: 0; top: 0;"></iframe></div>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OHDyrwClPvI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
+    
+    
+    
+    <category term="旅记" scheme="https://blog.garryde.com/categories/trip/"/>
+    
+    
+    <category term="航拍" scheme="https://blog.garryde.com/tags/%E8%88%AA%E6%8B%8D/"/>
+    
+    <category term="旅记" scheme="https://blog.garryde.com/tags/%E6%97%85%E8%AE%B0/"/>
+    
+    <category term="蓬莱" scheme="https://blog.garryde.com/tags/%E8%93%AC%E8%8E%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transport Fever 2 Roma - Firenze</title>
+    <link href="https://blog.garryde.com/archives/17191.html"/>
+    <id>https://blog.garryde.com/archives/17191.html</id>
+    <published>2020-05-12T14:49:23.000Z</published>
+    <updated>2020-07-09T16:45:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>你们先宅着，我出去玩了！</p><p>顺便帮ITALO提速到361km/h</p><h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/Kwg2zljFDyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="Bilibili"><a href="#Bilibili" class="headerlink" title="Bilibili"></a>Bilibili</h2><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=370635155&bvid=BV16Z4y1s719&cid=190125122&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 75%; Left: 0; top: 0;"></iframe></div>##  游戏：[Transport Fever 2](https://store.steampowered.com/app/1066780/Transport_Fever_2/)<p>MOD：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1996248583&searchtext=italo">Italo动车</a></p><p>配音：<a href="https://www.youtube.com/watch?v=8Xkfd5FTZpE&list=WL&index=19&t=30s">Annunci Trenitalia dalla stazione di Roma Termini</a></p><p>​           <a href="https://www.youtube.com/watch?v=M9rFCxRTdKE&list=WL&index=20&t=0s">La voce di Italo</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;你们先宅着，我出去玩了！&lt;/p&gt;
+&lt;p&gt;顺便帮ITALO提速到361km/h&lt;/p&gt;
+&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Kwg2zljFDyU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://blog.garryde.com/categories/game/"/>
+    
+    
+    <category term="Transport Fever 2" scheme="https://blog.garryde.com/tags/Transport-Fever-2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac npm 报错gyp: No Xcode or CLT version detected</title>
+    <link href="https://blog.garryde.com/archives/16390.html"/>
+    <id>https://blog.garryde.com/archives/16390.html</id>
+    <published>2020-04-17T22:19:58.000Z</published>
+    <updated>2020-04-17T14:33:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-问题描述"><a href="#1-问题描述" class="headerlink" title="1.问题描述"></a>1.问题描述</h2><p>macOS版本<code>macOS Catalina 10.15.2</code>，执行 npm install 时出现gyp报错：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">No receipt for &#x27;com.apple.pkg.CLTools_Executables&#x27; found at &#x27;/&#x27;.</span><br><span class="line"></span><br><span class="line">No receipt for &#x27;com.apple.pkg.DeveloperToolsCLILeo&#x27; found at &#x27;/&#x27;.</span><br><span class="line"></span><br><span class="line">No receipt for &#x27;com.apple.pkg.DeveloperToolsCLI&#x27; found at &#x27;/&#x27;.</span><br><span class="line"></span><br><span class="line">gyp: No Xcode or CLT version detected!</span><br></pre></td></tr></table></figure><a id="more"></a><h2 id="2-解决方案"><a href="#2-解决方案" class="headerlink" title="2.解决方案"></a>2.解决方案</h2><h3 id="1-安装Xcode-命令行工具-Command-Line-Tools"><a href="#1-安装Xcode-命令行工具-Command-Line-Tools" class="headerlink" title="1.安装Xcode 命令行工具 Command Line Tools"></a>1.安装Xcode 命令行工具 Command Line Tools</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xcode-select --install</span><br></pre></td></tr></table></figure><h3 id="2-同意服务条款"><a href="#2-同意服务条款" class="headerlink" title="2.同意服务条款"></a>2.同意服务条款</h3><p>可能由于系统或xcode更新改变了相关文件。</p><p>打开Xcode，点击同意服务条款即可。</p><h3 id="3-设置xcode路径"><a href="#3-设置xcode路径" class="headerlink" title="3.设置xcode路径"></a>3.设置xcode路径</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo xcode-select -s /Applications/Xcode.app/Contents/Developer</span><br></pre></td></tr></table></figure><h3 id="4-执行命令行工具初始化"><a href="#4-执行命令行工具初始化" class="headerlink" title="4.执行命令行工具初始化"></a>4.执行命令行工具初始化</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo xcode-select --reset</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-问题描述&quot;&gt;&lt;a href=&quot;#1-问题描述&quot; class=&quot;headerlink&quot; title=&quot;1.问题描述&quot;&gt;&lt;/a&gt;1.问题描述&lt;/h2&gt;&lt;p&gt;macOS版本&lt;code&gt;macOS Catalina 10.15.2&lt;/code&gt;，执行 npm install 时出现gyp报错：&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;No receipt for &amp;#x27;com.apple.pkg.CLTools_Executables&amp;#x27; found at &amp;#x27;/&amp;#x27;.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;No receipt for &amp;#x27;com.apple.pkg.DeveloperToolsCLILeo&amp;#x27; found at &amp;#x27;/&amp;#x27;.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;No receipt for &amp;#x27;com.apple.pkg.DeveloperToolsCLI&amp;#x27; found at &amp;#x27;/&amp;#x27;.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gyp: No Xcode or CLT version detected!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Npm" scheme="https://blog.garryde.com/categories/Npm/"/>
+    
+    
+    <category term="Npm" scheme="https://blog.garryde.com/tags/Npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Next阅读次数不正常、显示多个阅读次数</title>
+    <link href="https://blog.garryde.com/archives/63320.html"/>
+    <id>https://blog.garryde.com/archives/63320.html</id>
+    <published>2020-03-18T11:31:40.000Z</published>
+    <updated>2020-04-17T14:19:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-同时安装了Valine评论系统和LeanCloud文章次数统计"><a href="#1-同时安装了Valine评论系统和LeanCloud文章次数统计" class="headerlink" title="1.同时安装了Valine评论系统和LeanCloud文章次数统计"></a>1.同时安装了Valine评论系统和LeanCloud文章次数统计</h2><p>由于两款插件同时使用LeanCloud进行数据统计，会产生冲突，但Valine已对后者兼容。</p><a id="more"></a><p>修改<code>主题配置</code>文件</p><p>将<code>valine</code>的<code>visitor</code>打开，并且关闭<code>leancloud_visitors</code>即可：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">visitor:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="attr">leancloud_visitors:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><h2 id="2-安装了1-中的统计后又安装不蒜子统计插件"><a href="#2-安装了1-中的统计后又安装不蒜子统计插件" class="headerlink" title="2.安装了1.中的统计后又安装不蒜子统计插件"></a>2.安装了<code>1.</code>中的统计后又安装<code>不蒜子</code>统计插件</h2><p>症状表现为在首页中仅出现一个阅读次数，而在文章页面中出现两个阅读次数。</p><p>若想在首页和文章页中都显示，则单独关闭<code>不蒜子</code>的文章页统计即可。</p><p>否则关闭<code>1.</code>中的统计</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-同时安装了Valine评论系统和LeanCloud文章次数统计&quot;&gt;&lt;a href=&quot;#1-同时安装了Valine评论系统和LeanCloud文章次数统计&quot; class=&quot;headerlink&quot; title=&quot;1.同时安装了Valine评论系统和LeanCloud文章次数统计&quot;&gt;&lt;/a&gt;1.同时安装了Valine评论系统和LeanCloud文章次数统计&lt;/h2&gt;&lt;p&gt;由于两款插件同时使用LeanCloud进行数据统计，会产生冲突，但Valine已对后者兼容。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Covid-19致死数据分析</title>
+    <link href="https://blog.garryde.com/archives/15126.html"/>
+    <id>https://blog.garryde.com/archives/15126.html</id>
+    <published>2020-03-06T20:54:34.000Z</published>
+    <updated>2020-03-07T00:00:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-意中Covid-19致死率对比"><a href="#1-意中Covid-19致死率对比" class="headerlink" title="1.意中Covid-19致死率对比"></a>1.意中Covid-19致死率对比</h2><p>意大利平均年龄44.3岁，超过65岁的人口占23％，老龄化程度仅次于日本。</p><p>中国平均年龄37.4岁，超过65岁的人口占11％。</p><table><thead><tr><th align="center">年龄段</th><th align="center">意大利死亡率</th><th align="center">中国死亡率</th></tr></thead><tbody><tr><td align="center">80+</td><td align="center">10.9%</td><td align="center">14.8%</td></tr><tr><td align="center">70~79</td><td align="center">5.3%</td><td align="center">8%</td></tr><tr><td align="center">0~69</td><td align="center">0.5%</td><td align="center">1.3%</td></tr><tr><td align="center">全年龄段</td><td align="center">3.5%</td><td align="center">2.3%</td></tr></tbody></table><p>注：对比数据采用中国流行病学第一阶段数据(摘自中国-世界卫生组织联合委员会的报告)与意大利当前数据。</p><p>截止日期：中国2月24日，意大利3月4日，。</p><a id="more"></a><h2 id="2-对105名死于Covid-19患者的研究"><a href="#2-对105名死于Covid-19患者的研究" class="headerlink" title="2.对105名死于Covid-19患者的研究"></a>2.对105名死于Covid-19患者的研究</h2><p>该报告涉及73名在伦巴第，21名在艾米利亚·罗马涅，7名在威尼托和3名在马尔凯地区死亡的患者，数据由填写专门为调查死亡病例开发的调查表获得。</p><p>注：截止至报告所发布的3月5日，意大利全境共有148名患者死于Covid-19新型冠状病毒。</p><h3 id="2-1死亡年龄分析"><a href="#2-1死亡年龄分析" class="headerlink" title="2.1死亡年龄分析"></a>2.1死亡年龄分析</h3><table><thead><tr><th align="center">年龄段</th><th align="center">占比</th></tr></thead><tbody><tr><td align="center">90+</td><td align="center">14.1%</td></tr><tr><td align="center">80~89</td><td align="center">42.2%</td></tr><tr><td align="center">70~79</td><td align="center">32.4%</td></tr><tr><td align="center">60~69</td><td align="center">8.4%</td></tr><tr><td align="center">50~59</td><td align="center">2.8%</td></tr></tbody></table><p>注：死亡患者的平均年龄为81岁，比所有感染患者的平均年龄高20岁。</p><h3 id="2-2基础疾病分析"><a href="#2-2基础疾病分析" class="headerlink" title="2.2基础疾病分析"></a>2.2基础疾病分析</h3><table><thead><tr><th align="center">基础疾病数量</th><th align="center">占比</th></tr></thead><tbody><tr><td align="center">0-1</td><td align="center">15.5%</td></tr><tr><td align="center">2</td><td align="center">18.3%</td></tr><tr><td align="center">3+</td><td align="center">67.2%</td></tr></tbody></table><p>注：在该人群中观察到的平均基础疾病数为3.4（中位数3，标准差2.1）。</p><table><thead><tr><th align="center">基础疾病种类</th><th align="center">占比</th></tr></thead><tbody><tr><td align="center">高血压</td><td align="center">74.6%</td></tr><tr><td align="center">缺血性心脏病</td><td align="center">70.4%</td></tr><tr><td align="center">糖尿病</td><td align="center">33.8%</td></tr></tbody></table><h3 id="2-3病程时间"><a href="#2-3病程时间" class="headerlink" title="2.3病程时间"></a>2.3病程时间</h3><table><thead><tr><th align="center">病程</th><th align="center">中位数时间</th></tr></thead><tbody><tr><td align="center">症状发作到住院</td><td align="center">5天</td></tr><tr><td align="center">住院到死亡</td><td align="center">4天</td></tr></tbody></table><blockquote><p>数据来源：</p><p>意大利高级卫生研究所 Istituto Superiore di Sanità(ISS)</p><p><a href="https://www.iss.it/web/guest/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5288119">1.Letalità in Italia minore di quella della Cina per tutte le fasce di età</a></p><p><a href="https://www.iss.it/comunicati-stampa/-/asset_publisher/fjTKmjJgSgdK/content/id/5286166?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_fjTKmjJgSgdK_redirect=https://www.iss.it/comunicati-stampa?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_fjTKmjJgSgdK&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_fjTKmjJgSgdK_cur=0&p_r_p_resetCur=false&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_fjTKmjJgSgdK_assetEntryId=5286166">2.Studio ISS Su 105 deceduti con Covid-2019, età media 81 anni e patologie preesistenti in due terzi dei casi</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-意中Covid-19致死率对比&quot;&gt;&lt;a href=&quot;#1-意中Covid-19致死率对比&quot; class=&quot;headerlink&quot; title=&quot;1.意中Covid-19致死率对比&quot;&gt;&lt;/a&gt;1.意中Covid-19致死率对比&lt;/h2&gt;&lt;p&gt;意大利平均年龄44.3岁，超过65岁的人口占23％，老龄化程度仅次于日本。&lt;/p&gt;
+&lt;p&gt;中国平均年龄37.4岁，超过65岁的人口占11％。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;年龄段&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;意大利死亡率&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;中国死亡率&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;80+&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;10.9%&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;14.8%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;70~79&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;5.3%&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;8%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;0~69&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;0.5%&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;1.3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;全年龄段&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;3.5%&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;2.3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;注：对比数据采用中国流行病学第一阶段数据(摘自中国-世界卫生组织联合委员会的报告)与意大利当前数据。&lt;/p&gt;
+&lt;p&gt;截止日期：中国2月24日，意大利3月4日，。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    
+    
+    <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WHO:COVID-19病毒是如何传播的？</title>
+    <link href="https://blog.garryde.com/archives/19250.html"/>
+    <id>https://blog.garryde.com/archives/19250.html</id>
+    <published>2020-03-06T17:25:25.000Z</published>
+    <updated>2020-03-06T16:47:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="世界卫生组织"><a href="#世界卫生组织" class="headerlink" title="世界卫生组织"></a>世界卫生组织</h2><h3 id="COVID-19病毒是如何传播的？"><a href="#COVID-19病毒是如何传播的？" class="headerlink" title="COVID-19病毒是如何传播的？"></a>COVID-19病毒是如何传播的？</h3><ul><li>它主要通过感染者说话、咳嗽或打喷嚏时产生的飞沫在人与人之间传播。这些飞沫会进入附近人的鼻子或嘴里。</li><li>飞沫较重，无法在空气中远距离传播。他们只能传播大约一米，然后很快就会掉落在物体表面。</li><li>病毒在物体表面存活的确切时间尚不明确。</li></ul><h3 id="我们如何自我防范？"><a href="#我们如何自我防范？" class="headerlink" title="我们如何自我防范？"></a>我们如何自我防范？</h3><ul><li>不要触摸自己的眼睛、鼻子或嘴巴，否则，已被污染的手会将病毒从物体表面传给自己。</li><li>咳嗽或打喷嚏时，要用肘部遮掩口鼻或使用一次性纸巾。</li><li>防止新冠状病毒传播<strong>最有效的方法</strong>是，经常用含酒精成分的免洗洗手液或肥皂和清水洗手。</li></ul><a id="more"></a><video width="640" height="360" controls><source src="https://file.qust.cc/videos/WHO-PROD_Emergencies_Coronavirus_COVID19_Advocacy_Protection.mp4"></video>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;世界卫生组织&quot;&gt;&lt;a href=&quot;#世界卫生组织&quot; class=&quot;headerlink&quot; title=&quot;世界卫生组织&quot;&gt;&lt;/a&gt;世界卫生组织&lt;/h2&gt;&lt;h3 id=&quot;COVID-19病毒是如何传播的？&quot;&gt;&lt;a href=&quot;#COVID-19病毒是如何传播的？&quot; class=&quot;headerlink&quot; title=&quot;COVID-19病毒是如何传播的？&quot;&gt;&lt;/a&gt;COVID-19病毒是如何传播的？&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;它主要通过感染者说话、咳嗽或打喷嚏时产生的飞沫在人与人之间传播。这些飞沫会进入附近人的鼻子或嘴里。&lt;/li&gt;
+&lt;li&gt;飞沫较重，无法在空气中远距离传播。他们只能传播大约一米，然后很快就会掉落在物体表面。&lt;/li&gt;
+&lt;li&gt;病毒在物体表面存活的确切时间尚不明确。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;我们如何自我防范？&quot;&gt;&lt;a href=&quot;#我们如何自我防范？&quot; class=&quot;headerlink&quot; title=&quot;我们如何自我防范？&quot;&gt;&lt;/a&gt;我们如何自我防范？&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;不要触摸自己的眼睛、鼻子或嘴巴，否则，已被污染的手会将病毒从物体表面传给自己。&lt;/li&gt;
+&lt;li&gt;咳嗽或打喷嚏时，要用肘部遮掩口鼻或使用一次性纸巾。&lt;/li&gt;
+&lt;li&gt;防止新冠状病毒传播&lt;strong&gt;最有效的方法&lt;/strong&gt;是，经常用含酒精成分的免洗洗手液或肥皂和清水洗手。&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    
+    
+    <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新加坡卫生部长：应对新冠病毒勤洗手比口罩更重要</title>
+    <link href="https://blog.garryde.com/archives/53497.html"/>
+    <id>https://blog.garryde.com/archives/53497.html</id>
+    <published>2020-03-03T17:58:17.000Z</published>
+    <updated>2020-07-15T02:39:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="新加坡卫生部长在国会解释新冠病毒和预防措施"><a href="#新加坡卫生部长在国会解释新冠病毒和预防措施" class="headerlink" title="新加坡卫生部长在国会解释新冠病毒和预防措施"></a>新加坡卫生部长在国会解释新冠病毒和预防措施</h3><p>部分内容摘要：</p><blockquote><p>目前证据显示：传播主要通过飞沫。病毒是在感染者在咳嗽或打喷嚏时飞沫在近距离传播的。如果接触这些口沫的手直接或间接的接触到一个人的眼鼻口，这个人可能就会被感染。</p></blockquote><blockquote><p>目前没有证据表明新型冠状病毒是通过空气传播的。而其他病毒如水痘可以通过空气流动轻易传播。</p></blockquote><blockquote><p>健康人戴口罩往往会给我们一种错误的安全感，当我们不断调整口罩时，我们更有可能接触到自己的脸，这恰好是疾病传播的一种方式。</p></blockquote><a id="more"></a><video width="480" height="320" controls><source src="https://file.qust.cc/videos/SingaporeNewCoronavirus.mp4"></video>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;新加坡卫生部长在国会解释新冠病毒和预防措施&quot;&gt;&lt;a href=&quot;#新加坡卫生部长在国会解释新冠病毒和预防措施&quot; class=&quot;headerlink&quot; title=&quot;新加坡卫生部长在国会解释新冠病毒和预防措施&quot;&gt;&lt;/a&gt;新加坡卫生部长在国会解释新冠病毒和预防措施&lt;/h3&gt;&lt;p&gt;部分内容摘要：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目前证据显示：传播主要通过飞沫。病毒是在感染者在咳嗽或打喷嚏时飞沫在近距离传播的。如果接触这些口沫的手直接或间接的接触到一个人的眼鼻口，这个人可能就会被感染。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目前没有证据表明新型冠状病毒是通过空气传播的。而其他病毒如水痘可以通过空气流动轻易传播。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;健康人戴口罩往往会给我们一种错误的安全感，当我们不断调整口罩时，我们更有可能接触到自己的脸，这恰好是疾病传播的一种方式。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    
+    
+    <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Next 阅读全文跳转 scroll_to_more 失效</title>
+    <link href="https://blog.garryde.com/archives/56192.html"/>
+    <id>https://blog.garryde.com/archives/56192.html</id>
+    <published>2020-02-15T21:32:44.000Z</published>
+    <updated>2020-06-22T14:06:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="配置方法（已失效）"><a href="#配置方法（已失效）" class="headerlink" title="配置方法（已失效）"></a>配置方法（已失效）</h2><p><del>修改<code>主题文件</code>的设置<code>scroll_to_more</code>，为 <code>true</code>时，在点击阅读全文后，会跳转到<code>&lt;!-- more --&gt;</code>之下的部分，设置为<code>false</code>即可跳转到文章开始</del></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">scroll_to_more:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><a id="more"></a><h2 id="失效解释"><a href="#失效解释" class="headerlink" title="失效解释"></a>失效解释</h2><p><strong>Next开发人员的回复：滚动到<code>阅读更多</code>是任何Hexo主题的默认行为，这就是我们将此选项删除的原因。</strong></p><h2 id="新版解决方案"><a href="#新版解决方案" class="headerlink" title="新版解决方案"></a>新版解决方案</h2><p>修改文件themes/next/layout/_macro/post.swig</p><p>原始：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;btn&quot;</span> href=<span class="string">&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot;</span> rel=<span class="string">&quot;contents&quot;</span>&gt; </span><br></pre></td></tr></table></figure><p>改后：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;btn&quot;</span> href=<span class="string">&quot;&#123;&#123; url_for(post.path) &#125;&#125;&quot;</span> rel=<span class="string">&quot;contents&quot;</span>&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;配置方法（已失效）&quot;&gt;&lt;a href=&quot;#配置方法（已失效）&quot; class=&quot;headerlink&quot; title=&quot;配置方法（已失效）&quot;&gt;&lt;/a&gt;配置方法（已失效）&lt;/h2&gt;&lt;p&gt;&lt;del&gt;修改&lt;code&gt;主题文件&lt;/code&gt;的设置&lt;code&gt;scroll_to_more&lt;/code&gt;，为 &lt;code&gt;true&lt;/code&gt;时，在点击阅读全文后，会跳转到&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;之下的部分，设置为&lt;code&gt;false&lt;/code&gt;即可跳转到文章开始&lt;/del&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;scroll_to_more:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>伦敦航拍</title>
+    <link href="https://blog.garryde.com/archives/43782.html"/>
+    <id>https://blog.garryde.com/archives/43782.html</id>
+    <published>2020-02-11T23:39:56.000Z</published>
+    <updated>2020-06-06T01:35:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/sPVf2Pt7keY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><iframe width="560" height="315" src="https://file.qust.cc/videos/London.MP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--<video width="560" height="315" controls><source src="https://file.qust.cc/videos/London.MP4"></video>-->]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sPVf2Pt7keY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
+    
+    
+    
+    <category term="旅记" scheme="https://blog.garryde.com/categories/trip/"/>
+    
+    
+    <category term="伦敦" scheme="https://blog.garryde.com/tags/%E4%BC%A6%E6%95%A6/"/>
+    
+    <category term="航拍" scheme="https://blog.garryde.com/tags/%E8%88%AA%E6%8B%8D/"/>
+    
+    <category term="旅记" scheme="https://blog.garryde.com/tags/%E6%97%85%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Next 打赏设置</title>
+    <link href="https://blog.garryde.com/archives/24622.html"/>
+    <id>https://blog.garryde.com/archives/24622.html</id>
+    <published>2020-01-22T22:13:48.000Z</published>
+    <updated>2020-06-22T14:30:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>修改<code>主题配置</code>文件，打赏图片放置在<code>主题目录</code>的<code>source/images</code>目录下，效果参见下方。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, reward will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">comment:</span> <span class="string">听说，打赏我的人都找到了真爱。</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.jpeg</span></span><br><span class="line">  <span class="comment">#alipay: /images/alipay.png</span></span><br><span class="line">  <span class="comment">#paypal: /images/paypal.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;修改&lt;code&gt;主题配置&lt;/code&gt;文件，打赏图片放置在&lt;code&gt;主题目录&lt;/code&gt;的&lt;code&gt;source/images&lt;/code&gt;目录下，效果参见下方。&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl</summary>
+      
+    
+    
+    
+    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 统计文章字数和计算阅读时间</title>
+    <link href="https://blog.garryde.com/archives/20986.html"/>
+    <id>https://blog.garryde.com/archives/20986.html</id>
+    <published>2020-01-13T00:14:03.000Z</published>
+    <updated>2021-02-07T18:27:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>项目地址：<a href="https://github.com/theme-next/hexo-symbols-count-time">https://github.com/theme-next/hexo-symbols-count-time</a></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-symbols-count-time</span><br></pre></td></tr></table></figure><h2 id="2-配置Hexo-config-yml"><a href="#2-配置Hexo-config-yml" class="headerlink" title="2.配置Hexo_config.yml"></a>2.配置Hexo<code>_config.yml</code></h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="comment">#文章字数统计</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#文章时间计算</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总字数统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总时间计算</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#排除代码块</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">#平均字长</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">4</span></span><br><span class="line">  <span class="comment">#每分钟字数</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span></span><br><span class="line">  <span class="comment">#如果读取时间少于60分钟，请添加后缀作为字符串参数。</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">&quot;mins.&quot;</span></span><br></pre></td></tr></table></figure><p><strong>中国用户注意事项</strong>：因为中文的平均单词长度约为1.5，并且如果您大多数情况下都以中文撰写帖子（不使用混合英语），建议将<code>awl</code>设置为<code>2</code>，<code>wpm</code>设置为<code>300</code>。 但是，如果您通常将自己的帖子与英语混用，<code>awl</code>为<code>4</code>，<code>wpm</code>为<code>275</code>会很好。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-安装&quot;&gt;&lt;a href=&quot;#1-安装&quot; class=&quot;headerlink&quot; title=&quot;1.安装&quot;&gt;&lt;/a&gt;1.安装&lt;/h2&gt;&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/theme-next/hexo-symbols-count</summary>
+      
+    
+    
+    
+    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hassio下使用SSH远程开关Linux/Mac</title>
+    <link href="https://blog.garryde.com/archives/25938.html"/>
+    <id>https://blog.garryde.com/archives/25938.html</id>
+    <published>2019-11-20T08:31:49.000Z</published>
+    <updated>2019-11-20T18:07:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hassio 有 RPC 插件可以很方便的关闭 Windows 主机，但是在配置 Unix 系统的关闭时遇到较多坑。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Error running command:&quot;&quot;, return code: 255</span><br></pre></td></tr></table></figure><p>看以前的教程会遇到上述错误，以下教程解决了这个问题。</p><a id="more"></a><h2 id="一、配置-Unix-端-被控主机-无密码运行-sudo-shutdown"><a href="#一、配置-Unix-端-被控主机-无密码运行-sudo-shutdown" class="headerlink" title="一、配置 Unix 端(被控主机)无密码运行 sudo shutdown"></a>一、配置 Unix 端(被控主机)无密码运行 sudo shutdown</h2><h3 id="1-修改sudoers文件"><a href="#1-修改sudoers文件" class="headerlink" title="1.修改sudoers文件"></a>1.修改sudoers文件</h3><h4 id="1-首先，找到shutdown的路径"><a href="#1-首先，找到shutdown的路径" class="headerlink" title="1)首先，找到shutdown的路径"></a>1)首先，找到shutdown的路径</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">which</span> shutdown</span></span><br></pre></td></tr></table></figure><p>通常位于<code>/sbin/shutdown</code></p><h4 id="2-打开visudo"><a href="#2-打开visudo" class="headerlink" title="2)打开visudo"></a>2)打开<code>visudo</code></h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo visudo</span></span><br></pre></td></tr></table></figure><h4 id="3-在文件底部填下如下内容"><a href="#3-在文件底部填下如下内容" class="headerlink" title="3)在文件底部填下如下内容"></a>3)在文件底部填下如下内容</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">USERNAME ALL=NOPASSWD: PATH_TO_EXECUTABLE</span><br></pre></td></tr></table></figure><ul><li>替换<code>USERNAME</code>为实际使用的账户（可使用<code>whoami</code>查询）</li><li>替换<code>PATH_TO_EXECUTABLE</code>为第一步中获取到的路径</li></ul><p>一个例子</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">garry ALL=NOPASSWD: /sbin/shutdown</span><br></pre></td></tr></table></figure><h3 id="2-执行命令"><a href="#2-执行命令" class="headerlink" title="2.执行命令"></a>2.执行命令</h3><p>由于<code>shutdown</code>仍然是特权命令，因此仍然需要在命令开头加上sudo。</p><p>但是，指定用户执行该命令已不需要输入密码。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo shutdown -r now</span></span><br></pre></td></tr></table></figure><h3 id="对于喜欢冒险的人"><a href="#对于喜欢冒险的人" class="headerlink" title="*.对于喜欢冒险的人"></a>*.对于喜欢冒险的人</h3><p>可将以下内容放在<code>sudoers</code>文件的底部：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">USERNAME ALL=NOPASSWD: ALL</span><br></pre></td></tr></table></figure><p>上面的代码可以取消所有命令对于 sudo 的密码需求，请谨慎使用。</p><h2 id="二、配置-SSH-无密码登陆"><a href="#二、配置-SSH-无密码登陆" class="headerlink" title="二、配置 SSH 无密码登陆"></a>二、配置 SSH 无密码登陆</h2><h3 id="1-Hassio-主机生成用于免密登陆的密钥"><a href="#1-Hassio-主机生成用于免密登陆的密钥" class="headerlink" title="1. Hassio 主机生成用于免密登陆的密钥"></a>1. Hassio 主机生成用于免密登陆的密钥</h3><p>在<code>Hassio</code>的<code>Add-on Store</code>中安装<code>SSH server</code>。注意，若 Hassio 是安装在 Ubuntu 系统中，不能使用 Ubuntu 的 SSH，必须连接到容器内部，启动 <code>SSH server</code>时请注意端口冲突问题。</p><p>密钥不能生成在默认目录，新建文件夹</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> mkdir /config/.ssh</span></span><br></pre></td></tr></table></figure><p>创建 key</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa</span></span><br></pre></td></tr></table></figure><p>储存位置输入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/config/.ssh/id_rsa</span><br></pre></td></tr></table></figure><p>不要输入密码</p><h3 id="2-被控端创建存储密钥的文件夹"><a href="#2-被控端创建存储密钥的文件夹" class="headerlink" title="2.被控端创建存储密钥的文件夹"></a>2.被控端创建存储密钥的文件夹</h3><p>若该文件夹已经存在，请跳到下一步</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> mkdir -p .ssh</span></span><br></pre></td></tr></table></figure><h3 id="3-将密钥传输到被控端"><a href="#3-将密钥传输到被控端" class="headerlink" title="3.将密钥传输到被控端"></a>3.将密钥传输到被控端</h3><p>在<code>Hassio</code>中执行以下命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> cat /config/.ssh/id_rsa | ssh UNIX_USERNAME@UNIX_IP <span class="string">&#x27;cat &gt;&gt; .ssh/authorized_keys&#x27;</span></span></span><br></pre></td></tr></table></figure><h3 id="4-现在可以在Hassio免密登录Unix"><a href="#4-现在可以在Hassio免密登录Unix" class="headerlink" title="4.现在可以在Hassio免密登录Unix"></a>4.现在可以在<code>Hassio</code>免密登录<code>Unix</code></h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> ssh -i /config/.ssh/id_rsa UNIX_USERNAME@UNIX_IP</span></span><br></pre></td></tr></table></figure><h2 id="三、配置-Homeassistant"><a href="#三、配置-Homeassistant" class="headerlink" title="三、配置 Homeassistant"></a>三、配置 Homeassistant</h2><p>在<code>configuration.yaml</code>中添加如下配置，网络唤醒部分请另行配置。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">shell_command:</span></span><br><span class="line">  <span class="attr">unix_off:</span> <span class="string">ssh</span> <span class="string">-o</span> <span class="string">UserKnownHostsFile=/dev/null</span> <span class="string">-o</span> <span class="string">StrictHostKeyChecking=no</span> <span class="string">-i</span> <span class="string">/config/.ssh/id_rsa</span> <span class="string">UNIX_USERNAME@UNIX_IP</span> <span class="string">sudo</span> <span class="string">/sbin/shutdown</span> <span class="string">now</span></span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">switch:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">platform:</span> <span class="string">wake_on_lan</span></span><br><span class="line">    <span class="attr">mac_address:</span> <span class="string">&quot;UNIX_MAC&quot;</span></span><br><span class="line">    <span class="attr">host:</span> <span class="string">UNIX_IP</span></span><br><span class="line">    <span class="attr">name:</span> <span class="string">&quot;unix&quot;</span></span><br><span class="line">    <span class="attr">turn_off:</span></span><br><span class="line">      <span class="attr">service:</span> <span class="string">shell_command.unix_off</span></span><br></pre></td></tr></table></figure><h2 id="四、参考"><a href="#四、参考" class="headerlink" title="四、参考"></a>四、参考</h2><h5 id="1-How-to-run-privileged-sudo-commands-without-the-password"><a href="#1-How-to-run-privileged-sudo-commands-without-the-password" class="headerlink" title="1.How to run privileged (sudo) commands without the password"></a><a href="https://ubuntu-mate.community/t/how-to-run-privileged-sudo-commands-without-the-password/2940">1.How to run privileged (sudo) commands without the password</a></h5><h5 id="2-SSH-login-without-password"><a href="#2-SSH-login-without-password" class="headerlink" title="2.SSH login without password"></a><a href="http://www.linuxproblem.org/art_9.html">2.SSH login without password</a></h5><h5 id="3-Hass-io-shell-command-error"><a href="#3-Hass-io-shell-command-error" class="headerlink" title="3.Hass.io shell_command error"></a><a href="https://community.home-assistant.io/t/hass-io-shell-command-error/36312/15">3.Hass.io shell_command error</a></h5>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Hassio 有 RPC 插件可以很方便的关闭 Windows 主机，但是在配置 Unix 系统的关闭时遇到较多坑。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Error running command:&amp;quot;&amp;quot;, return code: 255&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;看以前的教程会遇到上述错误，以下教程解决了这个问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Homeassistant" scheme="https://blog.garryde.com/categories/Homeassistant/"/>
+    
+    
+    <category term="Homeassistant" scheme="https://blog.garryde.com/tags/Homeassistant/"/>
+    
+    <category term="Hassio" scheme="https://blog.garryde.com/tags/Hassio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>意大利罗马ATAC交通卡(含优惠卡)办理指南</title>
+    <link href="https://blog.garryde.com/archives/48329.html"/>
+    <id>https://blog.garryde.com/archives/48329.html</id>
+    <published>2019-09-17T23:17:39.000Z</published>
+    <updated>2019-12-02T14:20:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文介绍罗马ATAC交通卡年卡全价票以及学生减免的办理方法。</p><p><strong>第一年的新生请直接跳到<code>3.全价年卡</code>部分</strong></p></blockquote><h2 id="1-办理地点"><a href="#1-办理地点" class="headerlink" title="1. 办理地点"></a>1. 办理地点</h2><table><thead><tr><th align="center">办理地点</th><th align="center">A 线</th><th align="center">B 线</th></tr></thead><tbody><tr><td align="center">Termini</td><td align="center">Anagnina</td><td align="center">Laurentina</td></tr><tr><td align="center"></td><td align="center"><strong>Battistini</strong></td><td align="center">EUR Fermi</td></tr><tr><td align="center"></td><td align="center">Lepanto</td><td align="center">Ponte Mammolo</td></tr><tr><td align="center"></td><td align="center">Ottaviano</td><td align="center">Conca d’Oro</td></tr><tr><td align="center"></td><td align="center"><strong>Flaminio</strong></td><td align="center"><strong>Porta S. Paolo(Piramide)</strong></td></tr></tbody></table><p>注：加黑项优先推荐，通常不需要排队。Termini 正常排队3~4小时，不推荐。</p><a id="more"></a><h2 id="2-青年和学生年卡"><a href="#2-青年和学生年卡" class="headerlink" title="2. 青年和学生年卡"></a>2. 青年和学生年卡</h2><blockquote><p>参考信息： <a href="https://www.atac.roma.it/function/pg_metrebus.asp?t=1&p=14&r=689&i=0">ATAC官网：青年和学生年卡</a></p><p>ISEE 相关信息：<a href="https://blog.qust.cc/archives/58096.html">意大利罗马学生ISEE办理指南</a></p></blockquote><h3 id="2-1-办理要求及所需材料"><a href="#2-1-办理要求及所需材料" class="headerlink" title="2.1 办理要求及所需材料"></a>2.1 办理要求及所需材料</h3><p>前置条件：小于26周岁</p><h4 id="1-Roma-Capitale居民"><a href="#1-Roma-Capitale居民" class="headerlink" title="1) Roma Capitale居民"></a>1) Roma Capitale居民</h4><p><strong>所需材料：</strong></p><blockquote><p>1寸照片</p><p>意大利身份证/居留卡原件+复印件</p><p>ISEE 复印件</p><p>青年和学生年卡申请表</p><p>运气</p></blockquote><p>这是大多数人可以办理减免的渠道。目前模糊的地方在于如何认定申请人是<strong>罗马居民</strong>。</p><p>有如下两种认定方法：</p><ul><li>办理Residenza并申请身份证，且住址在罗马</li><li>拥有居留卡</li></ul><p>理论来讲，居留卡似乎确实不能证明申请人是居住在罗马的。但是，我亲眼见到一个工作人员给另一个坚持不给我办的工作人员解释了10分钟为什么居留卡可以办🤷‍♂️🤷‍♂️🤷‍♂️</p><p>所以，是否可以成功下卡，取决于工作人员对罗马居民身份的认定。</p><p>单凭居留卡，给不给办一切随缘。</p><p><strong>网点信息总结：</strong></p><table><thead><tr><th>网点所在地</th><th>情况</th></tr></thead><tbody><tr><td><del>Anagnina</del></td><td><del>1：开始说不可以办，在告知其他工作人员说可以办理后询问同事，同意办理。</del></td></tr><tr><td></td><td><del>2：明确不予办理，要身份证，僵持了一段时候后，经一个外部咨询人员10分钟的解释后同意办理。</del></td></tr><tr><td><del>Piramide</del></td><td><del>类似Anagnina，有的工作人员直接给办，有的坚决拒绝。</del></td></tr><tr><td>Battistini</td><td>近期只有Battistini有成功办理的。Anagnina和Piramide均无成功办理的。</td></tr></tbody></table><p>若有同学在其他网点办理成功，欢迎在下边评论</p><h4 id="2-Laziodisu奖学金获得者"><a href="#2-Laziodisu奖学金获得者" class="headerlink" title="2) Laziodisu奖学金获得者"></a>2) Laziodisu奖学金获得者</h4><p><strong>所需材料：</strong></p><blockquote><p>1寸照片</p><p>意大利身份证/护照/居留卡原件+复印件</p><p>ISEE 复印件</p><p>Laziodisu奖学金证明</p><p>ABBONAMENTO ANNUALE GIOVANI E STUDENTI申请表</p></blockquote><p>奖学金获得者并不要求是罗马居民，所以可以直接使用护照办理。</p><h3 id="2-2-《ABBONAMENTO-ANNUALE-GIOVANI-E-STUDENTI》填写说明"><a href="#2-2-《ABBONAMENTO-ANNUALE-GIOVANI-E-STUDENTI》填写说明" class="headerlink" title="2.2 《ABBONAMENTO ANNUALE GIOVANI E STUDENTI》填写说明"></a>2.2 《ABBONAMENTO ANNUALE GIOVANI E STUDENTI》填写说明</h3><img src="https://file.qust.cc/images/1909/20190920155137.jpg" width="512" /><p>建议提前下载打印填写申请表：<a href="https://file.qust.cc/files/48329/ABBONAMENTO%20ANNUALE%20GIOVANI%20E%20STUDENTI.pdf">ABBONAMENTO ANNUALE GIOVANI E STUDENTI</a></p><h2 id="3-全价年卡"><a href="#3-全价年卡" class="headerlink" title="3. 全价年卡"></a>3. 全价年卡</h2><blockquote><p>没有居留卡（第一年的新生）或超过26周岁的人，请直接办理全价年卡</p></blockquote><h3 id="3-1-所需材料"><a href="#3-1-所需材料" class="headerlink" title="3.1 所需材料"></a>3.1 所需材料</h3><blockquote><p>1寸照片</p><p>意大利身份证/护照/居留卡原件+复印件</p><p>MODULO RICHIESTA METREBUS CARD申请表</p></blockquote><h3 id="3-2-《MODULO-RICHIESTA-METREBUS-CARD》填写说明"><a href="#3-2-《MODULO-RICHIESTA-METREBUS-CARD》填写说明" class="headerlink" title="3.2 《MODULO RICHIESTA METREBUS CARD》填写说明"></a>3.2 《MODULO RICHIESTA METREBUS CARD》填写说明</h3><img src="https://file.qust.cc/images/1909/20190920010203.jpg" width="512" /><p>建议提前下载打印填写申请表：<a href="https://file.qust.cc/files/48329/MODULO%20RICHIESTA%20METREBUS%20CARD.pdf">MODULO RICHIESTA METREBUS CARD</a></p><hr><blockquote><h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文介绍罗马ATAC交通卡年卡全价票以及学生减免的办理方法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一年的新生请直接跳到&lt;code&gt;3.全价年卡&lt;/code&gt;部分&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;1-办理地点&quot;&gt;&lt;a href=&quot;#1-办理地点&quot; class=&quot;headerlink&quot; title=&quot;1. 办理地点&quot;&gt;&lt;/a&gt;1. 办理地点&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;办理地点&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;A 线&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;B 线&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;Termini&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Anagnina&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Laurentina&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Battistini&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;EUR Fermi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Lepanto&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Ponte Mammolo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Ottaviano&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Conca d’Oro&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Flaminio&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Porta S. Paolo(Piramide)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;注：加黑项优先推荐，通常不需要排队。Termini 正常排队3~4小时，不推荐。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="呆利那些事" scheme="https://blog.garryde.com/categories/italy/"/>
+    
+    
+    <category term="罗马办事指南" scheme="https://blog.garryde.com/tags/publicaffairs/"/>
+    
+    <category term="ATAC" scheme="https://blog.garryde.com/tags/ATAC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title> 意大利罗马ATAC交通卡在线续费指南</title>
+    <link href="https://blog.garryde.com/archives/29752.html"/>
+    <id>https://blog.garryde.com/archives/29752.html</id>
+    <published>2019-09-17T23:16:52.000Z</published>
+    <updated>2019-09-24T18:29:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文适用于在线全价续费罗马或 Lazio交通卡年/月卡</p></blockquote><h2 id="1-办理条件"><a href="#1-办理条件" class="headerlink" title="1. 办理条件"></a>1. 办理条件</h2><p>已经持有ATAC 交通卡且交通卡已经过期。如2019年09月17日到期，必须在18日才能充值。</p><h2 id="2-办理地址"><a href="#2-办理地址" class="headerlink" title="2. 办理地址"></a>2. 办理地址</h2><p><a href="https://ecommerce.atac.roma.it/metrebus-ricarica">https://ecommerce.atac.roma.it/metrebus-ricarica</a></p><a id="more"></a><h2 id="3-办理流程"><a href="#3-办理流程" class="headerlink" title="3. 办理流程"></a>3. 办理流程</h2><p>网页中填写相关信息，卡号为卡片背面圈中数字</p><img src="https://file.qust.cc/images/1909/20190917233402.png" width="512" /><img src="https://file.qust.cc/images/1909/20190917233054.png" width="512" /><p>单击 <strong>Invia</strong> 进入下一步，选择续费的种类，我们以常见的250欧元每年的罗马交通卡年卡为例，单击红框中的 <strong>Seleziona</strong></p><img src="https://file.qust.cc/images/1909/20190917233853.png" width="512" /><p>核实卡片信息，选择自己的支付方式，支持VISA、MasterCard、AmericanEXPRESS，PayPal 等。单击 <strong>Invia</strong>，完成相关支付即可。</p><img src="https://file.qust.cc/images/1909/20190917234125.png" width="512" /><hr><blockquote><h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文适用于在线全价续费罗马或 Lazio交通卡年/月卡&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;1-办理条件&quot;&gt;&lt;a href=&quot;#1-办理条件&quot; class=&quot;headerlink&quot; title=&quot;1. 办理条件&quot;&gt;&lt;/a&gt;1. 办理条件&lt;/h2&gt;&lt;p&gt;已经持有ATAC 交通卡且交通卡已经过期。如2019年09月17日到期，必须在18日才能充值。&lt;/p&gt;
+&lt;h2 id=&quot;2-办理地址&quot;&gt;&lt;a href=&quot;#2-办理地址&quot; class=&quot;headerlink&quot; title=&quot;2. 办理地址&quot;&gt;&lt;/a&gt;2. 办理地址&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://ecommerce.atac.roma.it/metrebus-ricarica&quot;&gt;https://ecommerce.atac.roma.it/metrebus-ricarica&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="呆利那些事" scheme="https://blog.garryde.com/categories/italy/"/>
+    
+    
+    <category term="罗马办事指南" scheme="https://blog.garryde.com/tags/publicaffairs/"/>
+    
+    <category term="ATAC" scheme="https://blog.garryde.com/tags/ATAC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>意大利罗马学生健康卡申请(医保办理)指南</title>
+    <link href="https://blog.garryde.com/archives/46261.html"/>
+    <id>https://blog.garryde.com/archives/46261.html</id>
+    <published>2019-09-17T18:13:51.000Z</published>
+    <updated>2020-02-25T22:41:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文介绍关于注册意大利国家健康服务（SSN），办理健康卡(Tessera Sanitaria)，注册家庭医生等医疗服务的相关事宜</p></blockquote><ul><li>当前版本：V1.4</li><li>如果你通过PDF查看本文：<a href="https://blog.qust.cc/archives/46261.html">点此查看最新版本</a></li><li>如果你通过网页查看本文：<a href="https://file.qust.cc/files/46261/%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BD%97%E9%A9%AC%E5%AD%A6%E7%94%9F%E5%81%A5%E5%BA%B7%E5%8D%A1%E7%94%B3%E8%AF%B7%E6%8C%87%E5%8D%97-V1.4.pdf">点此下载 PDF 版本</a></li></ul><h2 id="1-意大利国家健康服务（SSN）"><a href="#1-意大利国家健康服务（SSN）" class="headerlink" title="1. 意大利国家健康服务（SSN）"></a>1. 意大利国家健康服务（SSN）</h2><p>在意大利的外国人只要有正式居留都有权使用<strong>意大利国家健康服务（SSN）</strong>，注册后可享有与意大利公民同样的医疗服务。</p><p>意大利国家健康服务包括：</p><ol><li>选择全科家庭医生，他会免费看诊，并向你建议你所需要的专科医生（牙医、整形外科医生等）</li><li>在公立或有授权的私立医院免费就诊</li><li>免费享有不间断值班医疗服务（guardia medica）</li><li>支付较少的检查费用（查血、放射检查等）</li></ol><a id="more"></a><h2 id="2-地方卫生局（ASL）"><a href="#2-地方卫生局（ASL）" class="headerlink" title="2. 地方卫生局（ASL）"></a>2. 地方卫生局（ASL）</h2><p>医疗卡的办理机构是地方卫生局，Aziende Sanitarie Locali，简称ASL，在Google上可以很容易找到离你最近的ASL。 在这里可以申请个人或者家庭医生，儿童医生，办理医生证明，申请医疗检查，申请上门医疗服务以及接受疫苗注射。</p><p><strong>请去离住家地址较近的ASL办理，否则可能被阻绝。</strong></p><p>我办理的 ASL地址：(Re di Roma 附近)</p><blockquote><p>Local Health Roma C - District 9<br>Via Apulia, 7, 00183 Roma RM<br>06 5100 8837<br><a href="https://goo.gl/maps/F98dFWSw2eNMUWmEA">https://goo.gl/maps/F98dFWSw2eNMUWmEA</a></p></blockquote><p>Numidio Quadrato附近可以去这个</p><blockquote><p>Local Health Roma B<br>Via Cartagine, 85, 00174 Roma RM<br>06 41431<br><a href="https://goo.gl/maps/C4j1e4g14szHpDXQA">https://goo.gl/maps/C4j1e4g14szHpDXQA</a></p></blockquote><h2 id="3-健康卡（Tessera-Sanitaria）"><a href="#3-健康卡（Tessera-Sanitaria）" class="headerlink" title="3.健康卡（Tessera Sanitaria）"></a>3.健康卡（Tessera Sanitaria）</h2><p>健康卡是证明你在意大利卫生系统已经注册的一个证件，由ASL发放。可以替代税卡或税号单。</p><p>健康卡通常有效期为6年。对于居留持有者，有效期与居留相同（但是实测有同学用居留条办理有效期一年，我用剩余四个月有效期的居留卡办理有效期六年）</p><h2 id="4-缴费信息"><a href="#4-缴费信息" class="headerlink" title="4. 缴费信息"></a>4. 缴费信息</h2><h3 id="4-1-费用"><a href="#4-1-费用" class="headerlink" title="4.1 费用"></a>4.1 费用</h3><p>注册费用：388欧元</p><p>学生：149.77欧元</p><p>工作居留持有者及其子女：免费</p><h3 id="4-2-缴费"><a href="#4-2-缴费" class="headerlink" title="4.2 缴费"></a>4.2 缴费</h3><p>去邮局（Poste Italiane）填写缴费单向 SSN 缴纳149.77欧元</p><p>缴费信息：</p><blockquote><p>Amministrazione P.T. – contributo Servizio Sanitario Nazionale</p><p>C/C number 370007. </p><p>iscrizione volontaria al Servizio Sanitario Nazionale</p></blockquote><p>缴费单可按照下图所示填写：</p><img src="https://file.qust.cc/images/1909/20190917193509.jpg" width="1024" /><p>总付款金额为：149.77(SSN注册费)+1.5(邮局手续费)=151.27欧元</p><p>上方为三联缴费单，缴费单的左侧两联相当于两份缴费单原件，最左侧可以剪裁下当做原件上交</p><p>家里有打印机的同学可以下载下方二联缴费单的可编辑版本，填入正确个人信息后A4纸打印，裁剪到合适的尺寸即可到邮局缴费，无需手填（嗯，我就是这么懒）</p><p><a href="https://file.qust.cc/files/46261/Boll_post_due_sez_149.77.pdf">点击下载：Boll_post_tre_sez_149.77.pdf</a></p><h3 id="4-3-有效期"><a href="#4-3-有效期" class="headerlink" title="4.3 有效期"></a>4.3 有效期</h3><p>特别注意，注册 SSN 的有效期为自然年，也就是说，如果在2019年9月1号缴费并注册了 SSN ，有效期截止到2019年12月31日。</p><p>9月份入学的新生在申请居留时可以先行缴纳医保费用，于缴费单注明该款项为缴纳次年度费用。</p><p>例如：2019年9月首次抵达罗马，缴费时在<code>CAUSALE</code>项的最后方添加<code>anno 2020</code>即可。否则该笔款项将于2019年12月31日失效。</p><h2 id="5-关于地址"><a href="#5-关于地址" class="headerlink" title="5.关于地址"></a>5.关于地址</h2><p>健康卡由邮政进行投递，地址为系统中登记的地址（初始地址应该是办税号时登记的地址），如果你确定登记的地址与现在居住地不同建议先行修改。</p><h3 id="5-1有-Residenza"><a href="#5-1有-Residenza" class="headerlink" title="5.1有 Residenza"></a>5.1有 Residenza</h3><p>若 Residenza 注册的地址与目前居住的地址不一致，需先迁移 Residenza。</p><h3 id="5-2无-Residenza"><a href="#5-2无-Residenza" class="headerlink" title="5.2无 Residenza"></a>5.2无 Residenza</h3><ul><li>若目前租赁的房屋为签有正规合同（住房合同经过备案，有税务局收据），系统中的地址可能已经自动更新为该房屋住址，建议直接前往 ASL 注册。若经工作人员查询地址不一致，请参照下条。</li><li>若目前租赁的房屋没有正规合同，请直接带未经备案的合同（<strong>不确定是否可行</strong>），以及相关身份证件前往税务局修改地址。部分信息可参考：<a href="https://blog.qust.cc/archives/17947.html">意大利罗马税号申请指南</a>。修改成功后，再去 ASL 进行注册。</li></ul><h2 id="6-前往-ASL-注册"><a href="#6-前往-ASL-注册" class="headerlink" title="6. 前往 ASL 注册"></a>6. 前往 ASL 注册</h2><h3 id="6-1-所需材料"><a href="#6-1-所需材料" class="headerlink" title="6.1 所需材料"></a>6.1 所需材料</h3><p>A.通用证件：</p><p>A-1:</p><blockquote><ul><li>护照+复印件</li><li>居留卡或居留条+复印件</li></ul></blockquote><p>A-2:</p><blockquote><ul><li>意大利身份证+复印件</li></ul></blockquote><p>A-3:</p><blockquote><ul><li>税卡或税号单+复印件</li><li>149.77元付款收据复印件</li></ul></blockquote><p>注：A-1与A-2二选一</p><p>B.首次办理所需证件(续费不需要)</p><blockquote><ul><li>大学入学证明</li></ul></blockquote><h3 id="6-2-办理流程（以我办理为例）"><a href="#6-2-办理流程（以我办理为例）" class="headerlink" title="6.2 办理流程（以我办理为例）"></a>6.2 办理流程（以我办理为例）</h3><p>进门右手边取D号（粉色按钮），等待叫号即可。工作人员非常奈斯，会一点点英语。</p><p>一切无误后，工作人员会问你是否有心怡的<strong>家庭医生</strong>，罗马有不少华人医生或会中文的意大利人医生。可咨询工作人员或注册我的医生（一名会中文的意大利人医生，工作地在 Vittorio 附近，详细信息参见条目8）</p><p>办理完成后，工作人员会给一张<strong>办理的收据</strong>以及一张A4打印的<strong>临时健康卡</strong>。</p><h2 id="7-之后"><a href="#7-之后" class="headerlink" title="7. 之后"></a>7. 之后</h2><p>至此，意大利国家健康服务已经基本注册完成，你可以享受完整的意大利公共卫生服务。但是还有几个小事项。</p><h3 id="7-1健康卡"><a href="#7-1健康卡" class="headerlink" title="7.1健康卡"></a>7.1健康卡</h3><p>正式的健康卡会在注册后的10天左右寄到你的住址，记得查收信箱。使用居留卡办理健康卡有效期6年，居留条只有一年，健康卡有效期与SSN服务有效期无关，只是次年续费不需要换卡。</p><p>健康卡只是作为一个实体凭证，与是否有权使用SSN服务无关。因此，若因住址问题无法收到健康卡并不影响就医。</p><h3 id="7-2联系家庭医生报道"><a href="#7-2联系家庭医生报道" class="headerlink" title="7.2联系家庭医生报道"></a>7.2联系家庭医生报道</h3><p>需要联系家庭医生让其把你注册到自己名下，但是此步骤不需单独去，可在第一次需要找家庭医生时一同完成。</p><h2 id="8-家庭医生信息"><a href="#8-家庭医生信息" class="headerlink" title="8.家庭医生信息"></a>8.家庭医生信息</h2><p><strong>医生姓名：Mittiga Agostino</strong></p><p><strong>地址：</strong></p><blockquote><p>Via Merulana, 209, 00184 Roma RM</p><p><a href="https://goo.gl/maps/xvNopsaQXyBwtTa4A">https://goo.gl/maps/xvNopsaQXyBwtTa4A</a></p></blockquote><p>注：诊所位于 Scala A 一楼1号诊室，不需要预约。</p><p><strong>工作时间：</strong></p><p>此为准确时间， ASL收据上的不准</p><table><thead><tr><th align="center">日期</th><th align="center">工作时间</th></tr></thead><tbody><tr><td align="center">星期一</td><td align="center">8.30-10.30    16.30-18.30</td></tr><tr><td align="center">星期二</td><td align="center">16.30-18.30</td></tr><tr><td align="center">星期三</td><td align="center">16.30-18.30</td></tr><tr><td align="center">星期四</td><td align="center">8.30-10.30  13.00-15.00</td></tr><tr><td align="center">星期五</td><td align="center">8.30-10.30</td></tr></tbody></table><p>注：周四下午工作地点为：Piazza Farnese 48</p><h3 id="最后附一张健康卡，祝各位早日到手："><a href="#最后附一张健康卡，祝各位早日到手：" class="headerlink" title="最后附一张健康卡，祝各位早日到手："></a><strong>最后附一张健康卡，祝各位早日到手：</strong></h3><img src="https://file.qust.cc/images/1909/20190918143653.png" width="512" /><hr><blockquote><h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文介绍关于注册意大利国家健康服务（SSN），办理健康卡(Tessera Sanitaria)，注册家庭医生等医疗服务的相关事宜&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;当前版本：V1.4&lt;/li&gt;
+&lt;li&gt;如果你通过PDF查看本文：&lt;a href=&quot;https://blog.qust.cc/archives/46261.html&quot;&gt;点此查看最新版本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果你通过网页查看本文：&lt;a href=&quot;https://file.qust.cc/files/46261/%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BD%97%E9%A9%AC%E5%AD%A6%E7%94%9F%E5%81%A5%E5%BA%B7%E5%8D%A1%E7%94%B3%E8%AF%B7%E6%8C%87%E5%8D%97-V1.4.pdf&quot;&gt;点此下载 PDF 版本&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-意大利国家健康服务（SSN）&quot;&gt;&lt;a href=&quot;#1-意大利国家健康服务（SSN）&quot; class=&quot;headerlink&quot; title=&quot;1. 意大利国家健康服务（SSN）&quot;&gt;&lt;/a&gt;1. 意大利国家健康服务（SSN）&lt;/h2&gt;&lt;p&gt;在意大利的外国人只要有正式居留都有权使用&lt;strong&gt;意大利国家健康服务（SSN）&lt;/strong&gt;，注册后可享有与意大利公民同样的医疗服务。&lt;/p&gt;
+&lt;p&gt;意大利国家健康服务包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;选择全科家庭医生，他会免费看诊，并向你建议你所需要的专科医生（牙医、整形外科医生等）&lt;/li&gt;
+&lt;li&gt;在公立或有授权的私立医院免费就诊&lt;/li&gt;
+&lt;li&gt;免费享有不间断值班医疗服务（guardia medica）&lt;/li&gt;
+&lt;li&gt;支付较少的检查费用（查血、放射检查等）&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="呆利那些事" scheme="https://blog.garryde.com/categories/italy/"/>
+    
+    
+    <category term="罗马办事指南" scheme="https://blog.garryde.com/tags/publicaffairs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>意大利罗马学生ISEE办理指南</title>
+    <link href="https://blog.garryde.com/archives/58096.html"/>
+    <id>https://blog.garryde.com/archives/58096.html</id>
+    <published>2019-09-17T11:29:38.000Z</published>
+    <updated>2019-09-24T18:31:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-ISEE-是什么"><a href="#1-ISEE-是什么" class="headerlink" title="1. ISEE 是什么"></a>1. ISEE 是什么</h2><p>ISEE(经济状况等效指标)是一个家庭的济收入状况的评估证明，这份文件全意大利有效并 且是免费制作的。 </p><h2 id="2-ISEE-有什么用"><a href="#2-ISEE-有什么用" class="headerlink" title="2. ISEE 有什么用"></a>2. ISEE 有什么用</h2><p>可以用ISEE 申请经济帮助以及减免公共服务的费用（比如：生育津贴、助学金、经济帮助、学校食堂、 托儿所等…）。</p><h2 id="3-ISEE-有效期"><a href="#3-ISEE-有效期" class="headerlink" title="3. ISEE 有效期"></a>3. ISEE 有效期</h2><p>ISEE 的有效期是到次年的1月15日。 </p><p>例如：你在2019年9月办理了ISEE ，有效期到2020年1月15日。</p><a id="more"></a><h2 id="4-ISEE怎么办理"><a href="#4-ISEE怎么办理" class="headerlink" title="4. ISEE怎么办理"></a>4. ISEE怎么办理</h2><h3 id="4-1-办理地点"><a href="#4-1-办理地点" class="headerlink" title="4.1 办理地点"></a>4.1 办理地点</h3><p>任意一家 CAF，推荐下边这个，材料简单</p><blockquote><p>CAF UIL di Roma e Provincia | Tuscolano<br>Via Ampio Flaviano, 16, 00175 Roma RM<br>06 9435 6253<br><a href="https://goo.gl/maps/qisRLkNj6h7H65zN9">https://goo.gl/maps/qisRLkNj6h7H65zN9</a></p></blockquote><h3 id="4-2-工作时间"><a href="#4-2-工作时间" class="headerlink" title="4.2 工作时间"></a>4.2 工作时间</h3><table><thead><tr><th align="center">日期</th><th align="center">工作时间</th></tr></thead><tbody><tr><td align="center">星期一</td><td align="center">上午：09:30–13:00  下午：15:00–18:30</td></tr><tr><td align="center">星期二</td><td align="center">上午：09:30–13:00  下午：15:00–18:30</td></tr><tr><td align="center">星期三</td><td align="center">上午：09:30–13:00  下午：15:00–18:30</td></tr><tr><td align="center">星期四</td><td align="center">上午：09:30–13:00  下午：15:00–18:30</td></tr><tr><td align="center">星期五</td><td align="center">上午：09:30–13:00  下午：15:00–18:30</td></tr><tr><td align="center">星期六</td><td align="center">休息</td></tr><tr><td align="center">星期日</td><td align="center">休息</td></tr></tbody></table><h3 id="4-3-所需材料"><a href="#4-3-所需材料" class="headerlink" title="4.3 所需材料"></a>4.3 所需材料</h3><p>对于学生只需要提供：</p><blockquote><p>1：护照</p><p>2：居留卡（没有可不提供）</p><p>3：健康卡、税卡或税号单</p><p>4：意大利银行卡 IBAN（没有可不提供）</p><p>5：住址</p><p>6：电话</p></blockquote><h3 id="4-4-办理流程"><a href="#4-4-办理流程" class="headerlink" title="4.4 办理流程"></a>4.4 办理流程</h3><h4 id="4-1-1-办理-ISEE"><a href="#4-1-1-办理-ISEE" class="headerlink" title="4.1.1 办理 ISEE"></a>4.1.1 办理 ISEE</h4><p>该 CAF 位于地铁 A 线 Giulio Agricola 附近，导航至4.4中所在的位置，就能看到这面旗子。</p><img src="https://file.qust.cc/images/1909/20190917141058.png" width="512" /><p>进门右手边，屏幕上按下 ISEE 进行取号，等到叫号。</p><p>叫号的过程中注意看最前面的字母，ISEE 的号都是以D 开头的。</p><img src="https://file.qust.cc/images/1909/20190917141257.png" width="512"/><p>给工作人员出事相关证件，不到10分钟即可办好，收好回执单。</p><h4 id="4-1-1-领取-ISEE"><a href="#4-1-1-领取-ISEE" class="headerlink" title="4.1.1 领取 ISEE"></a>4.1.1 领取 ISEE</h4><p>ISEE 的办理需要一周的时间，在一周后凭证件领取即可。</p><p>例如：周一办理了 ISEE，则在下周一即可领取。</p><h2 id="5-关于使用-ISEE-减免学费"><a href="#5-关于使用-ISEE-减免学费" class="headerlink" title="5.关于使用 ISEE 减免学费"></a>5.关于使用 ISEE 减免学费</h2><p>ISEE 的本质类似于一份缴税报告，缴税低意味着家庭收入较低。而大部分留学生自己在意大利没有工作，父母亦在国内，所以在意大利的缴税为0，即 ISEE 上会显示0。</p><p>罗马一大允许使用 ISEE 进行学费减免，但是只适用于意大利税收居民，留学生的 0元 ISEE 是不可以的。但是学校的审查工作并不严格，使得部分留学生使用 ISEE 成功减免约7成学费。但是这种行为并不合规，一旦被查到需要缴纳三倍的罚款。</p><hr><blockquote><h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-ISEE-是什么&quot;&gt;&lt;a href=&quot;#1-ISEE-是什么&quot; class=&quot;headerlink&quot; title=&quot;1. ISEE 是什么&quot;&gt;&lt;/a&gt;1. ISEE 是什么&lt;/h2&gt;&lt;p&gt;ISEE(经济状况等效指标)是一个家庭的济收入状况的评估证明，这份文件全意大利有效并 且是免费制作的。 &lt;/p&gt;
+&lt;h2 id=&quot;2-ISEE-有什么用&quot;&gt;&lt;a href=&quot;#2-ISEE-有什么用&quot; class=&quot;headerlink&quot; title=&quot;2. ISEE 有什么用&quot;&gt;&lt;/a&gt;2. ISEE 有什么用&lt;/h2&gt;&lt;p&gt;可以用ISEE 申请经济帮助以及减免公共服务的费用（比如：生育津贴、助学金、经济帮助、学校食堂、 托儿所等…）。&lt;/p&gt;
+&lt;h2 id=&quot;3-ISEE-有效期&quot;&gt;&lt;a href=&quot;#3-ISEE-有效期&quot; class=&quot;headerlink&quot; title=&quot;3. ISEE 有效期&quot;&gt;&lt;/a&gt;3. ISEE 有效期&lt;/h2&gt;&lt;p&gt;ISEE 的有效期是到次年的1月15日。 &lt;/p&gt;
+&lt;p&gt;例如：你在2019年9月办理了ISEE ，有效期到2020年1月15日。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="呆利那些事" scheme="https://blog.garryde.com/categories/italy/"/>
+    
+    
+    <category term="罗马办事指南" scheme="https://blog.garryde.com/tags/publicaffairs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>意大利罗马税号申请指南</title>
+    <link href="https://blog.garryde.com/archives/17947.html"/>
+    <id>https://blog.garryde.com/archives/17947.html</id>
+    <published>2019-08-25T23:20:44.000Z</published>
+    <updated>2019-10-22T08:57:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>作为一个意大利留学生，税号涉及到生活的方方面面，例如：办理交通年卡，办理居留。本文仅适用于罗马的税号申请，其他城市亦可参考。</p></blockquote><ul><li>当前版本：V2.0</li><li>如果你通过PDF查看本文：<a href="https://blog.qust.cc/archives/17947.html">点此查看最新版本</a></li><li>如果你通过网页查看本文：<a href="https://file.qust.cc/files/17947/%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BD%97%E9%A9%AC%E7%A8%8E%E5%8F%B7%E7%94%B3%E8%AF%B7%E6%8C%87%E5%8D%97-V2.0.pdf">点此下载 PDF 版本</a></li></ul><h2 id="1-税号是什么"><a href="#1-税号是什么" class="headerlink" title="1. 税号是什么"></a>1. 税号是什么</h2><p><strong>Codice Fiscale</strong>（个人税号） 是一个16位的字母数字代码，由 <strong>Agenzia delle Entrate</strong>（国家税务局）免费发放以识别意大利人和外国居民。 </p><p>意大利财政部在1974年发布一套算法，税号是根据姓名、性别、生日、出生地计算得出的，并非是申请之后才随机产生。</p><p>所谓的申请税号，即为到税务局注册该税号。所以大学的学生系统中有学生的税号，是根据个人资料计算得来，并不意味该税号已在税务局注册。</p><h2 id="2-办理地址"><a href="#2-办理地址" class="headerlink" title="2. 办理地址"></a>2. 办理地址</h2><p>可以去罗马的任何一个Agenzia Delle Entrate办理，推荐市区交通<strong>相对</strong>较方便的一个，可以坐3号电车🚃前往。推荐早上去，否则极易面临长达数小时的排队等待。<br> <a id="more"></a></p><blockquote><p>Agenzia delle Entrate Direzione Provinciale I di Roma<br>Via Ippolito Nievo, 48, 00153 Roma RM, 意大利<br>+39 06 583191<br><a href="https://goo.gl/maps/FpHzybriecR2">https://goo.gl/maps/FpHzybriecR2</a></p></blockquote><p><img src="https://i.loli.net/2018/09/16/5b9d5da35bf2f.jpeg" width="300" align="center" /></p><h2 id="3-准备材料"><a href="#3-准备材料" class="headerlink" title="3. 准备材料"></a>3. 准备材料</h2><h4 id="3-1-证件-用品"><a href="#3-1-证件-用品" class="headerlink" title="3.1 证件/用品"></a>3.1 证件/用品</h4><ol><li>护照原件</li><li>护照个人信息页复印件</li><li>签证页复印件</li><li>带一只黑色笔用于填材料</li></ol><h3 id="3-2-申请表"><a href="#3-2-申请表" class="headerlink" title="3.2 申请表"></a>3.2 申请表</h3><p>该申请表现场会提供，可当场填写。亦可自己提前完成，加快办理速度。</p><p>（现场工作人员给完申请表后就会给第二个号，有可能申请表没有填完，但是已经叫号的情况，会比较仓促）</p><p>以下是意大利语版本的填写说明，英文版本的每个空的位置都是一样的。</p><img src="https://file.qust.cc/images/1909/20190917164736.jpg" width="430" /><p>申请表下载地址：</p><p>意大利语版申请表：<a href="https://file.qust.cc/files/17947/Mod.Richiesta%20codice%20fiscale.pdf">点击下载：Mod.Richiesta codice fiscale.pdf</a></p><p>英文版申请表：<a href="https://file.qust.cc/files/17947/Form%20Tax%20Code.pdf">点击下载：Form Tax Code.pdf</a></p><p>该申请表的 PDF 为可编辑版本。下载后，可使用 PDF 编辑器直接在表单上进行填写，填写完成后，打印签字即可。</p><h2 id="4-办理流程"><a href="#4-办理流程" class="headerlink" title="4. 办理流程"></a>4. 办理流程</h2><blockquote><p>全程会有两次叫号</p></blockquote><p><strong>第一次叫号</strong></p><p>进门后右手边有一个取号机，若无工作人员，直接按第一个按钮取号即可，若有工作人员，告知 Codice Fiscale 即可，他会帮忙取号。第一次的号均在50、51窗口办理。</p><p>接待的工作人员会讲英文，告诉他是刚来罗马的新生，需要申请税号（Codice Fiscale），工作人员会给一张表格（若已经提前填好，把表格给工作人员看一下即可），一张新的号。外国人通常都给英文表格，如果你会意大利语亦可索取意大利语版本。</p><p><strong>第二次叫号</strong></p><p>第二次的办理窗口在里面工作区。看好对应的办理窗口，把护照，复印件全给工作人员即可。</p><p>办理完成后，工作人员会给一张税号单，至此，税号已经办理完成。</p><h2 id="5-领取税卡"><a href="#5-领取税卡" class="headerlink" title="5. 领取税卡"></a>5. 领取税卡</h2><p>理论上讲，办理完成后，两周左右税卡(绿卡)会邮寄给你。</p><p>但是，现在办理的时候单子上要求填写的是国内的地址，是不会邮寄税卡的。</p><p>税卡平时很少有用，基本上只在自动售烟机上买烟时使用。</p><p>此时，你的税号已经在意大利税务局注册开通，以后有需要时，将工作人员返还的税号单复印上交即可。</p><hr><blockquote><h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;作为一个意大利留学生，税号涉及到生活的方方面面，例如：办理交通年卡，办理居留。本文仅适用于罗马的税号申请，其他城市亦可参考。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;当前版本：V2.0&lt;/li&gt;
+&lt;li&gt;如果你通过PDF查看本文：&lt;a href=&quot;https://blog.qust.cc/archives/17947.html&quot;&gt;点此查看最新版本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果你通过网页查看本文：&lt;a href=&quot;https://file.qust.cc/files/17947/%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BD%97%E9%A9%AC%E7%A8%8E%E5%8F%B7%E7%94%B3%E8%AF%B7%E6%8C%87%E5%8D%97-V2.0.pdf&quot;&gt;点此下载 PDF 版本&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-税号是什么&quot;&gt;&lt;a href=&quot;#1-税号是什么&quot; class=&quot;headerlink&quot; title=&quot;1. 税号是什么&quot;&gt;&lt;/a&gt;1. 税号是什么&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Codice Fiscale&lt;/strong&gt;（个人税号） 是一个16位的字母数字代码，由 &lt;strong&gt;Agenzia delle Entrate&lt;/strong&gt;（国家税务局）免费发放以识别意大利人和外国居民。 &lt;/p&gt;
+&lt;p&gt;意大利财政部在1974年发布一套算法，税号是根据姓名、性别、生日、出生地计算得出的，并非是申请之后才随机产生。&lt;/p&gt;
+&lt;p&gt;所谓的申请税号，即为到税务局注册该税号。所以大学的学生系统中有学生的税号，是根据个人资料计算得来，并不意味该税号已在税务局注册。&lt;/p&gt;
+&lt;h2 id=&quot;2-办理地址&quot;&gt;&lt;a href=&quot;#2-办理地址&quot; class=&quot;headerlink&quot; title=&quot;2. 办理地址&quot;&gt;&lt;/a&gt;2. 办理地址&lt;/h2&gt;&lt;p&gt;可以去罗马的任何一个Agenzia Delle Entrate办理，推荐市区交通&lt;strong&gt;相对&lt;/strong&gt;较方便的一个，可以坐3号电车🚃前往。推荐早上去，否则极易面临长达数小时的排队等待。&lt;br&gt;</summary>
+    
+    
+    
+    <category term="呆利那些事" scheme="https://blog.garryde.com/categories/italy/"/>
+    
+    
+    <category term="罗马办事指南" scheme="https://blog.garryde.com/tags/publicaffairs/"/>
+    
+  </entry>
+  
+</feed>

@@ -57,6 +57,8 @@
       </categories>
       <tags>
         <tag>罗马办事指南</tag>
+        <tag>意大利</tag>
+        <tag>罗马</tag>
       </tags>
   </entry>
   <entry>
@@ -295,6 +297,7 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>LeanCloud</tag>
       </tags>
   </entry>
   <entry>
@@ -419,6 +422,8 @@
       <tags>
         <tag>罗马办事指南</tag>
         <tag>ATAC</tag>
+        <tag>意大利</tag>
+        <tag>罗马</tag>
       </tags>
   </entry>
   <entry>
@@ -448,6 +453,8 @@
       <tags>
         <tag>罗马办事指南</tag>
         <tag>ATAC</tag>
+        <tag>意大利</tag>
+        <tag>罗马</tag>
       </tags>
   </entry>
   <entry>
@@ -526,6 +533,9 @@
       </categories>
       <tags>
         <tag>罗马办事指南</tag>
+        <tag>意大利</tag>
+        <tag>罗马</tag>
+        <tag>ISEE</tag>
       </tags>
   </entry>
   <entry>
@@ -672,6 +682,8 @@
       </categories>
       <tags>
         <tag>罗马办事指南</tag>
+        <tag>意大利</tag>
+        <tag>罗马</tag>
       </tags>
   </entry>
   <entry>
@@ -758,7 +770,8 @@
   <entry>
     <title>伦敦航拍</title>
     <url>/archives/43782.html</url>
-    <content><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/sPVf2Pt7keY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <content><![CDATA[<p>视频场景：格林尼治公园，伦敦塔桥，泰晤士河</p>
+<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/sPVf2Pt7keY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a id="more"></a>
 
@@ -776,6 +789,7 @@
         <tag>伦敦</tag>
         <tag>航拍</tag>
         <tag>旅记</tag>
+        <tag>英国</tag>
       </tags>
   </entry>
   <entry>
@@ -825,32 +839,7 @@
       </tags>
   </entry>
   <entry>
-    <title>WHO:COVID-19病毒是如何传播的？</title>
-    <url>/archives/19250.html</url>
-    <content><![CDATA[<h2 id="世界卫生组织"><a href="#世界卫生组织" class="headerlink" title="世界卫生组织"></a>世界卫生组织</h2><h3 id="COVID-19病毒是如何传播的？"><a href="#COVID-19病毒是如何传播的？" class="headerlink" title="COVID-19病毒是如何传播的？"></a>COVID-19病毒是如何传播的？</h3><ul>
-<li>它主要通过感染者说话、咳嗽或打喷嚏时产生的飞沫在人与人之间传播。这些飞沫会进入附近人的鼻子或嘴里。</li>
-<li>飞沫较重，无法在空气中远距离传播。他们只能传播大约一米，然后很快就会掉落在物体表面。</li>
-<li>病毒在物体表面存活的确切时间尚不明确。</li>
-</ul>
-<h3 id="我们如何自我防范？"><a href="#我们如何自我防范？" class="headerlink" title="我们如何自我防范？"></a>我们如何自我防范？</h3><ul>
-<li>不要触摸自己的眼睛、鼻子或嘴巴，否则，已被污染的手会将病毒从物体表面传给自己。</li>
-<li>咳嗽或打喷嚏时，要用肘部遮掩口鼻或使用一次性纸巾。</li>
-<li>防止新冠状病毒传播<strong>最有效的方法</strong>是，经常用含酒精成分的免洗洗手液或肥皂和清水洗手。</li>
-</ul>
-<a id="more"></a>
-
-<video width="640" height="360" controls>
-<source src="https://file.qust.cc/videos/WHO-PROD_Emergencies_Coronavirus_COVID19_Advocacy_Protection.mp4">
-</video>]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>COVID-19</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Covid-19致死数据分析</title>
+    <title>中意Covid-19致死数据分析</title>
     <url>/archives/15126.html</url>
     <content><![CDATA[<h2 id="1-意中Covid-19致死率对比"><a href="#1-意中Covid-19致死率对比" class="headerlink" title="1.意中Covid-19致死率对比"></a>1.意中Covid-19致死率对比</h2><p>意大利平均年龄44.3岁，超过65岁的人口占23％，老龄化程度仅次于日本。</p>
 <p>中国平均年龄37.4岁，超过65岁的人口占11％。</p>
@@ -987,6 +976,7 @@
       </categories>
       <tags>
         <tag>COVID-19</tag>
+        <tag>意大利</tag>
       </tags>
   </entry>
   <entry>
@@ -1085,14 +1075,13 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>Node.js</tag>
       </tags>
   </entry>
   <entry>
     <title>BBC新冠疫情纪录片：武汉「解封」之后 一切都重启了吗？</title>
     <url>/archives/25636.html</url>
-    <content><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-]]></content>
+    <content><![CDATA[<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
       <categories>
         <category>杂谈</category>
       </categories>
@@ -1126,6 +1115,12 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># 定制标题显示文字，如果留空显示“相关文章”</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
 <h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在文章中加入<code>tag</code></p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">program</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">diary</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">web</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">Welcome</span> <span class="string">to</span> [<span class="string">Hexo</span>]<span class="string">(https://hexo.io/)!</span> <span class="string">This</span> <span class="string">is</span> <span class="string">a</span> <span class="string">sample</span> <span class="string">article.</span> <span class="string">Let&#x27;s</span> <span class="string">add</span> <span class="string">some</span> <span class="string">tags</span> <span class="string">as</span> <span class="string">above.</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>意大利留学预注册签证办理指南</title>
@@ -1324,6 +1319,7 @@
       </categories>
       <tags>
         <tag>签证</tag>
+        <tag>意大利</tag>
       </tags>
   </entry>
 </search>

@@ -1110,6 +1110,8 @@
     <url>/archives/50112.html</url>
     <content><![CDATA[<p>此插件可以在呈现帖子结尾插入同类标签的帖子推荐</p>
 <p>Github地址：<a href="https://github.com/tea3/hexo-related-popular-posts">https://github.com/tea3/hexo-related-popular-posts</a></p>
+<a id="more"></a>
+
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-related-popular-posts --save</code></p>
 <h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>在主题<code>Next</code>目录下的<code>_config.yml</code>中如下配置：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># 定制标题显示文字，如果留空显示“相关文章”</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>

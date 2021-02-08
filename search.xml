@@ -6,15 +6,12 @@
     <content><![CDATA[<blockquote>
 <p>作为一个意大利留学生，税号涉及到生活的方方面面，例如：办理交通年卡，办理居留。本文仅适用于罗马的税号申请，其他城市亦可参考。</p>
 </blockquote>
-<ul>
-<li>当前版本：V2.0</li>
-<li>如果你通过PDF查看本文：<a href="https://blog.qust.cc/archives/17947.html">点此查看最新版本</a></li>
-<li>如果你通过网页查看本文：<a href="https://file.qust.cc/files/17947/%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BD%97%E9%A9%AC%E7%A8%8E%E5%8F%B7%E7%94%B3%E8%AF%B7%E6%8C%87%E5%8D%97-V2.0.pdf">点此下载 PDF 版本</a></li>
-</ul>
 <h2 id="1-税号是什么"><a href="#1-税号是什么" class="headerlink" title="1. 税号是什么"></a>1. 税号是什么</h2><p><strong>Codice Fiscale</strong>（个人税号） 是一个16位的字母数字代码，由 <strong>Agenzia delle Entrate</strong>（国家税务局）免费发放以识别意大利人和外国居民。 </p>
 <p>意大利财政部在1974年发布一套算法，税号是根据姓名、性别、生日、出生地计算得出的，并非是申请之后才随机产生。</p>
 <p>所谓的申请税号，即为到税务局注册该税号。所以大学的学生系统中有学生的税号，是根据个人资料计算得来，并不意味该税号已在税务局注册。</p>
-<h2 id="2-办理地址"><a href="#2-办理地址" class="headerlink" title="2. 办理地址"></a>2. 办理地址</h2><p>可以去罗马的任何一个Agenzia Delle Entrate办理，推荐市区交通<strong>相对</strong>较方便的一个，可以坐3号电车🚃前往。推荐早上去，否则极易面临长达数小时的排队等待。<br> <a id="more"></a></p>
+ <a id="more"></a>
+
+<h2 id="2-办理地址"><a href="#2-办理地址" class="headerlink" title="2. 办理地址"></a>2. 办理地址</h2><p>可以去罗马的任何一个Agenzia Delle Entrate办理，推荐市区交通<strong>相对</strong>较方便的一个，可以坐3号电车🚃前往。推荐早上去，否则极易面临长达数小时的排队等待。</p>
 <blockquote>
 <p>Agenzia delle Entrate Direzione Provinciale I di Roma<br>Via Ippolito Nievo, 48, 00153 Roma RM, 意大利<br>+39 06 583191<br><a href="https://goo.gl/maps/FpHzybriecR2">https://goo.gl/maps/FpHzybriecR2</a></p>
 </blockquote>
@@ -48,9 +45,6 @@
 <p>但是，现在办理的时候单子上要求填写的是国内的地址，是不会邮寄税卡的。</p>
 <p>税卡平时很少有用，基本上只在自动售烟机上买烟时使用。</p>
 <p>此时，你的税号已经在意大利税务局注册开通，以后有需要时，将工作人员返还的税号单复印上交即可。</p>
-<hr>
-<blockquote>
-<h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>
 ]]></content>
       <categories>
         <category>呆利那些事</category>
@@ -178,6 +172,8 @@
     <url>/archives/59572.html</url>
     <content><![CDATA[<p>此插件可以在呈现帖子之前插入markdown TOC目录</p>
 <p>Github地址：<a href="https://github.com/bubkoo/hexo-toc">https://github.com/bubkoo/hexo-toc</a></p>
+<a id="more"></a>
+
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-toc --save</code></p>
 <h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>在博客根目录下的<code>_config.yml</code>中如下配置：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">maxdepth:</span> <span class="number">3</span></span><br><span class="line">  <span class="attr">class:</span> <span class="string">toc</span></span><br><span class="line">  <span class="attr">slugify:</span> <span class="string">transliteration</span></span><br><span class="line">  <span class="attr">decodeEntities:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">anchor:</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">after</span></span><br><span class="line">    <span class="attr">symbol:</span> <span class="string">&#x27;#&#x27;</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">header-anchor</span></span><br></pre></td></tr></table></figure>
@@ -742,8 +738,7 @@
     <url>/archives/20986.html</url>
     <content><![CDATA[<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>项目地址：<a href="https://github.com/theme-next/hexo-symbols-count-time">https://github.com/theme-next/hexo-symbols-count-time</a></p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time</span><br></pre></td></tr></table></figure>
-
-
+<a id="more"></a>
 <h2 id="2-配置Hexo-config-yml"><a href="#2-配置Hexo-config-yml" class="headerlink" title="2.配置Hexo_config.yml"></a>2.配置Hexo<code>_config.yml</code></h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="comment">#文章字数统计</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#文章时间计算</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总字数统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总时间计算</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#排除代码块</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">#平均字长</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">4</span></span><br><span class="line">  <span class="comment">#每分钟字数</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span></span><br><span class="line">  <span class="comment">#如果读取时间少于60分钟，请添加后缀作为字符串参数。</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">&quot;mins.&quot;</span></span><br></pre></td></tr></table></figure>
 <p><strong>中国用户注意事项</strong>：因为中文的平均单词长度约为1.5，并且如果您大多数情况下都以中文撰写帖子（不使用混合英语），建议将<code>awl</code>设置为<code>2</code>，<code>wpm</code>设置为<code>300</code>。 但是，如果您通常将自己的帖子与英语混用，<code>awl</code>为<code>4</code>，<code>wpm</code>为<code>275</code>会很好。</p>
 ]]></content>
@@ -758,6 +753,7 @@
     <title>Hexo Next 打赏设置</title>
     <url>/archives/24622.html</url>
     <content><![CDATA[<p>修改<code>主题配置</code>文件，打赏图片放置在<code>主题目录</code>的<code>source/images</code>目录下，效果参见下方。</p>
+<a id="more"></a>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, reward will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">comment:</span> <span class="string">听说，打赏我的人都找到了真爱。</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.jpeg</span></span><br><span class="line">  <span class="comment">#alipay: /images/alipay.png</span></span><br><span class="line">  <span class="comment">#paypal: /images/paypal.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
@@ -1152,11 +1148,6 @@ width="448" height="252"
     <content><![CDATA[<blockquote>
 <p>本文完全适用于北京领区，上海、广州领区，重庆领区有一点点不一样但是大都适用，需要申请意大利预注册签证，并且已经通过使馆预注册，领取到白色文件袋的同学。<strong>本人是在北京完成签证申请，所以本文主要以北京为主叙述。</strong></p>
 </blockquote>
-<ul>
-<li>当前版本：V2.3</li>
-<li>如果你通过PDF查看本文：<a href="https://blog.qust.cc/archives/43781.html">点此查看最新版本</a></li>
-<li>如果你通过网页查看本文：<a href="https://file.qust.cc/files/43781/%E6%84%8F%E5%A4%A7%E5%88%A9%E7%95%99%E5%AD%A6%E7%AD%BE%E8%AF%81%E5%8A%9E%E7%90%86%E6%8C%87%E5%8D%97-V2.3.pdf">点此下载 PDF 版本</a></li>
-</ul>
 <h2 id="一-前言"><a href="#一-前言" class="headerlink" title="一.前言"></a>一.前言</h2><ul>
 <li>本文仅以流水账的形式记录北京领区学生签的申请，请务必确认符合上述条件。</li>
 <li>在完成使馆预注册后，需要等待意大利驻华使馆北京签证中心发布递签名单(新闻页面)，名单有点乱，建议使用护照号码搜索。并且名单更新后，名单文件（Excel）会变化，新闻页面不会变化(吐槽一下，这里超级坑)，所以需要自己自行下载文件，看里面的名字有没有变化。(名单通常在周二和周五傍晚更新)<a id="more"></a></li>
@@ -1324,20 +1315,7 @@ width="448" height="252"
 <h2 id="五-写在最后"><a href="#五-写在最后" class="headerlink" title="五.写在最后"></a>五.写在最后</h2><p>虽然签证的出签率比较高，但是依然不可掉以轻心。</p>
 <p>最关键的地方就是财产了，千万不要出现银行卡几个月没有进账的情况。</p>
 <p>最后，有比没有好，尽情的把你的资料砸向签证中心吧！</p>
-<h2 id="六-广告时间"><a href="#六-广告时间" class="headerlink" title="六.广告时间"></a>六.广告时间</h2><h3 id="1-罗马住宿证明-房东要求信"><a href="#1-罗马住宿证明-房东要求信" class="headerlink" title="1.罗马住宿证明-房东要求信"></a>1.罗马住宿证明-房东要求信</h3><p>本人同专业学长，我自己的住宿证明也是他办的，专业靠谱</p>
-<img src="https://file.qust.cc/images/20190811154846.png" width="300" align="center" />
-
-<h3 id="2-专业罗马境外服务"><a href="#2-专业罗马境外服务" class="headerlink" title="2. 专业罗马境外服务"></a>2. 专业罗马境外服务</h3><p>1：税号申请</p>
-<p>2：居留申请 </p>
-<p>3：公交卡申请</p>
-<p>4：电话卡申请</p>
-<p>5：医疗保险申请</p>
-<p>6：银行卡申请(独家，办理银行卡很繁琐，大多不提供)</p>
-<p>7：各种签证、生活、入学信息咨询解答</p>
-<p>8：机场接机预订</p>
-<p>9：租房服务</p>
-<p>本人一大在读，良心生意补贴家用</p>
-<img src="https://file.qust.cc/images/wechat_qr.png" width="300" align="center"/>]]></content>
+]]></content>
       <categories>
         <category>呆利那些事</category>
       </categories>

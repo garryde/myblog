@@ -60,6 +60,75 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo 发布blog到腾讯云cos</title>
+    <url>/archives/31621.html</url>
+    <content><![CDATA[<p>安装<code>hexo-deployer-cos</code>插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-cos --save</span><br></pre></td></tr></table></figure>
+<p>打开博客根目录的<code>_config.yml</code>配置文件，将原来的<code>deploy</code>替换为下面的内容：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span> </span><br><span class="line">  <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">  <span class="attr">appId:</span> <span class="string">yourAPPID</span></span><br><span class="line">  <span class="attr">secretId:</span> <span class="string">yourSecretId</span></span><br><span class="line">  <span class="attr">secretKey:</span> <span class="string">yourSecretKey</span></span><br><span class="line">  <span class="attr">bucket:</span> <span class="string">yourBucketName-yourAPPID</span></span><br><span class="line">  <span class="attr">region:</span> <span class="string">yourRegion</span></span><br></pre></td></tr></table></figure>
+<p>部署</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 头像设置</title>
+    <url>/archives/50370.html</url>
+    <content><![CDATA[<h3 id="添加头像"><a href="#添加头像" class="headerlink" title="添加头像"></a>添加头像</h3><p>编辑主题的 <code>_config.yml</code>，修改字段 <code>avatar</code>， 的<code>url</code>值设置成头像的链接地址。</p>
+<p>其中，头像的链接地址可以是：</p>
+<p>1.完整的互联网 URL</p>
+<p>2.站点内的地址，例如：</p>
+<ul>
+<li><code>/uploads/avatar.jpg</code>需要将你的头像图片放置在<code>站点</code>的 <code>source/uploads/</code>（可能需要新建uploads目录）</li>
+<li><code>/images/avatar.jpg</code>需要将你的头像图片放置在<code>主题</code>的 <code>source/images/</code> 目录下。</li>
+</ul>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="comment"># 头像位置</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/avatar.jpg</span></span><br><span class="line">  <span class="comment"># 如果为真, 头像将以圆形显示。</span></span><br><span class="line">  <span class="attr">rounded:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 如果为真, 头像将随着光标旋转。</span></span><br><span class="line">  <span class="attr">rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h3 id="圆形、旋转特效（新版已无需修改代码）"><a href="#圆形、旋转特效（新版已无需修改代码）" class="headerlink" title="圆形、旋转特效（新版已无需修改代码）"></a>圆形、旋转特效（新版已无需修改代码）</h3><p>修改文件<code>/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="comment">/* 头像圆形样式 */</span></span><br><span class="line">  <span class="comment">/* start */</span></span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span></span><br><span class="line">  webkit-transition: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">moz-transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">ms-transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="comment">/* end */</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-name</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: $site-author-name-margin;</span><br><span class="line">  <span class="attribute">text-align</span>: $site-author-name-align;</span><br><span class="line">  <span class="attribute">color</span>: $site-author-name-color;</span><br><span class="line">  <span class="attribute">font-weight</span>: $site-author-name-weight;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-description</span> &#123;</span><br><span class="line">  <span class="attribute">margin-top</span>: $site-description-margin-top;</span><br><span class="line">  <span class="attribute">text-align</span>: $site-description-align;</span><br><span class="line">  <span class="attribute">font-size</span>: $site-description-font-size;</span><br><span class="line">  <span class="attribute">color</span>: $site-description-color;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* 头像旋转事件 */</span></span><br><span class="line"><span class="comment">/* start */</span></span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#55DAE1</span>;</span><br><span class="line">  <span class="attribute">webkit-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">moz-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">ms-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* end */</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Next 修改中文不生效</title>
+    <url>/archives/46153.html</url>
+    <content><![CDATA[<p>修改站点语言需要修站点目录下<code>_config.yml</code>中的<code>language</code>，设置的值要根据主题文件选择。</p>
+<p>以next主题为例，检查<code>theme/next/languages/</code>目录可以看到中文存放于<code>zh-CN.yml</code>文件，所以上方配置修改为：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-CN.yml</span></span><br></pre></td></tr></table></figure>
+<p>若为<code>zh-Hans.yml</code>则赋值<code>zh-Hans</code></p>
+]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 本地搜索数据生成插件</title>
+    <url>/archives/52651.html</url>
+    <content><![CDATA[<p>该插件用于生成搜索索引文件，其中包含文章的所有必要数据，可用于为博客编写本地搜索引擎。支持XML和JSON格式输出。</p>
+<p>Github地址：<a href="https://github.com/theme-next/hexo-generator-searchdb">https://github.com/theme-next/hexo-generator-searchdb</a></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-generator-searchdb --save</code></p>
+<h3 id="编辑站点配置文件"><a href="#编辑站点配置文件" class="headerlink" title="编辑站点配置文件"></a>编辑<code>站点</code>配置文件</h3><p>新增以下内容</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+<h3 id="编辑主题配置文件"><a href="#编辑主题配置文件" class="headerlink" title="编辑主题配置文件"></a>编辑<code>主题</code>配置文件</h3><p>修改以下内容</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo NEXT主题安装Valine评论系统</title>
     <url>/archives/58131.html</url>
     <content><![CDATA[<h2 id="1-注册Leancloud"><a href="#1-注册Leancloud" class="headerlink" title="1.注册Leancloud"></a>1.注册Leancloud</h2><p><a href="https://leancloud.cn/">https://leancloud.cn/</a></p>
@@ -94,6 +163,30 @@
 <h2 id="5-使用"><a href="#5-使用" class="headerlink" title="5.使用"></a>5.使用</h2><p>在文章初次被运行Generat的时候，会在顶部生成一个<code>abbrlink:</code>项，此即为固定的访问链接。</p>
 <h2 id="6-异常排除"><a href="#6-异常排除" class="headerlink" title="6.异常排除"></a>6.异常排除</h2><p>可能遇到不能生成链接的情况，执行</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hxeo 文章TOC目录生成插件</title>
+    <url>/archives/59572.html</url>
+    <content><![CDATA[<p>此插件可以在呈现帖子之前插入markdown TOC目录</p>
+<p>Github地址：<a href="https://github.com/bubkoo/hexo-toc">https://github.com/bubkoo/hexo-toc</a></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-toc --save</code></p>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>在博客根目录下的<code>_config.yml</code>中如下配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">maxdepth:</span> <span class="number">3</span></span><br><span class="line">  <span class="attr">class:</span> <span class="string">toc</span></span><br><span class="line">  <span class="attr">slugify:</span> <span class="string">transliteration</span></span><br><span class="line">  <span class="attr">decodeEntities:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">anchor:</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">after</span></span><br><span class="line">    <span class="attr">symbol:</span> <span class="string">&#x27;#&#x27;</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">header-anchor</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><code>maxDepth</code> 表示目录深度为3，即最多生成三级目录。</p>
+</blockquote>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在Markdown中需要显示文章目录的地方添加 <code>&lt;!-- ttoc --&gt;</code></p>
+<p>为防止系统误识别，使用时请将<code>ttoc</code>改为<code>toc</code></p>
+<h3 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h3><p>由于Next已内置TOC且本插件会导致目录无法成功跳转，建议直接卸载</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm remove hexo-toc --save</span><br></pre></td></tr></table></figure>
+<p>删除<code>_config.yml</code>中的配置文件</p>
 ]]></content>
       <categories>
         <category>Hexo折腾</category>
@@ -138,6 +231,70 @@
       <tags>
         <tag>Homeassistant</tag>
         <tag>博联</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Next主题 使用LeanCloud统计文章阅读次数、添加热度排行页面</title>
+    <url>/archives/48665.html</url>
+    <content><![CDATA[<p>使用LeanCloud记录hexo文章的阅读量，next主题对LeanCloud进行了适配，只需简单的配置。</p>
+<p>本文综合参考了多篇文章以及自己的部署经历。并且修复了安全漏洞。</p>
+<a id="more"></a>
+
+<h1 id="1-注册-LeanCloud"><a href="#1-注册-LeanCloud" class="headerlink" title="1. 注册 LeanCloud"></a>1. 注册 LeanCloud</h1><p>详细注册步骤略</p>
+<h2 id="1-1-LeanCloud配置"><a href="#1-1-LeanCloud配置" class="headerlink" title="1.1 LeanCloud配置"></a>1.1 LeanCloud配置</h2><p>进入之后点击存储，创建Class，名称必须为<code>Counter</code>。</p>
+<p>ACL权限选择<code>无限制</code>，点击<code>创建Class</code>按钮。</p>
+<p>记录相关<code>App ID</code>和<code>App Key</code></p>
+<h2 id="1-2配置域名绑定"><a href="#1-2配置域名绑定" class="headerlink" title="1.2配置域名绑定"></a>1.2配置域名绑定</h2><p>前提：个人<code>已备案</code>域名</p>
+<p>进入LeanCloud<code>设置</code>-&gt;<code>域名绑定</code>-&gt;<code>API 访问域名</code>-&gt;<code>绑定新域名</code></p>
+<p>输入域名后配置CNAME解析</p>
+<p>系统会自动检测备案、解析、以及配置SSL证书</p>
+<h1 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h1><h2 id="2-1-主题配置"><a href="#2-1-主题配置" class="headerlink" title="2.1 主题配置"></a>2.1 主题配置</h2><p><strong>若同时安装了Valine评论系统会产生冲突，请参考：<a href="https://blog.qust.cc/archives/63320.html">Hexo Next阅读次数不正常、显示多个阅读次数</a></strong></p>
+<p>修改<code>主题配置</code>文件，修改以下字段，每一项都需要修改</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Show number of visitors to each article.</span></span><br><span class="line"><span class="comment"># You can visit https://leancloud.cn get AppID and AppKey.</span></span><br><span class="line"><span class="attr">leancloud_visitors:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="string">&lt;App</span> <span class="string">ID&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="string">&lt;App</span> <span class="string">Key&gt;</span></span><br><span class="line">  <span class="comment">#1.2中配置的域名</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="string">&lt;your</span> <span class="string">server</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="comment"># Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security</span></span><br><span class="line">  <span class="comment"># If you don&#x27;t care about security in lc counter and just want to use it directly</span></span><br><span class="line">  <span class="comment"># (without hexo-leancloud-counter-security plugin), set the `security` to `false`.</span></span><br><span class="line">  <span class="attr">security:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h2 id="2-2-站点配置"><a href="#2-2-站点配置" class="headerlink" title="2.2 站点配置"></a>2.2 站点配置</h2><p>打开<code>站点配置</code>文件，新增以下内容</p>
+<h3 id="2-2-1-配置安全访问"><a href="#2-2-1-配置安全访问" class="headerlink" title="2.2.1 配置安全访问"></a>2.2.1 配置安全访问</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">leancloud_counter_security:</span></span><br><span class="line">  <span class="attr">enable_sync:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="string">&lt;&lt;your</span> <span class="string">app</span> <span class="string">id&gt;&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="string">&lt;&lt;your</span> <span class="string">app</span> <span class="string">key&gt;</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="string">&lt;your</span> <span class="string">server</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="attr">username:</span> <span class="string">&lt;&lt;your</span> <span class="string">username&gt;&gt;</span></span><br><span class="line">  <span class="attr">password:</span> <span class="string">&lt;&lt;your</span> <span class="string">password&gt;&gt;</span></span><br></pre></td></tr></table></figure>
+<p>前两项的 id 与 key 为网站提供。后两项username和 password 自己定义。</p>
+<h3 id="2-2-2-配置deploy"><a href="#2-2-2-配置deploy" class="headerlink" title="2.2.2 配置deploy"></a>2.2.2 配置deploy</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">leancloud_counter_security_sync</span></span><br></pre></td></tr></table></figure>
+<p>注意：存在多项 deploy，需要在 type 前加上<code>-</code></p>
+<p>例如：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">		<span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">baidu_url_submitter</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">leancloud_counter_security_sync</span></span><br></pre></td></tr></table></figure>
+<h1 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h1><p>打开命令终端，切换到博客根目录。安装<code>hexo-leancloud-counter-security</code>插件</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-leancloud-counter-security --save</span><br></pre></td></tr></table></figure>
+<p>等待安装结束之后，注册一个用户</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo lc-counter r username password</span><br></pre></td></tr></table></figure>
+<p>这里的用户名和密码与<code>2.2.1</code>中配置的一致</p>
+<p>注：若出现异常，提示</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Error: Cannot find module &#x27;babel-runtime/regenerator&#x27;</span><br></pre></td></tr></table></figure>
+<p>可以运行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm i babel-runtime --save</span><br></pre></td></tr></table></figure>
+<h1 id="4-部署云引擎以保证访客数量不被随意篡改"><a href="#4-部署云引擎以保证访客数量不被随意篡改" class="headerlink" title="4.部署云引擎以保证访客数量不被随意篡改"></a>4.部署云引擎以保证访客数量不被随意篡改</h1><p>依次点击左侧<code>云引擎</code> -&gt; <code>部署</code> -&gt; <code>在线编辑</code>：</p>
+<img src="https://file.qust.cc/images/2019-08-05-1.54.13.png" width="800" align="center" />
+
+<p>点击创建函数</p>
+<img src="https://file.qust.cc/images/2019-08-05-2.05.59.png" width="600" align="center" />
+
+<p>在弹出窗口选择<code>Hook</code>类型，在<code>选择 Hook</code>处选择<code>beforeUpdate</code>，在<code>选择 Class</code>处选择<code>Counter</code>类。粘贴下方代码后，点保存。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&quot;Counter&quot;</span>);</span><br><span class="line"><span class="keyword">if</span> (request.object.updatedKeys.indexOf(<span class="string">&#x27;time&#x27;</span>) !== -<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> query.get(request.object.id).then(<span class="function"><span class="keyword">function</span> (<span class="params">obj</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (obj.get(<span class="string">&quot;time&quot;</span>) + <span class="number">1</span> !== request.object.get(<span class="string">&quot;time&quot;</span>)) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> AV.Cloud.Error(<span class="string">&#x27;Invalid update!&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后单击<code>创建按钮</code>右侧的<code>部署</code> -&gt; <code>生产环境</code> -&gt; <code>部署</code></p>
+<p>待显示<code>部署完成：1 个实例部署成功</code>即可</p>
+<h1 id="5-添加热度排行页面"><a href="#5-添加热度排行页面" class="headerlink" title="5.添加热度排行页面"></a>5.添加热度排行页面</h1><h3 id="5-1-新建页面"><a href="#5-1-新建页面" class="headerlink" title="5.1 新建页面"></a>5.1 新建页面</h3><p>在博客目录下执行<code>hexo n page hot</code>新建一个hot页面，编辑其中的<code>index.md</code>文件，将其中的代码替换如下</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章热度排行</span><br><span class="line">date: 2019-08-14 10:29:51</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;hot&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript">AV.initialize(<span class="string">&quot;YOUR_APPID&quot;</span>, <span class="string">&quot;YOUR_APPKEY&quot;</span>);</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> time=<span class="number">0</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> title=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> url=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&#x27;Counter&#x27;</span>);</span></span><br><span class="line"><span class="javascript">  query.notEqualTo(<span class="string">&#x27;id&#x27;</span>,<span class="number">0</span>);</span></span><br><span class="line"><span class="javascript">  query.descending(<span class="string">&#x27;time&#x27;</span>);</span></span><br><span class="line">  query.limit(1000);</span><br><span class="line"><span class="javascript">  query.find().then(<span class="function"><span class="keyword">function</span> (<span class="params">todo</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="number">1000</span>;i++)&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> result=todo[i].attributes;</span></span><br><span class="line">      time=result.time;</span><br><span class="line">      title=result.title;</span><br><span class="line">      url=result.url;</span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> content=<span class="string">&quot;&lt;p&gt;&quot;</span>+<span class="string">&quot;&lt;font color=&#x27;#1C1C1C&#x27;&gt;&quot;</span>+<span class="string">&quot;【文章热度:&quot;</span>+time+<span class="string">&quot;℃】&quot;</span>+<span class="string">&quot;&lt;/font&gt;&quot;</span>+<span class="string">&quot;&lt;a href=&#x27;&quot;</span>+<span class="string">&quot;YOUR_URL&quot;</span>+url+<span class="string">&quot;&#x27;&gt;&quot;</span>+title+<span class="string">&quot;&lt;/a&gt;&quot;</span>+<span class="string">&quot;&lt;/p&gt;&quot;</span>;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">&quot;hot&quot;</span>).innerHTML+=content</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="javascript">  &#125;, <span class="function"><span class="keyword">function</span> (<span class="params">error</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">console</span>.log(<span class="string">&quot;error&quot;</span>);</span></span><br><span class="line">  &#125;);</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>将其中的<code>YOUR_APPID</code>和<code>YOUR_APPKEY</code>替换为 learncloud 的 id 和 key</p>
+<p>将<code>YOUR_URL</code>替换为你的博客地址，包含<code>协议</code>并以<code>/</code>结束，例如：<code>https://blog.qust.cc/</code></p>
+<h3 id="5-2-配置主题侧边栏"><a href="#5-2-配置主题侧边栏" class="headerlink" title="5.2 配置主题侧边栏"></a>5.2 配置主题侧边栏</h3><p>打开<code>主题配置</code>文件，搜索menu，添加</p>
+<p><code>hot: /hot/ || fa fa-thermometer-half</code></p>
+<p>图标预览：<i class="fa fa-thermometer-half" aria-hidden="true"></i></p>
+<p>或 <code>hot: /hot/ || fa fa-signal</code></p>
+<p>图标预览：<i class="fa fa-signal" aria-hidden="true"></i></p>
+<h3 id="5-3-配置侧边栏中文"><a href="#5-3-配置侧边栏中文" class="headerlink" title="5.3 配置侧边栏中文"></a>5.3 配置侧边栏中文</h3><p>打开<strong>hexo/theme/next/languages/zh-Hans.yml</strong>，搜索menu，添加<code>hot: 热度排行</code>即可汉化</p>
+<h1 id="6-异常"><a href="#6-异常" class="headerlink" title="6.异常"></a>6.异常</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TypeError: serverURL option is required for apps from CN region</span><br></pre></td></tr></table></figure>
+<p>没有设置server_url项，或者账户不是来自<a href="https://leancloud.cn/">https://leancloud.cn</a></p>
+]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -298,6 +455,87 @@
       <tags>
         <tag>罗马办事指南</tag>
         <tag>ATAC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>意大利罗马学生ISEE办理指南</title>
+    <url>/archives/58096.html</url>
+    <content><![CDATA[<h2 id="1-ISEE-是什么"><a href="#1-ISEE-是什么" class="headerlink" title="1. ISEE 是什么"></a>1. ISEE 是什么</h2><p>ISEE(经济状况等效指标)是一个家庭的济收入状况的评估证明，这份文件全意大利有效并 且是免费制作的。 </p>
+<h2 id="2-ISEE-有什么用"><a href="#2-ISEE-有什么用" class="headerlink" title="2. ISEE 有什么用"></a>2. ISEE 有什么用</h2><p>可以用ISEE 申请经济帮助以及减免公共服务的费用（比如：生育津贴、助学金、经济帮助、学校食堂、 托儿所等…）。</p>
+<h2 id="3-ISEE-有效期"><a href="#3-ISEE-有效期" class="headerlink" title="3. ISEE 有效期"></a>3. ISEE 有效期</h2><p>ISEE 的有效期是到次年的1月15日。 </p>
+<p>例如：你在2019年9月办理了ISEE ，有效期到2020年1月15日。</p>
+<a id="more"></a>
+
+<h2 id="4-ISEE怎么办理"><a href="#4-ISEE怎么办理" class="headerlink" title="4. ISEE怎么办理"></a>4. ISEE怎么办理</h2><h3 id="4-1-办理地点"><a href="#4-1-办理地点" class="headerlink" title="4.1 办理地点"></a>4.1 办理地点</h3><p>任意一家 CAF，推荐下边这个，材料简单</p>
+<blockquote>
+<p>CAF UIL di Roma e Provincia | Tuscolano<br>Via Ampio Flaviano, 16, 00175 Roma RM<br>06 9435 6253<br><a href="https://goo.gl/maps/qisRLkNj6h7H65zN9">https://goo.gl/maps/qisRLkNj6h7H65zN9</a></p>
+</blockquote>
+<h3 id="4-2-工作时间"><a href="#4-2-工作时间" class="headerlink" title="4.2 工作时间"></a>4.2 工作时间</h3><table>
+<thead>
+<tr>
+<th align="center">日期</th>
+<th align="center">工作时间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">星期一</td>
+<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
+</tr>
+<tr>
+<td align="center">星期二</td>
+<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
+</tr>
+<tr>
+<td align="center">星期三</td>
+<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
+</tr>
+<tr>
+<td align="center">星期四</td>
+<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
+</tr>
+<tr>
+<td align="center">星期五</td>
+<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
+</tr>
+<tr>
+<td align="center">星期六</td>
+<td align="center">休息</td>
+</tr>
+<tr>
+<td align="center">星期日</td>
+<td align="center">休息</td>
+</tr>
+</tbody></table>
+<h3 id="4-3-所需材料"><a href="#4-3-所需材料" class="headerlink" title="4.3 所需材料"></a>4.3 所需材料</h3><p>对于学生只需要提供：</p>
+<blockquote>
+<p>1：护照</p>
+<p>2：居留卡（没有可不提供）</p>
+<p>3：健康卡、税卡或税号单</p>
+<p>4：意大利银行卡 IBAN（没有可不提供）</p>
+<p>5：住址</p>
+<p>6：电话</p>
+</blockquote>
+<h3 id="4-4-办理流程"><a href="#4-4-办理流程" class="headerlink" title="4.4 办理流程"></a>4.4 办理流程</h3><h4 id="4-1-1-办理-ISEE"><a href="#4-1-1-办理-ISEE" class="headerlink" title="4.1.1 办理 ISEE"></a>4.1.1 办理 ISEE</h4><p>该 CAF 位于地铁 A 线 Giulio Agricola 附近，导航至4.4中所在的位置，就能看到这面旗子。</p>
+<img src="https://file.qust.cc/images/1909/20190917141058.png" width="512" />
+
+<p>进门右手边，屏幕上按下 ISEE 进行取号，等到叫号。</p>
+<p>叫号的过程中注意看最前面的字母，ISEE 的号都是以D 开头的。</p>
+<img src="https://file.qust.cc/images/1909/20190917141257.png" width="512"/>
+
+<p>给工作人员出事相关证件，不到10分钟即可办好，收好回执单。</p>
+<h4 id="4-1-1-领取-ISEE"><a href="#4-1-1-领取-ISEE" class="headerlink" title="4.1.1 领取 ISEE"></a>4.1.1 领取 ISEE</h4><p>ISEE 的办理需要一周的时间，在一周后凭证件领取即可。</p>
+<p>例如：周一办理了 ISEE，则在下周一即可领取。</p>
+<h2 id="5-关于使用-ISEE-减免学费"><a href="#5-关于使用-ISEE-减免学费" class="headerlink" title="5.关于使用 ISEE 减免学费"></a>5.关于使用 ISEE 减免学费</h2><p>ISEE 的本质类似于一份缴税报告，缴税低意味着家庭收入较低。而大部分留学生自己在意大利没有工作，父母亦在国内，所以在意大利的缴税为0，即 ISEE 上会显示0。</p>
+<p>罗马一大允许使用 ISEE 进行学费减免，但是只适用于意大利税收居民，留学生的 0元 ISEE 是不可以的。但是学校的审查工作并不严格，使得部分留学生使用 ISEE 成功减免约7成学费。但是这种行为并不合规，一旦被查到需要缴纳三倍的罚款。</p>
+<hr>
+<blockquote>
+<h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>
+]]></content>
+      <categories>
+        <category>呆利那些事</category>
+      </categories>
+      <tags>
+        <tag>罗马办事指南</tag>
       </tags>
   </entry>
   <entry>
@@ -497,13 +735,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 统计文章字数和计算阅读时间。</title>
+    <title>Hexo 统计文章字数和计算阅读时间</title>
     <url>/archives/20986.html</url>
     <content><![CDATA[<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>项目地址：<a href="https://github.com/theme-next/hexo-symbols-count-time">https://github.com/theme-next/hexo-symbols-count-time</a></p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time</span><br></pre></td></tr></table></figure>
 
 
-<h2 id="2-配置Hexo-config-yml"><a href="#2-配置Hexo-config-yml" class="headerlink" title="2.配置Hexo_config.yml"></a>2.配置Hexo<code>_config.yml</code></h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">	<span class="comment">#文章字数统计</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#文章时间计算</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br><span class="line">	<span class="comment">#站点总字数统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总时间计算</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#排除代码块</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">#平均字长</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">4</span></span><br><span class="line">  <span class="comment">#每分钟字数</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span></span><br><span class="line">  <span class="comment">#如果读取时间少于60分钟，请添加后缀作为字符串参数。</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">&quot;mins.&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="2-配置Hexo-config-yml"><a href="#2-配置Hexo-config-yml" class="headerlink" title="2.配置Hexo_config.yml"></a>2.配置Hexo<code>_config.yml</code></h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="comment">#文章字数统计</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#文章时间计算</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总字数统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总时间计算</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#排除代码块</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">#平均字长</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">4</span></span><br><span class="line">  <span class="comment">#每分钟字数</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span></span><br><span class="line">  <span class="comment">#如果读取时间少于60分钟，请添加后缀作为字符串参数。</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">&quot;mins.&quot;</span></span><br></pre></td></tr></table></figure>
 <p><strong>中国用户注意事项</strong>：因为中文的平均单词长度约为1.5，并且如果您大多数情况下都以中文撰写帖子（不使用混合英语），建议将<code>awl</code>设置为<code>2</code>，<code>wpm</code>设置为<code>300</code>。 但是，如果您通常将自己的帖子与英语混用，<code>awl</code>为<code>4</code>，<code>wpm</code>为<code>275</code>会很好。</p>
 ]]></content>
       <categories>
@@ -1084,244 +1322,6 @@
       </categories>
       <tags>
         <tag>签证</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo Next主题 使用LeanCloud统计文章阅读次数、添加热度排行页面</title>
-    <url>/archives/48665.html</url>
-    <content><![CDATA[<p>使用LeanCloud记录hexo文章的阅读量，next主题对LeanCloud进行了适配，只需简单的配置。</p>
-<p>本文综合参考了多篇文章以及自己的部署经历。并且修复了安全漏洞。</p>
-<a id="more"></a>
-
-<h1 id="1-注册-LeanCloud"><a href="#1-注册-LeanCloud" class="headerlink" title="1. 注册 LeanCloud"></a>1. 注册 LeanCloud</h1><p>详细注册步骤略</p>
-<h2 id="1-1-LeanCloud配置"><a href="#1-1-LeanCloud配置" class="headerlink" title="1.1 LeanCloud配置"></a>1.1 LeanCloud配置</h2><p>进入之后点击存储，创建Class，名称必须为<code>Counter</code>。</p>
-<p>ACL权限选择<code>无限制</code>，点击<code>创建Class</code>按钮。</p>
-<p>记录相关<code>App ID</code>和<code>App Key</code></p>
-<h2 id="1-2配置域名绑定"><a href="#1-2配置域名绑定" class="headerlink" title="1.2配置域名绑定"></a>1.2配置域名绑定</h2><p>前提：个人<code>已备案</code>域名</p>
-<p>进入LeanCloud<code>设置</code>-&gt;<code>域名绑定</code>-&gt;<code>API 访问域名</code>-&gt;<code>绑定新域名</code></p>
-<p>输入域名后配置CNAME解析</p>
-<p>系统会自动检测备案、解析、以及配置SSL证书</p>
-<h1 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h1><h2 id="2-1-主题配置"><a href="#2-1-主题配置" class="headerlink" title="2.1 主题配置"></a>2.1 主题配置</h2><p><strong>若同时安装了Valine评论系统会产生冲突，请参考：<a href="https://blog.qust.cc/archives/63320.html">Hexo Next阅读次数不正常、显示多个阅读次数</a></strong></p>
-<p>修改<code>主题配置</code>文件，修改以下字段，每一项都需要修改</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Show number of visitors to each article.</span></span><br><span class="line"><span class="comment"># You can visit https://leancloud.cn get AppID and AppKey.</span></span><br><span class="line"><span class="attr">leancloud_visitors:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="string">&lt;App</span> <span class="string">ID&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="string">&lt;App</span> <span class="string">Key&gt;</span></span><br><span class="line">  <span class="comment">#1.2中配置的域名</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="string">&lt;your</span> <span class="string">server</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="comment"># Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security</span></span><br><span class="line">  <span class="comment"># If you don&#x27;t care about security in lc counter and just want to use it directly</span></span><br><span class="line">  <span class="comment"># (without hexo-leancloud-counter-security plugin), set the `security` to `false`.</span></span><br><span class="line">  <span class="attr">security:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h2 id="2-2-站点配置"><a href="#2-2-站点配置" class="headerlink" title="2.2 站点配置"></a>2.2 站点配置</h2><p>打开<code>站点配置</code>文件，新增以下内容</p>
-<h3 id="2-2-1-配置安全访问"><a href="#2-2-1-配置安全访问" class="headerlink" title="2.2.1 配置安全访问"></a>2.2.1 配置安全访问</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">leancloud_counter_security:</span></span><br><span class="line">  <span class="attr">enable_sync:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="string">&lt;&lt;your</span> <span class="string">app</span> <span class="string">id&gt;&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="string">&lt;&lt;your</span> <span class="string">app</span> <span class="string">key&gt;</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="string">&lt;your</span> <span class="string">server</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="attr">username:</span> <span class="string">&lt;&lt;your</span> <span class="string">username&gt;&gt;</span></span><br><span class="line">  <span class="attr">password:</span> <span class="string">&lt;&lt;your</span> <span class="string">password&gt;&gt;</span></span><br></pre></td></tr></table></figure>
-<p>前两项的 id 与 key 为网站提供。后两项username和 password 自己定义。</p>
-<h3 id="2-2-2-配置deploy"><a href="#2-2-2-配置deploy" class="headerlink" title="2.2.2 配置deploy"></a>2.2.2 配置deploy</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">leancloud_counter_security_sync</span></span><br></pre></td></tr></table></figure>
-<p>注意：存在多项 deploy，需要在 type 前加上<code>-</code></p>
-<p>例如：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">		<span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">baidu_url_submitter</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">leancloud_counter_security_sync</span></span><br></pre></td></tr></table></figure>
-<h1 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h1><p>打开命令终端，切换到博客根目录。安装<code>hexo-leancloud-counter-security</code>插件</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-leancloud-counter-security --save</span><br></pre></td></tr></table></figure>
-<p>等待安装结束之后，注册一个用户</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo lc-counter r username password</span><br></pre></td></tr></table></figure>
-<p>这里的用户名和密码与<code>2.2.1</code>中配置的一致</p>
-<p>注：若出现异常，提示</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Error: Cannot find module &#x27;babel-runtime/regenerator&#x27;</span><br></pre></td></tr></table></figure>
-<p>可以运行</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm i babel-runtime --save</span><br></pre></td></tr></table></figure>
-<h1 id="4-部署云引擎以保证访客数量不被随意篡改"><a href="#4-部署云引擎以保证访客数量不被随意篡改" class="headerlink" title="4.部署云引擎以保证访客数量不被随意篡改"></a>4.部署云引擎以保证访客数量不被随意篡改</h1><p>依次点击左侧<code>云引擎</code> -&gt; <code>部署</code> -&gt; <code>在线编辑</code>：</p>
-<img src="https://file.qust.cc/images/2019-08-05-1.54.13.png" width="800" align="center" />
-
-<p>点击创建函数</p>
-<img src="https://file.qust.cc/images/2019-08-05-2.05.59.png" width="600" align="center" />
-
-<p>在弹出窗口选择<code>Hook</code>类型，在<code>选择 Hook</code>处选择<code>beforeUpdate</code>，在<code>选择 Class</code>处选择<code>Counter</code>类。粘贴下方代码后，点保存。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&quot;Counter&quot;</span>);</span><br><span class="line"><span class="keyword">if</span> (request.object.updatedKeys.indexOf(<span class="string">&#x27;time&#x27;</span>) !== -<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> query.get(request.object.id).then(<span class="function"><span class="keyword">function</span> (<span class="params">obj</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (obj.get(<span class="string">&quot;time&quot;</span>) + <span class="number">1</span> !== request.object.get(<span class="string">&quot;time&quot;</span>)) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> AV.Cloud.Error(<span class="string">&#x27;Invalid update!&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>然后单击<code>创建按钮</code>右侧的<code>部署</code> -&gt; <code>生产环境</code> -&gt; <code>部署</code></p>
-<p>待显示<code>部署完成：1 个实例部署成功</code>即可</p>
-<h1 id="5-添加热度排行页面"><a href="#5-添加热度排行页面" class="headerlink" title="5.添加热度排行页面"></a>5.添加热度排行页面</h1><h3 id="5-1-新建页面"><a href="#5-1-新建页面" class="headerlink" title="5.1 新建页面"></a>5.1 新建页面</h3><p>在博客目录下执行<code>hexo n page hot</code>新建一个hot页面，编辑其中的<code>index.md</code>文件，将其中的代码替换如下</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章热度排行</span><br><span class="line">date: 2019-08-14 10:29:51</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;hot&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript">AV.initialize(<span class="string">&quot;YOUR_APPID&quot;</span>, <span class="string">&quot;YOUR_APPKEY&quot;</span>);</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> time=<span class="number">0</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> title=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> url=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&#x27;Counter&#x27;</span>);</span></span><br><span class="line"><span class="javascript">  query.notEqualTo(<span class="string">&#x27;id&#x27;</span>,<span class="number">0</span>);</span></span><br><span class="line"><span class="javascript">  query.descending(<span class="string">&#x27;time&#x27;</span>);</span></span><br><span class="line">  query.limit(1000);</span><br><span class="line"><span class="javascript">  query.find().then(<span class="function"><span class="keyword">function</span> (<span class="params">todo</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="number">1000</span>;i++)&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> result=todo[i].attributes;</span></span><br><span class="line">      time=result.time;</span><br><span class="line">      title=result.title;</span><br><span class="line">      url=result.url;</span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> content=<span class="string">&quot;&lt;p&gt;&quot;</span>+<span class="string">&quot;&lt;font color=&#x27;#1C1C1C&#x27;&gt;&quot;</span>+<span class="string">&quot;【文章热度:&quot;</span>+time+<span class="string">&quot;℃】&quot;</span>+<span class="string">&quot;&lt;/font&gt;&quot;</span>+<span class="string">&quot;&lt;a href=&#x27;&quot;</span>+<span class="string">&quot;YOUR_URL&quot;</span>+url+<span class="string">&quot;&#x27;&gt;&quot;</span>+title+<span class="string">&quot;&lt;/a&gt;&quot;</span>+<span class="string">&quot;&lt;/p&gt;&quot;</span>;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">&quot;hot&quot;</span>).innerHTML+=content</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="javascript">  &#125;, <span class="function"><span class="keyword">function</span> (<span class="params">error</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">console</span>.log(<span class="string">&quot;error&quot;</span>);</span></span><br><span class="line">  &#125;);</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>将其中的<code>YOUR_APPID</code>和<code>YOUR_APPKEY</code>替换为 learncloud 的 id 和 key</p>
-<p>将<code>YOUR_URL</code>替换为你的博客地址，包含<code>协议</code>并以<code>/</code>结束，例如：<code>https://blog.qust.cc/</code></p>
-<h3 id="5-2-配置主题侧边栏"><a href="#5-2-配置主题侧边栏" class="headerlink" title="5.2 配置主题侧边栏"></a>5.2 配置主题侧边栏</h3><p>打开<code>主题配置</code>文件，搜索menu，添加</p>
-<p><code>hot: /hot/ || fa fa-thermometer-half</code></p>
-<p>图标预览：<i class="fa fa-thermometer-half" aria-hidden="true"></i></p>
-<p>或 <code>hot: /hot/ || fa fa-signal</code></p>
-<p>图标预览：<i class="fa fa-signal" aria-hidden="true"></i></p>
-<h3 id="5-3-配置侧边栏中文"><a href="#5-3-配置侧边栏中文" class="headerlink" title="5.3 配置侧边栏中文"></a>5.3 配置侧边栏中文</h3><p>打开<strong>hexo/theme/next/languages/zh-Hans.yml</strong>，搜索menu，添加<code>hot: 热度排行</code>即可汉化</p>
-<h1 id="6-异常"><a href="#6-异常" class="headerlink" title="6.异常"></a>6.异常</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TypeError: serverURL option is required for apps from CN region</span><br></pre></td></tr></table></figure>
-<p>没有设置server_url项，或者账户不是来自<a href="https://leancloud.cn/">https://leancloud.cn</a></p>
-]]></content>
-      <categories>
-        <category>Hexo折腾</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>意大利罗马学生ISEE办理指南</title>
-    <url>/archives/58096.html</url>
-    <content><![CDATA[<h2 id="1-ISEE-是什么"><a href="#1-ISEE-是什么" class="headerlink" title="1. ISEE 是什么"></a>1. ISEE 是什么</h2><p>ISEE(经济状况等效指标)是一个家庭的济收入状况的评估证明，这份文件全意大利有效并 且是免费制作的。 </p>
-<h2 id="2-ISEE-有什么用"><a href="#2-ISEE-有什么用" class="headerlink" title="2. ISEE 有什么用"></a>2. ISEE 有什么用</h2><p>可以用ISEE 申请经济帮助以及减免公共服务的费用（比如：生育津贴、助学金、经济帮助、学校食堂、 托儿所等…）。</p>
-<h2 id="3-ISEE-有效期"><a href="#3-ISEE-有效期" class="headerlink" title="3. ISEE 有效期"></a>3. ISEE 有效期</h2><p>ISEE 的有效期是到次年的1月15日。 </p>
-<p>例如：你在2019年9月办理了ISEE ，有效期到2020年1月15日。</p>
-<a id="more"></a>
-
-<h2 id="4-ISEE怎么办理"><a href="#4-ISEE怎么办理" class="headerlink" title="4. ISEE怎么办理"></a>4. ISEE怎么办理</h2><h3 id="4-1-办理地点"><a href="#4-1-办理地点" class="headerlink" title="4.1 办理地点"></a>4.1 办理地点</h3><p>任意一家 CAF，推荐下边这个，材料简单</p>
-<blockquote>
-<p>CAF UIL di Roma e Provincia | Tuscolano<br>Via Ampio Flaviano, 16, 00175 Roma RM<br>06 9435 6253<br><a href="https://goo.gl/maps/qisRLkNj6h7H65zN9">https://goo.gl/maps/qisRLkNj6h7H65zN9</a></p>
-</blockquote>
-<h3 id="4-2-工作时间"><a href="#4-2-工作时间" class="headerlink" title="4.2 工作时间"></a>4.2 工作时间</h3><table>
-<thead>
-<tr>
-<th align="center">日期</th>
-<th align="center">工作时间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">星期一</td>
-<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
-</tr>
-<tr>
-<td align="center">星期二</td>
-<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
-</tr>
-<tr>
-<td align="center">星期三</td>
-<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
-</tr>
-<tr>
-<td align="center">星期四</td>
-<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
-</tr>
-<tr>
-<td align="center">星期五</td>
-<td align="center">上午：09:30–13:00  下午：15:00–18:30</td>
-</tr>
-<tr>
-<td align="center">星期六</td>
-<td align="center">休息</td>
-</tr>
-<tr>
-<td align="center">星期日</td>
-<td align="center">休息</td>
-</tr>
-</tbody></table>
-<h3 id="4-3-所需材料"><a href="#4-3-所需材料" class="headerlink" title="4.3 所需材料"></a>4.3 所需材料</h3><p>对于学生只需要提供：</p>
-<blockquote>
-<p>1：护照</p>
-<p>2：居留卡（没有可不提供）</p>
-<p>3：健康卡、税卡或税号单</p>
-<p>4：意大利银行卡 IBAN（没有可不提供）</p>
-<p>5：住址</p>
-<p>6：电话</p>
-</blockquote>
-<h3 id="4-4-办理流程"><a href="#4-4-办理流程" class="headerlink" title="4.4 办理流程"></a>4.4 办理流程</h3><h4 id="4-1-1-办理-ISEE"><a href="#4-1-1-办理-ISEE" class="headerlink" title="4.1.1 办理 ISEE"></a>4.1.1 办理 ISEE</h4><p>该 CAF 位于地铁 A 线 Giulio Agricola 附近，导航至4.4中所在的位置，就能看到这面旗子。</p>
-<img src="https://file.qust.cc/images/1909/20190917141058.png" width="512" />
-
-<p>进门右手边，屏幕上按下 ISEE 进行取号，等到叫号。</p>
-<p>叫号的过程中注意看最前面的字母，ISEE 的号都是以D 开头的。</p>
-<img src="https://file.qust.cc/images/1909/20190917141257.png" width="512"/>
-
-<p>给工作人员出事相关证件，不到10分钟即可办好，收好回执单。</p>
-<h4 id="4-1-1-领取-ISEE"><a href="#4-1-1-领取-ISEE" class="headerlink" title="4.1.1 领取 ISEE"></a>4.1.1 领取 ISEE</h4><p>ISEE 的办理需要一周的时间，在一周后凭证件领取即可。</p>
-<p>例如：周一办理了 ISEE，则在下周一即可领取。</p>
-<h2 id="5-关于使用-ISEE-减免学费"><a href="#5-关于使用-ISEE-减免学费" class="headerlink" title="5.关于使用 ISEE 减免学费"></a>5.关于使用 ISEE 减免学费</h2><p>ISEE 的本质类似于一份缴税报告，缴税低意味着家庭收入较低。而大部分留学生自己在意大利没有工作，父母亦在国内，所以在意大利的缴税为0，即 ISEE 上会显示0。</p>
-<p>罗马一大允许使用 ISEE 进行学费减免，但是只适用于意大利税收居民，留学生的 0元 ISEE 是不可以的。但是学校的审查工作并不严格，使得部分留学生使用 ISEE 成功减免约7成学费。但是这种行为并不合规，一旦被查到需要缴纳三倍的罚款。</p>
-<hr>
-<blockquote>
-<h3 id="其他文章请点击：罗马办事指南"><a href="#其他文章请点击：罗马办事指南" class="headerlink" title="其他文章请点击：罗马办事指南"></a><strong>其他文章请点击：<a href="https://blog.qust.cc/tags/publicaffairs/">罗马办事指南</a></strong></h3></blockquote>
-]]></content>
-      <categories>
-        <category>呆利那些事</category>
-      </categories>
-      <tags>
-        <tag>罗马办事指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo 本地搜索数据生成插件</title>
-    <url>/archives/52651.html</url>
-    <content><![CDATA[<p>该插件用于生成搜索索引文件，其中包含文章的所有必要数据，可用于为博客编写本地搜索引擎。支持XML和JSON格式输出。</p>
-<p>Github地址：<a href="https://github.com/theme-next/hexo-generator-searchdb">https://github.com/theme-next/hexo-generator-searchdb</a></p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-generator-searchdb --save</code></p>
-<h3 id="编辑站点配置文件"><a href="#编辑站点配置文件" class="headerlink" title="编辑站点配置文件"></a>编辑<code>站点</code>配置文件</h3><p>新增以下内容</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-<h3 id="编辑主题配置文件"><a href="#编辑主题配置文件" class="headerlink" title="编辑主题配置文件"></a>编辑<code>主题</code>配置文件</h3><p>修改以下内容</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo折腾</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hxeo 文章TOC目录生成插件</title>
-    <url>/archives/59572.html</url>
-    <content><![CDATA[<p>此插件可以在呈现帖子之前插入markdown TOC目录</p>
-<p>Github地址：<a href="https://github.com/bubkoo/hexo-toc">https://github.com/bubkoo/hexo-toc</a></p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-toc --save</code></p>
-<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>在博客根目录下的<code>_config.yml</code>中如下配置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">maxdepth:</span> <span class="number">3</span></span><br><span class="line">  <span class="attr">class:</span> <span class="string">toc</span></span><br><span class="line">  <span class="attr">slugify:</span> <span class="string">transliteration</span></span><br><span class="line">  <span class="attr">decodeEntities:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">anchor:</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">after</span></span><br><span class="line">    <span class="attr">symbol:</span> <span class="string">&#x27;#&#x27;</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">header-anchor</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><code>maxDepth</code> 表示目录深度为3，即最多生成三级目录。</p>
-</blockquote>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在Markdown中需要显示文章目录的地方添加 <code>&lt;!-- ttoc --&gt;</code></p>
-<p>为防止系统误识别，使用时请将<code>ttoc</code>改为<code>toc</code></p>
-<h3 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h3><p>由于Next已内置TOC且本插件会导致目录无法成功跳转，建议直接卸载</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm remove hexo-toc --save</span><br></pre></td></tr></table></figure>
-<p>删除<code>_config.yml</code>中的配置文件</p>
-]]></content>
-      <categories>
-        <category>Hexo折腾</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo 发布blog到腾讯云cos</title>
-    <url>/archives/31621.html</url>
-    <content><![CDATA[<p>安装<code>hexo-deployer-cos</code>插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-cos --save</span><br></pre></td></tr></table></figure>
-<p>打开博客根目录的<code>_config.yml</code>配置文件，将原来的<code>deploy</code>替换为下面的内容：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span> </span><br><span class="line">  <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">  <span class="attr">appId:</span> <span class="string">yourAPPID</span></span><br><span class="line">  <span class="attr">secretId:</span> <span class="string">yourSecretId</span></span><br><span class="line">  <span class="attr">secretKey:</span> <span class="string">yourSecretKey</span></span><br><span class="line">  <span class="attr">bucket:</span> <span class="string">yourBucketName-yourAPPID</span></span><br><span class="line">  <span class="attr">region:</span> <span class="string">yourRegion</span></span><br></pre></td></tr></table></figure>
-<p>部署</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo折腾</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo 头像设置</title>
-    <url>/archives/50370.html</url>
-    <content><![CDATA[<h3 id="添加头像"><a href="#添加头像" class="headerlink" title="添加头像"></a>添加头像</h3><p>编辑主题的 <code>_config.yml</code>，修改字段 <code>avatar</code>， 的<code>url</code>值设置成头像的链接地址。</p>
-<p>其中，头像的链接地址可以是：</p>
-<p>1.完整的互联网 URL</p>
-<p>2.站点内的地址，例如：</p>
-<ul>
-<li><code>/uploads/avatar.jpg</code>需要将你的头像图片放置在<code>站点</code>的 <code>source/uploads/</code>（可能需要新建uploads目录）</li>
-<li><code>/images/avatar.jpg</code>需要将你的头像图片放置在<code>主题</code>的 <code>source/images/</code> 目录下。</li>
-</ul>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="comment"># 头像位置</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/avatar.jpg</span></span><br><span class="line">  <span class="comment"># 如果为真, 头像将以圆形显示。</span></span><br><span class="line">  <span class="attr">rounded:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 如果为真, 头像将随着光标旋转。</span></span><br><span class="line">  <span class="attr">rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h3 id="圆形、旋转特效（新版已无需修改代码）"><a href="#圆形、旋转特效（新版已无需修改代码）" class="headerlink" title="圆形、旋转特效（新版已无需修改代码）"></a>圆形、旋转特效（新版已无需修改代码）</h3><p>修改文件<code>/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="comment">/* 头像圆形样式 */</span></span><br><span class="line">  <span class="comment">/* start */</span></span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span></span><br><span class="line">  webkit-transition: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">moz-transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">ms-transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="comment">/* end */</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-name</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: $site-author-name-margin;</span><br><span class="line">  <span class="attribute">text-align</span>: $site-author-name-align;</span><br><span class="line">  <span class="attribute">color</span>: $site-author-name-color;</span><br><span class="line">  <span class="attribute">font-weight</span>: $site-author-name-weight;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-description</span> &#123;</span><br><span class="line">  <span class="attribute">margin-top</span>: $site-description-margin-top;</span><br><span class="line">  <span class="attribute">text-align</span>: $site-description-align;</span><br><span class="line">  <span class="attribute">font-size</span>: $site-description-font-size;</span><br><span class="line">  <span class="attribute">color</span>: $site-description-color;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* 头像旋转事件 */</span></span><br><span class="line"><span class="comment">/* start */</span></span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#55DAE1</span>;</span><br><span class="line">  <span class="attribute">webkit-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">moz-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">ms-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* end */</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo折腾</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo Next 修改中文不生效</title>
-    <url>/archives/46153.html</url>
-    <content><![CDATA[<p>修改站点语言需要修站点目录下<code>_config.yml</code>中的<code>language</code>，设置的值要根据主题文件选择。</p>
-<p>以next主题为例，检查<code>theme/next/languages/</code>目录可以看到中文存放于<code>zh-CN.yml</code>文件，所以上方配置修改为：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-CN.yml</span></span><br></pre></td></tr></table></figure>
-<p>若为<code>zh-Hans.yml</code>则赋值<code>zh-Hans</code></p>
-]]></content>
-      <categories>
-        <category>Hexo折腾</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>

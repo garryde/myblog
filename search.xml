@@ -141,6 +141,7 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>LeanCloud</tag>
       </tags>
   </entry>
   <entry>
@@ -257,6 +258,7 @@
 <p>例如：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">		<span class="string">··············</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">baidu_url_submitter</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">leancloud_counter_security_sync</span></span><br></pre></td></tr></table></figure>
 <h1 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h1><p>打开命令终端，切换到博客根目录。安装<code>hexo-leancloud-counter-security</code>插件</p>
+<p>项目地址：<a href="https://github.com/theme-next/hexo-symbols-count-time">https://github.com/theme-next/hexo-symbols-count-time</a></p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-leancloud-counter-security --save</span><br></pre></td></tr></table></figure>
 <p>等待安装结束之后，注册一个用户</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo lc-counter r username password</span><br></pre></td></tr></table></figure>
@@ -993,6 +995,7 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>LeanCloud</tag>
       </tags>
   </entry>
   <entry>

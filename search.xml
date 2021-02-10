@@ -26,11 +26,11 @@
 <h3 id="3-2-申请表"><a href="#3-2-申请表" class="headerlink" title="3.2 申请表"></a>3.2 申请表</h3><p>该申请表现场会提供，可当场填写。亦可自己提前完成，加快办理速度。</p>
 <p>（现场工作人员给完申请表后就会给第二个号，有可能申请表没有填完，但是已经叫号的情况，会比较仓促）</p>
 <p>以下是意大利语版本的填写说明，英文版本的每个空的位置都是一样的。</p>
-<img src="https://file.qust.cc/images/1909/20190917164736.jpg" width="430" />
+<img src="https://files.garryde.com/images/1909/20190917164736.jpg" width="430" />
 
 <p>申请表下载地址：</p>
-<p>意大利语版申请表：<a href="https://file.qust.cc/files/17947/Mod.Richiesta%20codice%20fiscale.pdf">点击下载：Mod.Richiesta codice fiscale.pdf</a></p>
-<p>英文版申请表：<a href="https://file.qust.cc/files/17947/Form%20Tax%20Code.pdf">点击下载：Form Tax Code.pdf</a></p>
+<p>意大利语版申请表：<a href="https://files.garryde.com/files/17947/Mod.Richiesta%20codice%20fiscale.pdf">点击下载：Mod.Richiesta codice fiscale.pdf</a></p>
+<p>英文版申请表：<a href="https://files.garryde.com/files/17947/Form%20Tax%20Code.pdf">点击下载：Form Tax Code.pdf</a></p>
 <p>该申请表的 PDF 为可编辑版本。下载后，可使用 PDF 编辑器直接在表单上进行填写，填写完成后，打印签字即可。</p>
 <h2 id="4-办理流程"><a href="#4-办理流程" class="headerlink" title="4. 办理流程"></a>4. 办理流程</h2><blockquote>
 <p>全程会有两次叫号</p>
@@ -155,7 +155,7 @@
 <h2 id="4-配置"><a href="#4-配置" class="headerlink" title="4.配置"></a>4.配置</h2><p>打开<code>config.yml</code>，修改<code>permalink</code>中类似这样</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">posts/archives/:abbrlink.html/</span></span><br></pre></td></tr></table></figure>
 <p>样例</p>
-<p><a href="https://blog.qust.cc/archives/56901.html">https://blog.qust.cc/archives/56901.html</a></p>
+<p><a href="https://blog.garryde.com/archives/56901.html">https://blog.garryde.com/archives/56901.html</a></p>
 <h2 id="5-使用"><a href="#5-使用" class="headerlink" title="5.使用"></a>5.使用</h2><p>在文章初次被运行Generat的时候，会在顶部生成一个<code>abbrlink:</code>项，此即为固定的访问链接。</p>
 <h2 id="6-异常排除"><a href="#6-异常排除" class="headerlink" title="6.异常排除"></a>6.异常排除</h2><p>可能遇到不能生成链接的情况，执行</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
@@ -246,7 +246,7 @@
 <p>进入LeanCloud<code>设置</code>-&gt;<code>域名绑定</code>-&gt;<code>API 访问域名</code>-&gt;<code>绑定新域名</code></p>
 <p>输入域名后配置CNAME解析</p>
 <p>系统会自动检测备案、解析、以及配置SSL证书</p>
-<h1 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h1><h2 id="2-1-主题配置"><a href="#2-1-主题配置" class="headerlink" title="2.1 主题配置"></a>2.1 主题配置</h2><p><strong>若同时安装了Valine评论系统会产生冲突，请参考：<a href="https://blog.qust.cc/archives/63320.html">Hexo Next阅读次数不正常、显示多个阅读次数</a></strong></p>
+<h1 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h1><h2 id="2-1-主题配置"><a href="#2-1-主题配置" class="headerlink" title="2.1 主题配置"></a>2.1 主题配置</h2><p><strong>若同时安装了Valine评论系统会产生冲突，请参考：<a href="https://blog.garryde.com/archives/63320.html">Hexo Next阅读次数不正常、显示多个阅读次数</a></strong></p>
 <p>修改<code>主题配置</code>文件，修改以下字段，每一项都需要修改</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Show number of visitors to each article.</span></span><br><span class="line"><span class="comment"># You can visit https://leancloud.cn get AppID and AppKey.</span></span><br><span class="line"><span class="attr">leancloud_visitors:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="string">&lt;App</span> <span class="string">ID&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="string">&lt;App</span> <span class="string">Key&gt;</span></span><br><span class="line">  <span class="comment">#1.2中配置的域名</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="string">&lt;your</span> <span class="string">server</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="comment"># Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security</span></span><br><span class="line">  <span class="comment"># If you don&#x27;t care about security in lc counter and just want to use it directly</span></span><br><span class="line">  <span class="comment"># (without hexo-leancloud-counter-security plugin), set the `security` to `false`.</span></span><br><span class="line">  <span class="attr">security:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 <h2 id="2-2-站点配置"><a href="#2-2-站点配置" class="headerlink" title="2.2 站点配置"></a>2.2 站点配置</h2><p>打开<code>站点配置</code>文件，新增以下内容</p>
@@ -266,10 +266,10 @@
 <p>可以运行</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm i babel-runtime --save</span><br></pre></td></tr></table></figure>
 <h1 id="4-部署云引擎以保证访客数量不被随意篡改"><a href="#4-部署云引擎以保证访客数量不被随意篡改" class="headerlink" title="4.部署云引擎以保证访客数量不被随意篡改"></a>4.部署云引擎以保证访客数量不被随意篡改</h1><p>依次点击左侧<code>云引擎</code> -&gt; <code>部署</code> -&gt; <code>在线编辑</code>：</p>
-<img src="https://file.qust.cc/images/2019-08-05-1.54.13.png" width="800" align="center" />
+<img src="https://files.garryde.com/images/2019-08-05-1.54.13.png" width="800" align="center" />
 
 <p>点击创建函数</p>
-<img src="https://file.qust.cc/images/2019-08-05-2.05.59.png" width="600" align="center" />
+<img src="https://files.garryde.com/images/2019-08-05-2.05.59.png" width="600" align="center" />
 
 <p>在弹出窗口选择<code>Hook</code>类型，在<code>选择 Hook</code>处选择<code>beforeUpdate</code>，在<code>选择 Class</code>处选择<code>Counter</code>类。粘贴下方代码后，点保存。</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&quot;Counter&quot;</span>);</span><br><span class="line"><span class="keyword">if</span> (request.object.updatedKeys.indexOf(<span class="string">&#x27;time&#x27;</span>) !== -<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> query.get(request.object.id).then(<span class="function"><span class="keyword">function</span> (<span class="params">obj</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (obj.get(<span class="string">&quot;time&quot;</span>) + <span class="number">1</span> !== request.object.get(<span class="string">&quot;time&quot;</span>)) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> AV.Cloud.Error(<span class="string">&#x27;Invalid update!&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -278,7 +278,7 @@
 <h1 id="5-添加热度排行页面"><a href="#5-添加热度排行页面" class="headerlink" title="5.添加热度排行页面"></a>5.添加热度排行页面</h1><h3 id="5-1-新建页面"><a href="#5-1-新建页面" class="headerlink" title="5.1 新建页面"></a>5.1 新建页面</h3><p>在博客目录下执行<code>hexo n page hot</code>新建一个hot页面，编辑其中的<code>index.md</code>文件，将其中的代码替换如下</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章热度排行</span><br><span class="line">date: 2019-08-14 10:29:51</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;hot&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript">AV.initialize(<span class="string">&quot;YOUR_APPID&quot;</span>, <span class="string">&quot;YOUR_APPKEY&quot;</span>);</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> time=<span class="number">0</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> title=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> url=<span class="string">&quot;&quot;</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> query = <span class="keyword">new</span> AV.Query(<span class="string">&#x27;Counter&#x27;</span>);</span></span><br><span class="line"><span class="javascript">  query.notEqualTo(<span class="string">&#x27;id&#x27;</span>,<span class="number">0</span>);</span></span><br><span class="line"><span class="javascript">  query.descending(<span class="string">&#x27;time&#x27;</span>);</span></span><br><span class="line">  query.limit(1000);</span><br><span class="line"><span class="javascript">  query.find().then(<span class="function"><span class="keyword">function</span> (<span class="params">todo</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="number">1000</span>;i++)&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> result=todo[i].attributes;</span></span><br><span class="line">      time=result.time;</span><br><span class="line">      title=result.title;</span><br><span class="line">      url=result.url;</span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> content=<span class="string">&quot;&lt;p&gt;&quot;</span>+<span class="string">&quot;&lt;font color=&#x27;#1C1C1C&#x27;&gt;&quot;</span>+<span class="string">&quot;【文章热度:&quot;</span>+time+<span class="string">&quot;℃】&quot;</span>+<span class="string">&quot;&lt;/font&gt;&quot;</span>+<span class="string">&quot;&lt;a href=&#x27;&quot;</span>+<span class="string">&quot;YOUR_URL&quot;</span>+url+<span class="string">&quot;&#x27;&gt;&quot;</span>+title+<span class="string">&quot;&lt;/a&gt;&quot;</span>+<span class="string">&quot;&lt;/p&gt;&quot;</span>;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">document</span>.getElementById(<span class="string">&quot;hot&quot;</span>).innerHTML+=content</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="javascript">  &#125;, <span class="function"><span class="keyword">function</span> (<span class="params">error</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">console</span>.log(<span class="string">&quot;error&quot;</span>);</span></span><br><span class="line">  &#125;);</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>将其中的<code>YOUR_APPID</code>和<code>YOUR_APPKEY</code>替换为 learncloud 的 id 和 key</p>
-<p>将<code>YOUR_URL</code>替换为你的博客地址，包含<code>协议</code>并以<code>/</code>结束，例如：<code>https://blog.qust.cc/</code></p>
+<p>将<code>YOUR_URL</code>替换为你的博客地址，包含<code>协议</code>并以<code>/</code>结束，例如：<code>https://blog.garryde.com/</code></p>
 <h3 id="5-2-配置主题侧边栏"><a href="#5-2-配置主题侧边栏" class="headerlink" title="5.2 配置主题侧边栏"></a>5.2 配置主题侧边栏</h3><p>打开<code>主题配置</code>文件，搜索menu，添加</p>
 <p><code>hot: /hot/ || fa fa-thermometer-half</code></p>
 <p>图标预览：<i class="fa fa-thermometer-half" aria-hidden="true"></i></p>
@@ -342,7 +342,7 @@
 
 <h2 id="2-青年和学生年卡"><a href="#2-青年和学生年卡" class="headerlink" title="2. 青年和学生年卡"></a>2. 青年和学生年卡</h2><blockquote>
 <p>参考信息： <a href="https://www.atac.roma.it/function/pg_metrebus.asp?t=1&p=14&r=689&i=0">ATAC官网：青年和学生年卡</a></p>
-<p>ISEE 相关信息：<a href="https://blog.qust.cc/archives/58096.html">意大利罗马学生ISEE办理指南</a></p>
+<p>ISEE 相关信息：<a href="https://blog.garryde.com/archives/58096.html">意大利罗马学生ISEE办理指南</a></p>
 </blockquote>
 <h3 id="2-1-办理要求及所需材料"><a href="#2-1-办理要求及所需材料" class="headerlink" title="2.1 办理要求及所需材料"></a>2.1 办理要求及所需材料</h3><p>前置条件：小于26周岁</p>
 <h4 id="1-Roma-Capitale居民"><a href="#1-Roma-Capitale居民" class="headerlink" title="1) Roma Capitale居民"></a>1) Roma Capitale居民</h4><p><strong>所需材料：</strong></p>
@@ -397,9 +397,9 @@
 <p>ABBONAMENTO ANNUALE GIOVANI E STUDENTI申请表</p>
 </blockquote>
 <p>奖学金获得者并不要求是罗马居民，所以可以直接使用护照办理。</p>
-<h3 id="2-2-《ABBONAMENTO-ANNUALE-GIOVANI-E-STUDENTI》填写说明"><a href="#2-2-《ABBONAMENTO-ANNUALE-GIOVANI-E-STUDENTI》填写说明" class="headerlink" title="2.2 《ABBONAMENTO ANNUALE GIOVANI E STUDENTI》填写说明"></a>2.2 《ABBONAMENTO ANNUALE GIOVANI E STUDENTI》填写说明</h3><img src="https://file.qust.cc/images/1909/20190920155137.jpg" width="512" />
+<h3 id="2-2-《ABBONAMENTO-ANNUALE-GIOVANI-E-STUDENTI》填写说明"><a href="#2-2-《ABBONAMENTO-ANNUALE-GIOVANI-E-STUDENTI》填写说明" class="headerlink" title="2.2 《ABBONAMENTO ANNUALE GIOVANI E STUDENTI》填写说明"></a>2.2 《ABBONAMENTO ANNUALE GIOVANI E STUDENTI》填写说明</h3><img src="https://files.garryde.com/images/1909/20190920155137.jpg" width="512" />
 
-<p>建议提前下载打印填写申请表：<a href="https://file.qust.cc/files/48329/ABBONAMENTO%20ANNUALE%20GIOVANI%20E%20STUDENTI.pdf">ABBONAMENTO ANNUALE GIOVANI E STUDENTI</a></p>
+<p>建议提前下载打印填写申请表：<a href="https://files.garryde.com/files/48329/ABBONAMENTO%20ANNUALE%20GIOVANI%20E%20STUDENTI.pdf">ABBONAMENTO ANNUALE GIOVANI E STUDENTI</a></p>
 <h2 id="3-全价年卡"><a href="#3-全价年卡" class="headerlink" title="3. 全价年卡"></a>3. 全价年卡</h2><blockquote>
 <p>没有居留卡（第一年的新生）或超过26周岁的人，请直接办理全价年卡</p>
 </blockquote>
@@ -408,9 +408,9 @@
 <p>意大利身份证/护照/居留卡原件+复印件</p>
 <p>MODULO RICHIESTA METREBUS CARD申请表</p>
 </blockquote>
-<h3 id="3-2-《MODULO-RICHIESTA-METREBUS-CARD》填写说明"><a href="#3-2-《MODULO-RICHIESTA-METREBUS-CARD》填写说明" class="headerlink" title="3.2 《MODULO RICHIESTA METREBUS CARD》填写说明"></a>3.2 《MODULO RICHIESTA METREBUS CARD》填写说明</h3><img src="https://file.qust.cc/images/1909/20190920010203.jpg" width="512" />
+<h3 id="3-2-《MODULO-RICHIESTA-METREBUS-CARD》填写说明"><a href="#3-2-《MODULO-RICHIESTA-METREBUS-CARD》填写说明" class="headerlink" title="3.2 《MODULO RICHIESTA METREBUS CARD》填写说明"></a>3.2 《MODULO RICHIESTA METREBUS CARD》填写说明</h3><img src="https://files.garryde.com/images/1909/20190920010203.jpg" width="512" />
 
-<p>建议提前下载打印填写申请表：<a href="https://file.qust.cc/files/48329/MODULO%20RICHIESTA%20METREBUS%20CARD.pdf">MODULO RICHIESTA METREBUS CARD</a></p>
+<p>建议提前下载打印填写申请表：<a href="https://files.garryde.com/files/48329/MODULO%20RICHIESTA%20METREBUS%20CARD.pdf">MODULO RICHIESTA METREBUS CARD</a></p>
 ]]></content>
       <categories>
         <category>呆利那些事</category>
@@ -433,15 +433,15 @@
 <a id="more"></a>
 
 <h2 id="3-办理流程"><a href="#3-办理流程" class="headerlink" title="3. 办理流程"></a>3. 办理流程</h2><p>网页中填写相关信息，卡号为卡片背面圈中数字</p>
-<img src="https://file.qust.cc/images/1909/20190917233402.png" width="512" />
+<img src="https://files.garryde.com/images/1909/20190917233402.png" width="512" />
 
-<img src="https://file.qust.cc/images/1909/20190917233054.png" width="512" />
+<img src="https://files.garryde.com/images/1909/20190917233054.png" width="512" />
 
 <p>单击 <strong>Invia</strong> 进入下一步，选择续费的种类，我们以常见的250欧元每年的罗马交通卡年卡为例，单击红框中的 <strong>Seleziona</strong></p>
-<img src="https://file.qust.cc/images/1909/20190917233853.png" width="512" />
+<img src="https://files.garryde.com/images/1909/20190917233853.png" width="512" />
 
 <p>核实卡片信息，选择自己的支付方式，支持VISA、MasterCard、AmericanEXPRESS，PayPal 等。单击 <strong>Invia</strong>，完成相关支付即可。</p>
-<img src="https://file.qust.cc/images/1909/20190917234125.png" width="512" />
+<img src="https://files.garryde.com/images/1909/20190917234125.png" width="512" />
 ]]></content>
       <categories>
         <category>呆利那些事</category>
@@ -512,11 +512,11 @@
 <p>6：电话</p>
 </blockquote>
 <h3 id="4-4-办理流程"><a href="#4-4-办理流程" class="headerlink" title="4.4 办理流程"></a>4.4 办理流程</h3><h4 id="4-1-1-办理-ISEE"><a href="#4-1-1-办理-ISEE" class="headerlink" title="4.1.1 办理 ISEE"></a>4.1.1 办理 ISEE</h4><p>该 CAF 位于地铁 A 线 Giulio Agricola 附近，导航至4.4中所在的位置，就能看到这面旗子。</p>
-<img src="https://file.qust.cc/images/1909/20190917141058.png" width="512" />
+<img src="https://files.garryde.com/images/1909/20190917141058.png" width="512" />
 
 <p>进门右手边，屏幕上按下 ISEE 进行取号，等到叫号。</p>
 <p>叫号的过程中注意看最前面的字母，ISEE 的号都是以D 开头的。</p>
-<img src="https://file.qust.cc/images/1909/20190917141257.png" width="512"/>
+<img src="https://files.garryde.com/images/1909/20190917141257.png" width="512"/>
 
 <p>给工作人员出事相关证件，不到10分钟即可办好，收好回执单。</p>
 <h4 id="4-1-1-领取-ISEE"><a href="#4-1-1-领取-ISEE" class="headerlink" title="4.1.1 领取 ISEE"></a>4.1.1 领取 ISEE</h4><p>ISEE 的办理需要一周的时间，在一周后凭证件领取即可。</p>
@@ -579,12 +579,12 @@
 <p>iscrizione volontaria al Servizio Sanitario Nazionale</p>
 </blockquote>
 <p>缴费单可按照下图所示填写：</p>
-<img src="https://file.qust.cc/images/1909/20190917193509.jpg" width="1024" />
+<img src="https://files.garryde.com/images/1909/20190917193509.jpg" width="1024" />
 
 <p>总付款金额为：149.77(SSN注册费)+1.5(邮局手续费)=151.27欧元</p>
 <p>上方为三联缴费单，缴费单的左侧两联相当于两份缴费单原件，最左侧可以剪裁下当做原件上交</p>
 <p>家里有打印机的同学可以下载下方二联缴费单的可编辑版本，填入正确个人信息后A4纸打印，裁剪到合适的尺寸即可到邮局缴费，无需手填（嗯，我就是这么懒）</p>
-<p><a href="https://file.qust.cc/files/46261/Boll_post_due_sez_149.77.pdf">点击下载：Boll_post_tre_sez_149.77.pdf</a></p>
+<p><a href="https://files.garryde.com/files/46261/Boll_post_due_sez_149.77.pdf">点击下载：Boll_post_tre_sez_149.77.pdf</a></p>
 <h3 id="4-3-有效期"><a href="#4-3-有效期" class="headerlink" title="4.3 有效期"></a>4.3 有效期</h3><p>特别注意，注册 SSN 的有效期为自然年，也就是说，如果在2019年9月1号缴费并注册了 SSN ，有效期截止到2019年12月31日。</p>
 <p>9月份入学的新生在申请居留时可以先行缴纳医保费用，于缴费单注明该款项为缴纳次年度费用。</p>
 <p>例如：2019年9月首次抵达罗马，缴费时在<code>CAUSALE</code>项的最后方添加<code>anno 2020</code>即可。否则该笔款项将于2019年12月31日失效。</p>
@@ -592,7 +592,7 @@
 <h3 id="5-1有-Residenza"><a href="#5-1有-Residenza" class="headerlink" title="5.1有 Residenza"></a>5.1有 Residenza</h3><p>若 Residenza 注册的地址与目前居住的地址不一致，需先迁移 Residenza。</p>
 <h3 id="5-2无-Residenza"><a href="#5-2无-Residenza" class="headerlink" title="5.2无 Residenza"></a>5.2无 Residenza</h3><ul>
 <li>若目前租赁的房屋为签有正规合同（住房合同经过备案，有税务局收据），系统中的地址可能已经自动更新为该房屋住址，建议直接前往 ASL 注册。若经工作人员查询地址不一致，请参照下条。</li>
-<li>若目前租赁的房屋没有正规合同，请直接带未经备案的合同（<strong>不确定是否可行</strong>），以及相关身份证件前往税务局修改地址。部分信息可参考：<a href="https://blog.qust.cc/archives/17947.html">意大利罗马税号申请指南</a>。修改成功后，再去 ASL 进行注册。</li>
+<li>若目前租赁的房屋没有正规合同，请直接带未经备案的合同（<strong>不确定是否可行</strong>），以及相关身份证件前往税务局修改地址。部分信息可参考：<a href="https://blog.garryde.com/archives/17947.html">意大利罗马税号申请指南</a>。修改成功后，再去 ASL 进行注册。</li>
 </ul>
 <h2 id="6-前往-ASL-注册"><a href="#6-前往-ASL-注册" class="headerlink" title="6. 前往 ASL 注册"></a>6. 前往 ASL 注册</h2><h3 id="6-1-所需材料"><a href="#6-1-所需材料" class="headerlink" title="6.1 所需材料"></a>6.1 所需材料</h3><p>A.身份证件（二选一）：</p>
 <p>A-1:</p>
@@ -672,7 +672,7 @@
 </tr>
 </tbody></table>
 <p>注：周四下午工作地点为：Piazza Farnese 48</p>
-<h3 id="最后附一张健康卡，祝各位早日到手："><a href="#最后附一张健康卡，祝各位早日到手：" class="headerlink" title="最后附一张健康卡，祝各位早日到手："></a><strong>最后附一张健康卡，祝各位早日到手：</strong></h3><img src="https://file.qust.cc/images/1909/20190918143653.png" width="512" />]]></content>
+<h3 id="最后附一张健康卡，祝各位早日到手："><a href="#最后附一张健康卡，祝各位早日到手：" class="headerlink" title="最后附一张健康卡，祝各位早日到手："></a><strong>最后附一张健康卡，祝各位早日到手：</strong></h3><img src="https://files.garryde.com/images/1909/20190918143653.png" width="512" />]]></content>
       <categories>
         <category>呆利那些事</category>
       </categories>
@@ -771,10 +771,10 @@
 
 <a id="more"></a>
 
-<h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><iframe width="560" height="315" src="https://file.qust.cc/videos/London.MP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><iframe width="560" height="315" src="https://files.garryde.com/videos/London.MP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <!--
 <video width="560" height="315" controls>
-<source src="https://file.qust.cc/videos/London.MP4">
+<source src="https://files.garryde.com/videos/London.MP4">
 </video>
 -->
 ]]></content>
@@ -825,7 +825,7 @@
 <a id="more"></a>
 
 <video width="480" height="320" controls>
-<source src="https://file.qust.cc/videos/SingaporeNewCoronavirus.mp4">
+<source src="https://files.garryde.com/videos/SingaporeNewCoronavirus.mp4">
 </video>]]></content>
       <categories>
         <category>杂谈</category>
@@ -1190,7 +1190,7 @@ width="448" height="252"
 </ul>
 <h3 id="4-机票预订单"><a href="#4-机票预订单" class="headerlink" title="4.机票预订单"></a>4.机票预订单</h3><ul>
 <li><p>常规操作：各旅行网站或航空公司官网订好机票，然后可以下载行程单，打印显示有航班关键信息那一页就可以。我是在俄航官网订的机票，航空公司直接把相关的PDF文件发送到了邮箱。另外，在旅行网站买机票的话强烈建议购买签证保险，只要因为签证问题导致的退票可以全额退机票款。（本人同学因为意呆利使馆一些令人窒息的操作导致认证材料出问题，原订航班不能飞，幸亏买了保险，否则机票款全部打水漂）</p>
-<img src="https://file.qust.cc/images/20190811152714.png" width="400" align="center" />
+<img src="https://files.garryde.com/images/20190811152714.png" width="400" align="center" />
 
 <p>可以考虑乌拉尔航空北京到罗马，经俄罗斯叶卡捷琳堡转机的航班。付款后出票，可无条件退改签。（具体规则请留意航空公司信息）</p>
 </li>
@@ -1244,7 +1244,7 @@ width="448" height="252"
 <li><p>用带抬头的信纸自己给自己开一个工作证明（恩，听起来就很奇葩），说明自己的情况。</p>
 <p>因为个体户通常没有每个月固定日期存入卡内的稳定收入，所以要解释下自己的收入方式，现金收款存入银行，支付宝、微信收款提现至银行卡等等。</p>
 <p>最后签字，盖个体户公章（个体户很多没有章的，这个自己决定）</p>
-<p>文件下载：<a href="https://file.qust.cc/files/%E4%B8%AA%E4%BD%93%E6%88%B7%E6%94%B6%E5%85%A5%E8%AF%81%E6%98%8E-%E6%A8%A1%E6%9D%BF.doc">个体户收入证明-模板.doc</a></p>
+<p>文件下载：<a href="https://files.garryde.com/files/%E4%B8%AA%E4%BD%93%E6%88%B7%E6%94%B6%E5%85%A5%E8%AF%81%E6%98%8E-%E6%A8%A1%E6%9D%BF.doc">个体户收入证明-模板.doc</a></p>
 </li>
 <li><p>营业执照复印件，并且附加一份翻译件（网上有模板），两份文件都加盖个体户公章。</p>
 </li>
@@ -1304,7 +1304,7 @@ width="448" height="252"
 <p>地址：北京永利国际购物中心2层27-28室<br>时间：周一至周五8：00至15：00（除了假日以外）</p>
 </blockquote>
 <p>签证中心在一个购物商场里，扶梯上二楼往后走即可看到排队的人（建议早早去，我十点到的，等到下午一点半）</p>
-<img src="https://file.qust.cc/images/5b855b27783a7.png" width="300" align="center" />
+<img src="https://files.garryde.com/images/5b855b27783a7.png" width="300" align="center" />
 
 <p>先排队取号，进入签证中心后等待叫号。叫号不会读出来号码，只会”滴”的一下，建议时刻关注屏幕。</p>
 <p>递交材料时，工作人员会和你逐份的核对材料，如果材料没问题，交钱开单据。费用必须交现金，包含：签证费:380+服务费:180=总计:560。</p>

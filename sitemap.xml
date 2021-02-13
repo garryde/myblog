@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.garryde.com/archives/3588.html</loc>
+    
+    <lastmod>2021-02-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.garryde.com/archives/37259.html</loc>
     
     <lastmod>2021-02-12</lastmod>
@@ -425,6 +432,13 @@
   
   <url>
     <loc>https://blog.garryde.com/tags/%E7%BA%AA%E5%BD%95%E7%89%87/</loc>
+    <lastmod>2021-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.garryde.com/tags/SEO/</loc>
     <lastmod>2021-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

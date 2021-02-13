@@ -6,7 +6,7 @@
   <link href="https://blog.garryde.com/atom.xml" rel="self"/>
   
   <link href="https://blog.garryde.com/"/>
-  <updated>2021-02-08T16:23:37.000Z</updated>
+  <updated>2021-02-12T09:09:02.000Z</updated>
   <id>https://blog.garryde.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021牛年快乐🐮</title>
+    <link href="https://blog.garryde.com/archives/37259.html"/>
+    <id>https://blog.garryde.com/archives/37259.html</id>
+    <published>2021-02-12T09:09:02.000Z</published>
+    <updated>2021-02-12T09:09:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="祝各位在新的一年Windows开机蓝屏，Linux开机Kernel-Panic，Mac开机五国"><a href="#祝各位在新的一年Windows开机蓝屏，Linux开机Kernel-Panic，Mac开机五国" class="headerlink" title="祝各位在新的一年Windows开机蓝屏，Linux开机Kernel Panic，Mac开机五国"></a>祝各位在新的一年Windows开机蓝屏，Linux开机Kernel Panic，Mac开机五国</h5><h5 id="服务器iDRAC-iLO-IPMI-KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路"><a href="#服务器iDRAC-iLO-IPMI-KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路" class="headerlink" title="服务器iDRAC/iLO/IPMI/KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路"></a>服务器iDRAC/iLO/IPMI/KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路</h5><a id="more"></a><h5 id="防火墙全阻断，无线信道全冲突，压接网线全短路，BGP全漏表，机柜全断电，RAID全爆炸"><a href="#防火墙全阻断，无线信道全冲突，压接网线全短路，BGP全漏表，机柜全断电，RAID全爆炸" class="headerlink" title="防火墙全阻断，无线信道全冲突，压接网线全短路，BGP全漏表，机柜全断电，RAID全爆炸"></a>防火墙全阻断，无线信道全冲突，压接网线全短路，BGP全漏表，机柜全断电，RAID全爆炸</h5><h5 id="NAS数据全丢，光模块全炸，光纤全不通，光猫全烫手，电表全倒转，空开全烧穿"><a href="#NAS数据全丢，光模块全炸，光纤全不通，光猫全烫手，电表全倒转，空开全烧穿" class="headerlink" title="NAS数据全丢，光模块全炸，光纤全不通，光猫全烫手，电表全倒转，空开全烧穿"></a>NAS数据全丢，光模块全炸，光纤全不通，光猫全烫手，电表全倒转，空开全烧穿</h5><h5 id="渗透的网站都有防火墙，有补丁，有CDN，挖到的XSS都是反射型，网站密码全部数字加字母10位以上"><a href="#渗透的网站都有防火墙，有补丁，有CDN，挖到的XSS都是反射型，网站密码全部数字加字母10位以上" class="headerlink" title="渗透的网站都有防火墙，有补丁，有CDN，挖到的XSS都是反射型，网站密码全部数字加字母10位以上"></a>渗透的网站都有防火墙，有补丁，有CDN，挖到的XSS都是反射型，网站密码全部数字加字母10位以上</h5><h5 id="MD5查询不到，手机黑屏rec都进不去，电池爆炸"><a href="#MD5查询不到，手机黑屏rec都进不去，电池爆炸" class="headerlink" title="MD5查询不到，手机黑屏rec都进不去，电池爆炸"></a>MD5查询不到，手机黑屏rec都进不去，电池爆炸</h5><h5 id="PHP全Fatal-Error，fileinfo全装不上，npm-composer-install全报错，Laravel-Mix全报未知错误"><a href="#PHP全Fatal-Error，fileinfo全装不上，npm-composer-install全报错，Laravel-Mix全报未知错误" class="headerlink" title="PHP全Fatal Error，fileinfo全装不上，npm/composer install全报错，Laravel Mix全报未知错误"></a>PHP全Fatal Error，fileinfo全装不上，npm/composer install全报错，Laravel Mix全报未知错误</h5><h5 id="服务器全部宕机，电脑开机报错，Linux-rm-rf，数据库Delete，CN2全绕路，线路全阻断，海外网站全被墙"><a href="#服务器全部宕机，电脑开机报错，Linux-rm-rf，数据库Delete，CN2全绕路，线路全阻断，海外网站全被墙" class="headerlink" title="服务器全部宕机，电脑开机报错，Linux rm -rf，数据库Delete，CN2全绕路，线路全阻断，海外网站全被墙"></a>服务器全部宕机，电脑开机报错，Linux rm -rf，数据库Delete，CN2全绕路，线路全阻断，海外网站全被墙</h5><h5 id="服务器炸库，网关无响应，代理500，网站502，UPS爆炸，一年到头DDOS-CC不断，流量几千个T，并发上亿"><a href="#服务器炸库，网关无响应，代理500，网站502，UPS爆炸，一年到头DDOS-CC不断，流量几千个T，并发上亿" class="headerlink" title="服务器炸库，网关无响应，代理500，网站502，UPS爆炸，一年到头DDOS CC不断，流量几千个T，并发上亿"></a>服务器炸库，网关无响应，代理500，网站502，UPS爆炸，一年到头DDOS CC不断，流量几千个T，并发上亿</h5><h5 id="ping全超时，备案全重审，资源404，SSL全重定向，CDN全不回源，爬虫永远不来你家，收录零蛋，数据库超时"><a href="#ping全超时，备案全重审，资源404，SSL全重定向，CDN全不回源，爬虫永远不来你家，收录零蛋，数据库超时" class="headerlink" title="ping全超时，备案全重审，资源404，SSL全重定向，CDN全不回源，爬虫永远不来你家，收录零蛋，数据库超时"></a>ping全超时，备案全重审，资源404，SSL全重定向，CDN全不回源，爬虫永远不来你家，收录零蛋，数据库超时</h5><blockquote><p>转载自网络</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h5 id=&quot;祝各位在新的一年Windows开机蓝屏，Linux开机Kernel-Panic，Mac开机五国&quot;&gt;&lt;a href=&quot;#祝各位在新的一年Windows开机蓝屏，Linux开机Kernel-Panic，Mac开机五国&quot; class=&quot;headerlink&quot; title=&quot;祝各位在新的一年Windows开机蓝屏，Linux开机Kernel Panic，Mac开机五国&quot;&gt;&lt;/a&gt;祝各位在新的一年Windows开机蓝屏，Linux开机Kernel Panic，Mac开机五国&lt;/h5&gt;&lt;h5 id=&quot;服务器iDRAC-iLO-IPMI-KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路&quot;&gt;&lt;a href=&quot;#服务器iDRAC-iLO-IPMI-KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路&quot; class=&quot;headerlink&quot; title=&quot;服务器iDRAC/iLO/IPMI/KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路&quot;&gt;&lt;/a&gt;服务器iDRAC/iLO/IPMI/KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路&lt;/h5&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo Next 显示“相关文章”栏目推荐关联帖子</title>
@@ -572,36 +589,6 @@ width=&quot;448&quot; height=&quot;252&quot;
     <category term="罗马" scheme="https://blog.garryde.com/tags/%E7%BD%97%E9%A9%AC/"/>
     
     <category term="ISEE" scheme="https://blog.garryde.com/tags/ISEE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>意大利罗马税号申请指南</title>
-    <link href="https://blog.garryde.com/archives/17947.html"/>
-    <id>https://blog.garryde.com/archives/17947.html</id>
-    <published>2019-08-25T23:20:44.000Z</published>
-    <updated>2020-07-21T23:20:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>作为一个意大利留学生，税号涉及到生活的方方面面，例如：办理交通年卡，办理居留。本文仅适用于罗马的税号申请，其他城市亦可参考。</p></blockquote><h2 id="1-税号是什么"><a href="#1-税号是什么" class="headerlink" title="1. 税号是什么"></a>1. 税号是什么</h2><p><strong>Codice Fiscale</strong>（个人税号） 是一个16位的字母数字代码，由 <strong>Agenzia delle Entrate</strong>（国家税务局）免费发放以识别意大利人和外国居民。 </p><p>意大利财政部在1974年发布一套算法，税号是根据姓名、性别、生日、出生地计算得出的，并非是申请之后才随机产生。</p><p>所谓的申请税号，即为到税务局注册该税号。所以大学的学生系统中有学生的税号，是根据个人资料计算得来，并不意味该税号已在税务局注册。</p> <a id="more"></a><h2 id="2-办理地址"><a href="#2-办理地址" class="headerlink" title="2. 办理地址"></a>2. 办理地址</h2><p>可以去罗马的任何一个Agenzia Delle Entrate办理，推荐市区交通<strong>相对</strong>较方便的一个，可以坐3号电车🚃前往。推荐早上去，否则极易面临长达数小时的排队等待。</p><blockquote><p>Agenzia delle Entrate Direzione Provinciale I di Roma<br>Via Ippolito Nievo, 48, 00153 Roma RM, 意大利<br>+39 06 583191<br><a href="https://goo.gl/maps/FpHzybriecR2">https://goo.gl/maps/FpHzybriecR2</a></p></blockquote><p><img src="https://i.loli.net/2018/09/16/5b9d5da35bf2f.jpeg" width="300" align="center" /></p><h2 id="3-准备材料"><a href="#3-准备材料" class="headerlink" title="3. 准备材料"></a>3. 准备材料</h2><h4 id="3-1-证件-用品"><a href="#3-1-证件-用品" class="headerlink" title="3.1 证件/用品"></a>3.1 证件/用品</h4><ol><li>护照原件</li><li>护照个人信息页复印件</li><li>签证页复印件</li><li>带一只黑色笔用于填材料</li></ol><h3 id="3-2-申请表"><a href="#3-2-申请表" class="headerlink" title="3.2 申请表"></a>3.2 申请表</h3><p>该申请表现场会提供，可当场填写。亦可自己提前完成，加快办理速度。</p><p>（现场工作人员给完申请表后就会给第二个号，有可能申请表没有填完，但是已经叫号的情况，会比较仓促）</p><p>以下是意大利语版本的填写说明，英文版本的每个空的位置都是一样的。</p><img src="https://files.garryde.com/images/1909/20190917164736.jpg" width="430" /><p>申请表下载地址：</p><p>意大利语版申请表：<a href="https://files.garryde.com/files/17947/Mod.Richiesta%20codice%20fiscale.pdf">点击下载：Mod.Richiesta codice fiscale.pdf</a></p><p>英文版申请表：<a href="https://files.garryde.com/files/17947/Form%20Tax%20Code.pdf">点击下载：Form Tax Code.pdf</a></p><p>该申请表的 PDF 为可编辑版本。下载后，可使用 PDF 编辑器直接在表单上进行填写，填写完成后，打印签字即可。</p><h2 id="4-办理流程"><a href="#4-办理流程" class="headerlink" title="4. 办理流程"></a>4. 办理流程</h2><blockquote><p>全程会有两次叫号</p></blockquote><p><strong>第一次叫号</strong></p><p>进门后右手边有一个取号机，若无工作人员，直接按第一个按钮取号即可，若有工作人员，告知 Codice Fiscale 即可，他会帮忙取号。第一次的号均在50、51窗口办理。</p><p>接待的工作人员会讲英文，告诉他是刚来罗马的新生，需要申请税号（Codice Fiscale），工作人员会给一张表格（若已经提前填好，把表格给工作人员看一下即可），一张新的号。外国人通常都给英文表格，如果你会意大利语亦可索取意大利语版本。</p><p><strong>第二次叫号</strong></p><p>第二次的办理窗口在里面工作区。看好对应的办理窗口，把护照，复印件全给工作人员即可。</p><p>办理完成后，工作人员会给一张税号单，至此，税号已经办理完成。</p><h2 id="5-领取税卡"><a href="#5-领取税卡" class="headerlink" title="5. 领取税卡"></a>5. 领取税卡</h2><p>理论上讲，办理完成后，两周左右税卡(绿卡)会邮寄给你。</p><p>但是，现在办理的时候单子上要求填写的是国内的地址，是不会邮寄税卡的。</p><p>税卡平时很少有用，基本上只在自动售烟机上买烟时使用。</p><p>此时，你的税号已经在意大利税务局注册开通，以后有需要时，将工作人员返还的税号单复印上交即可。</p>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;作为一个意大利留学生，税号涉及到生活的方方面面，例如：办理交通年卡，办理居留。本文仅适用于罗马的税号申请，其他城市亦可参考。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;1-税号是什么&quot;&gt;&lt;a href=&quot;#1-税号是什么&quot; class=&quot;headerlink&quot; title=&quot;1. 税号是什么&quot;&gt;&lt;/a&gt;1. 税号是什么&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Codice Fiscale&lt;/strong&gt;（个人税号） 是一个16位的字母数字代码，由 &lt;strong&gt;Agenzia delle Entrate&lt;/strong&gt;（国家税务局）免费发放以识别意大利人和外国居民。 &lt;/p&gt;
-&lt;p&gt;意大利财政部在1974年发布一套算法，税号是根据姓名、性别、生日、出生地计算得出的，并非是申请之后才随机产生。&lt;/p&gt;
-&lt;p&gt;所谓的申请税号，即为到税务局注册该税号。所以大学的学生系统中有学生的税号，是根据个人资料计算得来，并不意味该税号已在税务局注册。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="呆利那些事" scheme="https://blog.garryde.com/categories/italy/"/>
-    
-    
-    <category term="罗马办事指南" scheme="https://blog.garryde.com/tags/publicaffairs/"/>
-    
-    <category term="意大利" scheme="https://blog.garryde.com/tags/%E6%84%8F%E5%A4%A7%E5%88%A9/"/>
-    
-    <category term="罗马" scheme="https://blog.garryde.com/tags/%E7%BD%97%E9%A9%AC/"/>
     
   </entry>
   

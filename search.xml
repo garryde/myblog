@@ -1503,8 +1503,10 @@ width="448" height="252"
     <url>/archives/30869.html</url>
     <content><![CDATA[<p>最近有多位朋友聊到以色列疫苗接种进度，以为其已经给超过90%的人口接种了疫苗，这其实是一种误读，引用了错误的数据。</p>
 <p><strong>那么这个数据是从哪里来的？</strong></p>
+<a id="more"></a>
+
 <p>来自英国的<a href="https://ourworldindata.org/">Our World in Data</a>是一家免费的数据分享网站，其搜集并公开了大量有关健康，教育，人权等一系列全球性问题的数据。</p>
-<p>其在<a href="https://ourworldindata.org/covid-vaccinations">Coronavirus (COVID-19) Vaccinations</a>这个页面公布了各种有关新冠病毒疫苗相关的数据。</p>
+<p>其在<a href="https://ourworldindata.org/covid-vaccinations">Coronavirus (COVID-19) Vaccinations</a>这个页面公布了各种有关新冠病毒疫苗的相关数据。</p>
 <p>下面这张图可能是大多数错误引用的起点。地址：<a href="https://sus.show/fijkqHI">https://sus.show/fijkqHI</a></p>
 <p><img src="https://files.garryde.com/images/2103/20210303144059.png" alt="image-20210303144059230"></p>
 <center> 图1：每100人施打新冠疫苗的剂量 </center>
@@ -1526,7 +1528,7 @@ width="448" height="252"
 </blockquote>
 <p>那么，应当看哪个数据呢？地址：<a href="https://sus.show/HGlAMIo">https://sus.show/HGlAMIo</a></p>
 <p><img src="https://files.garryde.com/images/2103/20210303145657.png" alt="image-20210303145656999"></p>
-<center> 图2：接受至少一剂新冠疫苗的人所占的比例 </center>
+<center> 图2：接受至少一新冠疫苗的人所占的比例 </center>
 
 <p>标题：</p>
 <blockquote>
@@ -1536,9 +1538,9 @@ width="448" height="252"
 <p>翻译：</p>
 <blockquote>
 <p>接受至少一剂新冠疫苗的人所占的比例</p>
-<p>接受至少一剂量疫苗的人占总人口的比例。 如果疫苗需要两剂，这可能不等于完全接种的比例。</p>
+<p>接受至少一剂量疫苗的人占总人口的比例。如果疫苗需要两剂，这可能不等于完全接种的比例。</p>
 </blockquote>
-<p>目前主流的疫苗品牌：辉瑞-BioNTech （Pfizer-BioNTech），牛津-阿斯利康（Oxford-AstraZeneca），莫德纳（Moderna）初步资料显示单剂有效率均已超过50%。所以上图数据对了解各国疫苗覆盖情况非常具有参考意义。</p>
+<p>目前主流的疫苗品牌：辉瑞-BioNTech（Pfizer-BioNTech），牛津-阿斯利康（Oxford-AstraZeneca），莫德纳（Moderna）初步资料显示单剂有效率均已超过50%。所以上图数据对了解各国疫苗覆盖情况非常具有参考意义。</p>
 <p><img src="https://files.garryde.com/images/2103/20210303151733.png" alt="image-20210303151733578"></p>
 <center> 图3：疫苗接种数量 </center>
 
@@ -1547,8 +1549,7 @@ width="448" height="252"
 <p>作为一个拥有超过三亿人口的国家，美国有全世界最高的疫苗接种量，其人口覆盖率以15.5%位列第6名。只需要打一针的强生疫苗也已于近日上市，其必定成为最早重开国际旅行的国家之一。</p>
 <p>细心的你也许已经发现了，图2中并没有China。中国的数据由中国卫健委不定期通报，且仅包含接种总量。由于数据的缺失所以无法得知有多少人接种至少一剂疫苗。中国疫苗的策略是完全按照两剂接种，推测中国接种至少一剂的人口大约占比3.65%*60%=2.19%（根据2月28日公布数据）</p>
 <p><strong>某错误引用：</strong></p>
-<p><img src="https://files.garryde.com/images/2103/20210303153236.jpg" alt="微信图片_20210303153229"></p>
-]]></content>
+<img src="https://files.garryde.com/images/2103/20210303153236.jpg" width="512" />]]></content>
       <categories>
         <category>杂谈</category>
       </categories>

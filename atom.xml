@@ -6,7 +6,7 @@
   <link href="https://blog.garryde.com/atom.xml" rel="self"/>
   
   <link href="https://blog.garryde.com/"/>
-  <updated>2021-02-22T14:10:35.000Z</updated>
+  <updated>2021-03-03T08:53:31.000Z</updated>
   <id>https://blog.garryde.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新冠疫苗：每100人施用剂量和至少接种一针疫苗的人口比例</title>
+    <link href="https://blog.garryde.com/archives/30869.html"/>
+    <id>https://blog.garryde.com/archives/30869.html</id>
+    <published>2021-03-03T08:53:31.000Z</published>
+    <updated>2021-03-03T08:53:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近有多位朋友聊到以色列疫苗接种进度，以为其已经给超过90%的人口接种了疫苗，这其实是一种误读，引用了错误的数据。</p><p><strong>那么这个数据是从哪里来的？</strong></p><p>来自英国的<a href="https://ourworldindata.org/">Our World in Data</a>是一家免费的数据分享网站，其搜集并公开了大量有关健康，教育，人权等一系列全球性问题的数据。</p><p>其在<a href="https://ourworldindata.org/covid-vaccinations">Coronavirus (COVID-19) Vaccinations</a>这个页面公布了各种有关新冠病毒疫苗相关的数据。</p><p>下面这张图可能是大多数错误引用的起点。地址：<a href="https://sus.show/fijkqHI">https://sus.show/fijkqHI</a></p><p><img src="https://files.garryde.com/images/2103/20210303144059.png" alt="image-20210303144059230"></p><center> 图1：每100人施打新冠疫苗的剂量 </center><p>标题：</p><blockquote><p>COVID-19 vaccine doses administered per 100 people</p><p>Total number of vaccination doses administered per 100 people in the total population. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).</p></blockquote><p>翻译：</p><blockquote><p>每100人施打新冠疫苗的剂量</p><p>总人口中每100人施打的疫苗总数。根据单剂统计，可能不等于总接种人数，取决于具体的剂量方案（例如，人们接受多次剂量）。</p></blockquote><img src="https://files.garryde.com/images/2103/20210303145015.jpeg" width="100" /><blockquote><p>某疫苗采用两剂间隔21天接种方案，某群体共100人。截至今天，有30人完成了两剂疫苗接种，30人仅接种第一剂疫苗。那么，每100人施打疫苗的剂量为90剂。接种疫苗的人数比例为60%。</p></blockquote><p>那么，应当看哪个数据呢？地址：<a href="https://sus.show/HGlAMIo">https://sus.show/HGlAMIo</a></p><p><img src="https://files.garryde.com/images/2103/20210303145657.png" alt="image-20210303145656999"></p><center> 图2：接受至少一剂新冠疫苗的人所占的比例 </center><p>标题：</p><blockquote><p>Share of people who received at least one dose of COVID-19 vaccine</p><p>Share of the total population that received at least one vaccine dose. This may not equal the share that are fully vaccinated if the vaccine requires two doses.</p></blockquote><p>翻译：</p><blockquote><p>接受至少一剂新冠疫苗的人所占的比例</p><p>接受至少一剂量疫苗的人占总人口的比例。 如果疫苗需要两剂，这可能不等于完全接种的比例。</p></blockquote><p>目前主流的疫苗品牌：辉瑞-BioNTech （Pfizer-BioNTech），牛津-阿斯利康（Oxford-AstraZeneca），莫德纳（Moderna）初步资料显示单剂有效率均已超过50%。所以上图数据对了解各国疫苗覆盖情况非常具有参考意义。</p><p><img src="https://files.garryde.com/images/2103/20210303151733.png" alt="image-20210303151733578"></p><center> 图3：疫苗接种数量 </center><p>目前疫苗覆盖最优秀的国家无疑是以色列，已完成过半的人口覆盖。其以三倍的价格购买Pfizer-BioNTech生产的疫苗并与之签署了数据共享协议，换取最优先的疫苗供应。对于疫苗厂商，可以通过对九百万人口的国家快速覆盖以获得真实的数据。对于以色列，可以最优先的获取疫苗降低感染重启经济。</p><p>英国通过尽可能给更多人注射第一剂疫苗的策略获得了不错的收益。其接种速度一直在增加，并宣布提前一个月完成五十岁以上人群接种，在夏天为全部成年人接种至少一剂疫苗。</p><p>作为一个拥有超过三亿人口的国家，美国有全世界最高的疫苗接种量，其人口覆盖率以15.5%位列第6名。只需要打一针的强生疫苗也已于近日上市，其必定成为最早重开国际旅行的国家之一。</p><p>细心的你也许已经发现了，图2中并没有China。中国的数据由中国卫健委不定期通报，且仅包含接种总量。由于数据的缺失所以无法得知有多少人接种至少一剂疫苗。中国疫苗的策略是完全按照两剂接种，推测中国接种至少一剂的人口大约占比3.65%*60%=2.19%（根据2月28日公布数据）</p><p><strong>某错误引用：</strong></p><p><img src="https://files.garryde.com/images/2103/20210303153236.jpg" alt="微信图片_20210303153229"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近有多位朋友聊到以色列疫苗接种进度，以为其已经给超过90%的人口接种了疫苗，这其实是一种误读，引用了错误的数据。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;那么这个数据是从哪里来的？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;来自英国的&lt;a href=&quot;https://ourworldinda</summary>
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    
+    
+    <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
+    
+    <category term="新冠疫苗" scheme="https://blog.garryde.com/tags/%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97/"/>
+    
+  </entry>
   
   <entry>
     <title>新冠抗体浮沉记</title>
@@ -38,6 +66,8 @@
     <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
     
     <category term="意大利" scheme="https://blog.garryde.com/tags/%E6%84%8F%E5%A4%A7%E5%88%A9/"/>
+    
+    <category term="新冠疫苗" scheme="https://blog.garryde.com/tags/%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97/"/>
     
   </entry>
   
@@ -495,33 +525,6 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hassio下使用SSH远程开关Linux/Mac</title>
-    <link href="https://blog.garryde.com/archives/25938.html"/>
-    <id>https://blog.garryde.com/archives/25938.html</id>
-    <published>2019-11-20T08:31:49.000Z</published>
-    <updated>2019-11-20T08:31:49.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>Hassio 有 RPC 插件可以很方便的关闭 Windows 主机，但是在配置 Unix 系统的关闭时遇到较多坑。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Error running command:&quot;&quot;, return code: 255</span><br></pre></td></tr></table></figure><p>看以前的教程会遇到上述错误，以下教程解决了这个问题。</p><a id="more"></a><h2 id="一、配置-Unix-端-被控主机-无密码运行-sudo-shutdown"><a href="#一、配置-Unix-端-被控主机-无密码运行-sudo-shutdown" class="headerlink" title="一、配置 Unix 端(被控主机)无密码运行 sudo shutdown"></a>一、配置 Unix 端(被控主机)无密码运行 sudo shutdown</h2><h3 id="1-修改sudoers文件"><a href="#1-修改sudoers文件" class="headerlink" title="1.修改sudoers文件"></a>1.修改sudoers文件</h3><h4 id="1-首先，找到shutdown的路径"><a href="#1-首先，找到shutdown的路径" class="headerlink" title="1)首先，找到shutdown的路径"></a>1)首先，找到shutdown的路径</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">which</span> shutdown</span></span><br></pre></td></tr></table></figure><p>通常位于<code>/sbin/shutdown</code></p><h4 id="2-打开visudo"><a href="#2-打开visudo" class="headerlink" title="2)打开visudo"></a>2)打开<code>visudo</code></h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo visudo</span></span><br></pre></td></tr></table></figure><h4 id="3-在文件底部填下如下内容"><a href="#3-在文件底部填下如下内容" class="headerlink" title="3)在文件底部填下如下内容"></a>3)在文件底部填下如下内容</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">USERNAME ALL=NOPASSWD: PATH_TO_EXECUTABLE</span><br></pre></td></tr></table></figure><ul><li>替换<code>USERNAME</code>为实际使用的账户（可使用<code>whoami</code>查询）</li><li>替换<code>PATH_TO_EXECUTABLE</code>为第一步中获取到的路径</li></ul><p>一个例子</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">garry ALL=NOPASSWD: /sbin/shutdown</span><br></pre></td></tr></table></figure><h3 id="2-执行命令"><a href="#2-执行命令" class="headerlink" title="2.执行命令"></a>2.执行命令</h3><p>由于<code>shutdown</code>仍然是特权命令，因此仍然需要在命令开头加上sudo。</p><p>但是，指定用户执行该命令已不需要输入密码。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo shutdown -r now</span></span><br></pre></td></tr></table></figure><h3 id="对于喜欢冒险的人"><a href="#对于喜欢冒险的人" class="headerlink" title="*.对于喜欢冒险的人"></a>*.对于喜欢冒险的人</h3><p>可将以下内容放在<code>sudoers</code>文件的底部：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">USERNAME ALL=NOPASSWD: ALL</span><br></pre></td></tr></table></figure><p>上面的代码可以取消所有命令对于 sudo 的密码需求，请谨慎使用。</p><h2 id="二、配置-SSH-无密码登陆"><a href="#二、配置-SSH-无密码登陆" class="headerlink" title="二、配置 SSH 无密码登陆"></a>二、配置 SSH 无密码登陆</h2><h3 id="1-Hassio-主机生成用于免密登陆的密钥"><a href="#1-Hassio-主机生成用于免密登陆的密钥" class="headerlink" title="1. Hassio 主机生成用于免密登陆的密钥"></a>1. Hassio 主机生成用于免密登陆的密钥</h3><p>在<code>Hassio</code>的<code>Add-on Store</code>中安装<code>SSH server</code>。注意，若 Hassio 是安装在 Ubuntu 系统中，不能使用 Ubuntu 的 SSH，必须连接到容器内部，启动 <code>SSH server</code>时请注意端口冲突问题。</p><p>密钥不能生成在默认目录，新建文件夹</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> mkdir /config/.ssh</span></span><br></pre></td></tr></table></figure><p>创建 key</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa</span></span><br></pre></td></tr></table></figure><p>储存位置输入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/config/.ssh/id_rsa</span><br></pre></td></tr></table></figure><p>不要输入密码</p><h3 id="2-被控端创建存储密钥的文件夹"><a href="#2-被控端创建存储密钥的文件夹" class="headerlink" title="2.被控端创建存储密钥的文件夹"></a>2.被控端创建存储密钥的文件夹</h3><p>若该文件夹已经存在，请跳到下一步</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> mkdir -p .ssh</span></span><br></pre></td></tr></table></figure><h3 id="3-将密钥传输到被控端"><a href="#3-将密钥传输到被控端" class="headerlink" title="3.将密钥传输到被控端"></a>3.将密钥传输到被控端</h3><p>在<code>Hassio</code>中执行以下命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> cat /config/.ssh/id_rsa | ssh UNIX_USERNAME@UNIX_IP <span class="string">&#x27;cat &gt;&gt; .ssh/authorized_keys&#x27;</span></span></span><br></pre></td></tr></table></figure><h3 id="4-现在可以在Hassio免密登录Unix"><a href="#4-现在可以在Hassio免密登录Unix" class="headerlink" title="4.现在可以在Hassio免密登录Unix"></a>4.现在可以在<code>Hassio</code>免密登录<code>Unix</code></h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> ssh -i /config/.ssh/id_rsa UNIX_USERNAME@UNIX_IP</span></span><br></pre></td></tr></table></figure><h2 id="三、配置-Homeassistant"><a href="#三、配置-Homeassistant" class="headerlink" title="三、配置 Homeassistant"></a>三、配置 Homeassistant</h2><p>在<code>configuration.yaml</code>中添加如下配置，网络唤醒部分请另行配置。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">shell_command:</span></span><br><span class="line">  <span class="attr">unix_off:</span> <span class="string">ssh</span> <span class="string">-o</span> <span class="string">UserKnownHostsFile=/dev/null</span> <span class="string">-o</span> <span class="string">StrictHostKeyChecking=no</span> <span class="string">-i</span> <span class="string">/config/.ssh/id_rsa</span> <span class="string">UNIX_USERNAME@UNIX_IP</span> <span class="string">sudo</span> <span class="string">/sbin/shutdown</span> <span class="string">now</span></span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">switch:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">platform:</span> <span class="string">wake_on_lan</span></span><br><span class="line">    <span class="attr">mac_address:</span> <span class="string">&quot;UNIX_MAC&quot;</span></span><br><span class="line">    <span class="attr">host:</span> <span class="string">UNIX_IP</span></span><br><span class="line">    <span class="attr">name:</span> <span class="string">&quot;unix&quot;</span></span><br><span class="line">    <span class="attr">turn_off:</span></span><br><span class="line">      <span class="attr">service:</span> <span class="string">shell_command.unix_off</span></span><br></pre></td></tr></table></figure><h2 id="四、参考"><a href="#四、参考" class="headerlink" title="四、参考"></a>四、参考</h2><h5 id="1-How-to-run-privileged-sudo-commands-without-the-password"><a href="#1-How-to-run-privileged-sudo-commands-without-the-password" class="headerlink" title="1.How to run privileged (sudo) commands without the password"></a><a href="https://ubuntu-mate.community/t/how-to-run-privileged-sudo-commands-without-the-password/2940">1.How to run privileged (sudo) commands without the password</a></h5><h5 id="2-SSH-login-without-password"><a href="#2-SSH-login-without-password" class="headerlink" title="2.SSH login without password"></a><a href="http://www.linuxproblem.org/art_9.html">2.SSH login without password</a></h5><h5 id="3-Hass-io-shell-command-error"><a href="#3-Hass-io-shell-command-error" class="headerlink" title="3.Hass.io shell_command error"></a><a href="https://community.home-assistant.io/t/hass-io-shell-command-error/36312/15">3.Hass.io shell_command error</a></h5>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Hassio 有 RPC 插件可以很方便的关闭 Windows 主机，但是在配置 Unix 系统的关闭时遇到较多坑。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Error running command:&amp;quot;&amp;quot;, return code: 255&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;看以前的教程会遇到上述错误，以下教程解决了这个问题。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Homeassistant" scheme="https://blog.garryde.com/categories/Homeassistant/"/>
-    
-    
-    <category term="Homeassistant" scheme="https://blog.garryde.com/tags/Homeassistant/"/>
-    
-    <category term="Hassio" scheme="https://blog.garryde.com/tags/Hassio/"/>
     
   </entry>
   

@@ -2,9 +2,9 @@ User-agent: *
 Allow: /
 Allow: /archives/
 
-Disallow: /tags/
-Disallow: /categories/
-Disallow: /hot/
+#Disallow: /tags/
+#Disallow: /categories/
+#Disallow: /hot/
 Disallow: /404.html
 
 Sitemap: https://blog.garryde.com/sitemap.xml

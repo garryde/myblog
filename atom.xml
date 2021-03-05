@@ -6,7 +6,7 @@
   <link href="https://blog.garryde.com/atom.xml" rel="self"/>
   
   <link href="https://blog.garryde.com/"/>
-  <updated>2021-03-03T08:53:31.000Z</updated>
+  <updated>2021-03-05T20:55:39.000Z</updated>
   <id>https://blog.garryde.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo 如何隐藏文章</title>
+    <link href="https://blog.garryde.com/archives/37712.html"/>
+    <id>https://blog.garryde.com/archives/37712.html</id>
+    <published>2021-03-05T20:55:39.000Z</published>
+    <updated>2021-03-05T20:55:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本 Hexo 插件可以在博客中隐藏指定的文章，并使它们仅可通过链接访问。</p><p>当一篇文章被设置为「隐藏」时，它不会出现在任何列表中（包括首页、存档、分类页面、标签页面、Feed、站点地图等），也不会被搜索引擎索引（前提是搜索引擎遵守 noindex 标签）。</p><p>只有知道文章链接的人才可以访问被隐藏的文章。</p><p>Github地址：<a href="https://github.com/printempw/hexo-hide-posts">https://github.com/printempw/hexo-hide-posts</a></p><a id="more"></a><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-hide-posts --save</code></p><h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>在站点目录下的<code>_config.yml</code>中如下配置：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># hexo-hide-posts</span></span><br><span class="line"><span class="attr">hide_posts:</span></span><br><span class="line">  <span class="comment"># 可以改成其他你喜欢的名字</span></span><br><span class="line">  <span class="attr">filter:</span> <span class="string">hidden</span></span><br><span class="line">  <span class="comment"># 指定你想要传递隐藏文章的位置，比如让所有隐藏文章在存档页面可见</span></span><br><span class="line">  <span class="comment"># 常见的位置有：index, tag, category, archive, sitemap, feed, etc.</span></span><br><span class="line">  <span class="comment"># 留空则默认全部隐藏</span></span><br><span class="line">  <span class="attr">public_generators:</span> []</span><br><span class="line">  <span class="comment"># 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录</span></span><br><span class="line">  <span class="attr">noindex:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>举个栗子：设置 <code>filter: secret</code> 之后，你就可以在 front-matter 中使用 <code>secret: true</code> 来隐藏文章了。</p><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在文章的属性中定义 <code>hidden: true</code> 即可隐藏文章。</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#x27;Hidden Post&#x27;</span><br><span class="line">date: &#x27;2021/03/05 21:45:14&#x27;</span><br><span class="line">hidden: true</span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>虽然首页上被隐藏了，但你仍然可以通过 <code>https://hexo.test/lorem-ipsum/</code> 链接访问它。</p><p>你可以在命令行运行 <code>hexo hidden:list</code> 来获取当前所有的已隐藏文章列表。</p><p>插件也在 <a href="https://hexo.io/api/locals">Local Variables</a> 中添加了 <code>all_posts</code> 和 <code>hidden_posts</code> 变量，供自定义主题使用。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;本 Hexo 插件可以在博客中隐藏指定的文章，并使它们仅可通过链接访问。&lt;/p&gt;
+&lt;p&gt;当一篇文章被设置为「隐藏」时，它不会出现在任何列表中（包括首页、存档、分类页面、标签页面、Feed、站点地图等），也不会被搜索引擎索引（前提是搜索引擎遵守 noindex 标签）。&lt;/p&gt;
+&lt;p&gt;只有知道文章链接的人才可以访问被隐藏的文章。&lt;/p&gt;
+&lt;p&gt;Github地址：&lt;a href=&quot;https://github.com/printempw/hexo-hide-posts&quot;&gt;https://github.com/printempw/hexo-hide-posts&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>新冠疫苗：每100人施用剂量和至少接种一针疫苗的人口比例</title>
@@ -97,7 +121,7 @@
     <link href="https://blog.garryde.com/archives/38575.html"/>
     <id>https://blog.garryde.com/archives/38575.html</id>
     <published>2021-02-19T18:16:23.000Z</published>
-    <updated>2022-07-20T18:16:23.000Z</updated>
+    <updated>2021-02-19T18:16:23.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p><strong>香港中评社记者：据美联社报道，该社与大西洋理事会共同开展的一项调查结果显示，中国发起了可能是其首次全球虚假数字信息运动，制作并传播关于美国制造新冠病毒作为生物武器的故事。报道还称2019年以来，中国在推特和脸书上的外交账号数量分别增加了三倍和两倍。中方对此有何评论？</strong></p></blockquote><a id="more"></a><p> 　华春莹：我注意到这里有个“可能”。我不知道这个调查是怎么做的。什么是虚假信息？到底是谁在散布虚假信息？我们看到疫情发生以来，美西方社交媒体上充斥着大量的疫情阴谋论，美国有些官员、议员、媒体、机构在拿不出任何证据的情况下，炮制和散布了大量针对中国的虚假信息，无视基本事实，对中国进行“有罪推定”式的抹黑和攻击。一个简单的例子：在已经被世界上几乎所有顶级科学家和疾控专家公开否定的情况下，仍频频散布所谓的“武汉病毒所泄露病毒”等谣言谎言。对此大家看得都非常清楚。</p><p>　　说到推特账号数量，不知道他们有没有调查过有多少外国媒体和外交官使用微信、微博？<font color=red > <strong>为什么外国人可以使用中国的社交媒体平台，而中国人就不可以使用推特和脸书呢？</strong></font>这只是增加一种同外国民众分享信息、沟通交流的渠道而已。</p><p>　　之所以出现这样的炒作，根本原因就在于，在溯源等问题上，美西方一些人不愿意听到中方客观真实的声音，害怕更多人了解事实真相，以致于他们不能再肆无忌惮地散布虚假信息，为所欲为地误导和垄断国际舆论。</p><p><img src="https://www.fmprc.gov.cn/web/fyrbt_673021/W020210219499125959854.jpg"></p><blockquote><p>转载自 <strong>中华人民共和国外交部</strong> 网站<br>2021年2月18日外交部发言人华春莹主持例行记者会<br>链接：<a href="https://www.fmprc.gov.cn/web/fyrbt_673021/t1854801.shtml">https://www.fmprc.gov.cn/web/fyrbt_673021/t1854801.shtml</a></p></blockquote>]]></content>
     
@@ -492,28 +516,6 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     <summary type="html">&lt;p&gt;修改&lt;code&gt;主题配置&lt;/code&gt;文件，打赏图片放置在&lt;code&gt;主题目录&lt;/code&gt;的&lt;code&gt;source/images&lt;/code&gt;目录下，效果参见下方。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 统计文章字数和计算阅读时间</title>
-    <link href="https://blog.garryde.com/archives/20986.html"/>
-    <id>https://blog.garryde.com/archives/20986.html</id>
-    <published>2020-01-13T00:14:03.000Z</published>
-    <updated>2021-02-07T18:27:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>项目地址：<a href="https://github.com/theme-next/hexo-symbols-count-time">https://github.com/theme-next/hexo-symbols-count-time</a></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-symbols-count-time</span><br></pre></td></tr></table></figure><a id="more"></a><h2 id="2-配置Hexo-config-yml"><a href="#2-配置Hexo-config-yml" class="headerlink" title="2.配置Hexo_config.yml"></a>2.配置Hexo<code>_config.yml</code></h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="comment">#文章字数统计</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#文章时间计算</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总字数统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#站点总时间计算</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#排除代码块</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">#平均字长</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">4</span></span><br><span class="line">  <span class="comment">#每分钟字数</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span></span><br><span class="line">  <span class="comment">#如果读取时间少于60分钟，请添加后缀作为字符串参数。</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">&quot;mins.&quot;</span></span><br></pre></td></tr></table></figure><p><strong>中国用户注意事项</strong>：因为中文的平均单词长度约为1.5，并且如果您大多数情况下都以中文撰写帖子（不使用混合英语），建议将<code>awl</code>设置为<code>2</code>，<code>wpm</code>设置为<code>300</code>。 但是，如果您通常将自己的帖子与英语混用，<code>awl</code>为<code>4</code>，<code>wpm</code>为<code>275</code>会很好。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-安装&quot;&gt;&lt;a href=&quot;#1-安装&quot; class=&quot;headerlink&quot; title=&quot;1.安装&quot;&gt;&lt;/a&gt;1.安装&lt;/h2&gt;&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/theme-next/hexo-symbols-count-time&quot;&gt;https://github.com/theme-next/hexo-symbols-count-time&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-symbols-count-time&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     

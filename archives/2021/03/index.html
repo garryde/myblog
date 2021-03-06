@@ -213,33 +213,13 @@
     <div class="posts-collapse">
       <div class="collection-title">
         
-        <span class="collection-header">还行! 目前共计 39 篇日志。 继续努力。</span>
+        <span class="collection-header">还行! 目前共计 38 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2021</span>
     </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-05T20:57:47+00:00"
-              content="2021-03-05">
-          03-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/archives/43601.html" itemprop="url">
-            <span itemprop="name">跳瘙市场</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -355,7 +335,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">39</span>
+          <span class="site-state-item-count">38</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -414,7 +394,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">33k</span>
+    <span title="站点总字数">32k</span>
 </div>
 
         
@@ -467,14 +447,9 @@
                 console.error('Failed to save visitor count', error);
               });
           } else {
-              Counter('post', '/classes/Counter', { title, url, time: 1 })
-                .then(response => response.json())
-                .then(() => {
-                  leancloudSelector(url).innerText = 1;
-                })
-                .catch(error => {
-                  console.error('Failed to create', error);
-                });
+              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
+              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
+            
           }
         })
         .catch(error => {
@@ -501,7 +476,7 @@
         });
     }
 
-    let { app_id, app_key, server_url } = {"enable":true,"app_id":"E2TXltrx34xquFsgpzw9c7OV-gzGzoHsz","app_key":"6DLgl3ulbpuX6zuziBDTntEo","server_url":"https://leancloud.garryde.com","security":false};
+    let { app_id, app_key, server_url } = {"enable":true,"app_id":"E2TXltrx34xquFsgpzw9c7OV-gzGzoHsz","app_key":"6DLgl3ulbpuX6zuziBDTntEo","server_url":"https://leancloud.garryde.com","security":true};
     function fetchData(api_server) {
       var Counter = (method, url, data) => {
         return fetch(`${api_server}/1.1${url}`, {

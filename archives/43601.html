@@ -71,7 +71,7 @@
   };
 </script>
 
-  <title>跳瘙市场 | 咖里De</title>
+  <title>跳瘙市场 | 咖里De</title><meta name="robots" content="noindex">
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1NCTP8HQ7K"></script>
     <script>
@@ -360,7 +360,7 @@
 <h2 id="快递纸箱"><a href="#快递纸箱" class="headerlink" title="快递纸箱"></a>快递纸箱</h2><p>购物随心送</p>
 <p>还有比图片大一些的</p>
 <p><img src="https://i.loli.net/2021/03/06/DBCczoRxKGuMTLW.jpg" alt="711037541563196819"></p>
-
+<!-- flag of hidden posts -->
     </div>
 
     
@@ -407,13 +407,6 @@
 
 
         
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/archives/37712.html" rel="prev" title="Hexo 如何隐藏文章">
-      <i class="fa fa-chevron-left"></i> Hexo 如何隐藏文章
-    </a></div>
-      <div class="post-nav-item"></div>
-    </div>
       </footer>
     
   </article>
@@ -492,7 +485,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">39</span>
+          <span class="site-state-item-count">38</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -551,7 +544,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">33k</span>
+    <span title="站点总字数">32k</span>
 </div>
 
         
@@ -604,14 +597,9 @@
                 console.error('Failed to save visitor count', error);
               });
           } else {
-              Counter('post', '/classes/Counter', { title, url, time: 1 })
-                .then(response => response.json())
-                .then(() => {
-                  leancloudSelector(url).innerText = 1;
-                })
-                .catch(error => {
-                  console.error('Failed to create', error);
-                });
+              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
+              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
+            
           }
         })
         .catch(error => {
@@ -638,7 +626,7 @@
         });
     }
 
-    let { app_id, app_key, server_url } = {"enable":true,"app_id":"E2TXltrx34xquFsgpzw9c7OV-gzGzoHsz","app_key":"6DLgl3ulbpuX6zuziBDTntEo","server_url":"https://leancloud.garryde.com","security":false};
+    let { app_id, app_key, server_url } = {"enable":true,"app_id":"E2TXltrx34xquFsgpzw9c7OV-gzGzoHsz","app_key":"6DLgl3ulbpuX6zuziBDTntEo","server_url":"https://leancloud.garryde.com","security":true};
     function fetchData(api_server) {
       var Counter = (method, url, data) => {
         return fetch(`${api_server}/1.1${url}`, {

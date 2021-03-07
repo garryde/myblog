@@ -65,7 +65,7 @@
 <p>部署</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -86,7 +86,7 @@
 <h3 id="圆形、旋转特效（新版已无需修改代码）"><a href="#圆形、旋转特效（新版已无需修改代码）" class="headerlink" title="圆形、旋转特效（新版已无需修改代码）"></a>圆形、旋转特效（新版已无需修改代码）</h3><p>修改文件<code>/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code></p>
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="comment">/* 头像圆形样式 */</span></span><br><span class="line">  <span class="comment">/* start */</span></span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span></span><br><span class="line">  webkit-transition: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">moz-transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">ms-transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">1.4s</span> all;</span><br><span class="line">  <span class="comment">/* end */</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-name</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: $site-author-name-margin;</span><br><span class="line">  <span class="attribute">text-align</span>: $site-author-name-align;</span><br><span class="line">  <span class="attribute">color</span>: $site-author-name-color;</span><br><span class="line">  <span class="attribute">font-weight</span>: $site-author-name-weight;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-description</span> &#123;</span><br><span class="line">  <span class="attribute">margin-top</span>: $site-description-margin-top;</span><br><span class="line">  <span class="attribute">text-align</span>: $site-description-align;</span><br><span class="line">  <span class="attribute">font-size</span>: $site-description-font-size;</span><br><span class="line">  <span class="attribute">color</span>: $site-description-color;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* 头像旋转事件 */</span></span><br><span class="line"><span class="comment">/* start */</span></span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#55DAE1</span>;</span><br><span class="line">  <span class="attribute">webkit-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">moz-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">ms-transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">1.1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* end */</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -101,7 +101,7 @@
 <p>若为<code>zh-Hans.yml</code>则赋值<code>zh-Hans</code></p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -118,7 +118,7 @@
 <h3 id="编辑主题配置文件"><a href="#编辑主题配置文件" class="headerlink" title="编辑主题配置文件"></a>编辑<code>主题</code>配置文件</h3><p>修改以下内容</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -137,7 +137,7 @@
 <p><strong>若同时安装了LeanCloud文章阅读次数统计会产生冲突，请参考：<a href="https://blog.garryde.com/archives/63320.html">Hexo Next阅读次数不正常、显示多个阅读次数</a></strong></p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -162,7 +162,7 @@
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -188,7 +188,7 @@
 <p>删除<code>_config.yml</code>中的配置文件</p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -203,7 +203,7 @@
 <p>内部为每个自动化放置一个文件，但没有<code>automation</code>一词</p>
 ]]></content>
       <categories>
-        <category>Homeassistant</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Homeassistant</tag>
@@ -225,7 +225,7 @@
 <p>系统中的实体名为<code> switch.FRIENDLY_NAME</code>可根据以前的名字配置FRIENDLY_NAME，这样就不需要修改其他的文件了</p>
 ]]></content>
       <categories>
-        <category>Homeassistant</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Homeassistant</tag>
@@ -294,7 +294,7 @@
 <p>没有设置server_url项，或者账户不是来自<a href="https://leancloud.cn/">https://leancloud.cn</a></p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -753,7 +753,7 @@
 <p><strong>中国用户注意事项</strong>：因为中文的平均单词长度约为1.5，并且如果您大多数情况下都以中文撰写帖子（不使用混合英语），建议将<code>awl</code>设置为<code>2</code>，<code>wpm</code>设置为<code>300</code>。 但是，如果您通常将自己的帖子与英语混用，<code>awl</code>为<code>4</code>，<code>wpm</code>为<code>275</code>会很好。</p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -767,7 +767,7 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, reward will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">comment:</span> <span class="string">听说，打赏我的人都找到了真爱。</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.jpeg</span></span><br><span class="line">  <span class="comment">#alipay: /images/alipay.png</span></span><br><span class="line">  <span class="comment">#paypal: /images/paypal.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -813,7 +813,7 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;a <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;btn&quot;</span> href=<span class="string">&quot;&#123;&#123; url_for(post.path) &#125;&#125;&quot;</span> rel=<span class="string">&quot;contents&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -999,7 +999,7 @@
 <p>否则关闭<code>1.</code>中的统计</p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -1083,7 +1083,7 @@ width="448" height="252"
 
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装node版本管理模块n</span></span><br><span class="line">sudo npm install n -g</span><br><span class="line"><span class="meta">#</span><span class="bash"> 降低到12.14版本</span></span><br><span class="line">sudo n 12.14</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -1149,7 +1149,7 @@ width="448" height="252"
 <h3 id="效果如下"><a href="#效果如下" class="headerlink" title="效果如下"></a>效果如下</h3><p>👇👇👇👇👇👇👇👇</p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -1397,7 +1397,7 @@ width="448" height="252"
 <p>插件也在 <a href="https://hexo.io/api/locals">Local Variables</a> 中添加了 <code>all_posts</code> 和 <code>hidden_posts</code> 变量，供自定义主题使用。</p>
 ]]></content>
       <categories>
-        <category>Hexo折腾</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -1532,8 +1532,12 @@ width="448" height="252"
 </ul>
 <p>某些浏览器，包括 Safari 和旧版 Edge 目前不支持更改扩展程序的默认键盘快捷键。</p>
 ]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
       <tags>
         <tag>Bitwarden</tag>
+        <tag>群晖</tag>
       </tags>
   </entry>
   <entry>

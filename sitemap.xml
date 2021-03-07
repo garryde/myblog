@@ -500,17 +500,17 @@
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://blog.garryde.com/categories/italy/</loc>
+    <loc>https://blog.garryde.com/tags/%E7%BE%A4%E6%99%96/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://blog.garryde.com/categories/hexo/</loc>
+    <loc>https://blog.garryde.com/categories/italy/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -546,6 +546,13 @@
   
   <url>
     <loc>https://blog.garryde.com/categories/game/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

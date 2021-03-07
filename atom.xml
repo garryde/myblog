@@ -30,8 +30,12 @@
     
     
     
+    <category term="教程" scheme="https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
     
     <category term="Bitwarden" scheme="https://blog.garryde.com/tags/Bitwarden/"/>
+    
+    <category term="群晖" scheme="https://blog.garryde.com/tags/%E7%BE%A4%E6%99%96/"/>
     
   </entry>
   
@@ -51,7 +55,7 @@
     
     
     
-    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    <category term="教程" scheme="https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
@@ -210,7 +214,7 @@
     
     
     
-    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    <category term="教程" scheme="https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
@@ -280,7 +284,7 @@
     
     
     
-    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    <category term="教程" scheme="https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
@@ -379,7 +383,7 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     
-    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    <category term="教程" scheme="https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
@@ -488,7 +492,7 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     
-    <category term="Hexo折腾" scheme="https://blog.garryde.com/categories/hexo/"/>
+    <category term="教程" scheme="https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>

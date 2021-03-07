@@ -23,12 +23,12 @@
   </script>
 
 <script data-ad-client="ca-pub-9969238025754989" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <meta name="description" content="Bitwarden是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息（例如网站登录凭据）。Bitwarden平台提供有多种客户端应用程序，包括网页用户界面、桌面应用，浏览器扩展、移动应用以及命令行界面。Bitwarden提供云托管服务，并支持自行部署解决方案。 我已经使用Lastpass超过两年，偶然了解到Bitwarden并且惊讶其可以集成一次性密码（TOTP），并且很方便的填充">
+  <meta name="description" content="Bitwarden是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息（例如网站登录凭据）。Bitwarden平台提供有多种客户端应用程序，包括网页用户界面、桌面应用，浏览器扩展、移动应用以及命令行界面。Bitwarden提供云托管服务，并支持自行部署解决方案。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="群晖Docker搭建Bitwarden密码服务器">
 <meta property="og:url" content="https://blog.garryde.com/archives/16263.html">
 <meta property="og:site_name" content="咖里De">
-<meta property="og:description" content="Bitwarden是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息（例如网站登录凭据）。Bitwarden平台提供有多种客户端应用程序，包括网页用户界面、桌面应用，浏览器扩展、移动应用以及命令行界面。Bitwarden提供云托管服务，并支持自行部署解决方案。 我已经使用Lastpass超过两年，偶然了解到Bitwarden并且惊讶其可以集成一次性密码（TOTP），并且很方便的填充">
+<meta property="og:description" content="Bitwarden是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息（例如网站登录凭据）。Bitwarden平台提供有多种客户端应用程序，包括网页用户界面、桌面应用，浏览器扩展、移动应用以及命令行界面。Bitwarden提供云托管服务，并支持自行部署解决方案。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306192954.png">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306193933.png">
@@ -38,11 +38,12 @@
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306194757.png">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306195346.png">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306195942.png">
+<meta property="og:image" content="https://files.garryde.com/images/2103/20210306203527.png">
+<meta property="og:image" content="https://files.garryde.com/images/2103/20210307115648.png">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306200810.png">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306201607.png">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306201752.png">
 <meta property="og:image" content="https://files.garryde.com/images/2103/20210306203134.png">
-<meta property="og:image" content="https://files.garryde.com/images/2103/20210306203527.png">
 <meta property="article:published_time" content="2021-03-06T18:00:33.000Z">
 <meta property="article:modified_time" content="2021-03-06T18:00:33.000Z">
 <meta property="article:author" content="Garry">
@@ -266,14 +267,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.7k</span>
+              <span>3.1k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>5 分钟</span>
+              <span>6 分钟</span>
             </span>
 
         </div>
@@ -286,10 +287,10 @@
 
       
         <p>Bitwarden是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息（例如网站登录凭据）。Bitwarden平台提供有多种客户端应用程序，包括网页用户界面、桌面应用，浏览器扩展、移动应用以及命令行界面。Bitwarden提供云托管服务，并支持自行部署解决方案。</p>
-<p>我已经使用Lastpass超过两年，偶然了解到Bitwarden并且惊讶其可以集成一次性密码（TOTP），并且很方便的填充到页面中，而不必打开手机查看。</p>
-<p>Bitwarden官方提供托管服务，TOTP支持需要付费订阅使用（10美元/年），若对于自家网络服务稳定性担忧建议使用官方服务。</p>
 <a id="more"></a>
 
+<p>我已经使用Lastpass超过两年，偶然了解到Bitwarden并且惊讶其可以集成一次性密码（TOTP），并且很方便的填充到页面中，而不必打开手机查看。</p>
+<p>Bitwarden官方提供托管服务，TOTP支持需要付费订阅使用（10美元/年），若对于自家网络服务稳定性担忧建议使用官方服务。</p>
 <h2 id="1-bitwarden-rs-是什么"><a href="#1-bitwarden-rs-是什么" class="headerlink" title="1.bitwarden_rs 是什么"></a>1.bitwarden_rs 是什么</h2><p>bitwarden_rs 是一个用于本地搭建 Bitwarden 服务器的第三方 Docker 项目。</p>
 <p>bitwarden_rs 使用 Rust 编写，与官方 Bitwarden 客户端兼容，并改用 SQLite 数据库（现在也支持 MySQL 和 PostgreSQL），相对于官方版使用 MSSQL 数据库要求至少 2GB 内存，运行 bitwarden_rs 时只需要 10M 内存，可以说对硬件基本没有要求。</p>
 <h2 id="2-bitwarden-rs-与-Bitwarden-官方版的区别"><a href="#2-bitwarden-rs-与-Bitwarden-官方版的区别" class="headerlink" title="2.bitwarden_rs 与 Bitwarden 官方版的区别"></a>2.bitwarden_rs 与 Bitwarden 官方版的区别</h2><ul>
@@ -325,12 +326,20 @@
 <p>由于我已经配置泛域名证书，所以系统会自动匹配，无需额外设置。</p>
 <p>没有的请自行申请或导入证书。点击配置匹配相关域名。</p>
 <p><img src="https://files.garryde.com/images/2103/20210306195942.png" alt="Screenshot_2"></p>
-<h2 id="7-配置Bitwarden"><a href="#7-配置Bitwarden" class="headerlink" title="7.配置Bitwarden"></a>7.配置Bitwarden</h2><h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><p>进入<code>https://domain.com/admin</code>,输入刚才配置的<code>ADMIN_TOKEN</code>项对应的密码</p>
+<h2 id="7-下载客户端"><a href="#7-下载客户端" class="headerlink" title="7.下载客户端"></a>7.下载客户端</h2><p>前往<a target="_blank" rel="noopener" href="https://bitwarden.com/download%E4%B8%8B%E8%BD%BD%E5%90%84%E5%B9%B3%E5%8F%B0%E5%AE%A2%E6%88%B7%E7%AB%AF">https://bitwarden.com/download下载各平台客户端</a></p>
+<p><img src="https://files.garryde.com/images/2103/20210306203527.png" alt="image-20210306203526924"></p>
+<h2 id="8-注册使用"><a href="#8-注册使用" class="headerlink" title="8.注册使用"></a>8.注册使用</h2><p><img src="https://files.garryde.com/images/2103/20210307115648.png" alt="image-20210307115648877"></p>
+<h3 id="关于主密码"><a href="#关于主密码" class="headerlink" title="关于主密码"></a>关于主密码</h3><p><strong>非常重要！！！</strong></p>
+<p>Bitwarden 是一个零知识/零信任的解决方案，密码库使用 <a href="">AES-CBC</a> 256 位加密方式，并使用 <a href="">PBKDF2</a> SHA-256 来派生加密密钥。在将任何内容发送到云服务器进行存储之前，Bitwarden <strong>始终</strong>会在本地设备上加密和/或哈希数据。 Bitwarden <strong>服务器仅用于存储已加密的数据</strong>。这意味着 Bitwarden 的团队以及 Bitwarden 系统本身对您的主密码一无所知，也没<strong>有办法找回或重置您的主密码</strong>。<strong>千万不要忘记你的主密码！</strong>如果您忘记主密码，Bitwarden 将无法重置它或恢复您的密码库数据。</p>
+<p>如果您忘记了主密码，Bitwarden 不知道、也没有办法找回或重置您的主密码。如果您已经丢失了您的主密码，您需要删除您的账户，并重新建立一个新的账户。这意味者您所有的数据将会丢失！</p>
+<p>地址：<a target="_blank" rel="noopener" href="https://domain.com/#/recover-delete">https://domain.com/#/recover-delete</a></p>
+<h2 id="9-配置Bitwarden"><a href="#9-配置Bitwarden" class="headerlink" title="9.配置Bitwarden"></a>9.配置Bitwarden</h2><h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><p>进入<code>https://domain.com/admin</code>,输入刚才配置的<code>ADMIN_TOKEN</code>项对应的密码</p>
 <p>点击<code> General settings</code>，配置Domain URL为你自己的域名，注意填写HTTPS前缀</p>
 <p><img src="https://files.garryde.com/images/2103/20210306200810.png" alt="image-20210306200810646"></p>
 <p>可以配置<code>Allow new signups</code>是否允许他人注册，关闭后，仅可由管理员在<code>Users</code>管理中邀请注册。（需要配置SMTP服务器）</p>
 <p><img src="https://files.garryde.com/images/2103/20210306201607.png" alt="image-20210306201607314"></p>
-<h3 id="配置SMTP邮件服务"><a href="#配置SMTP邮件服务" class="headerlink" title="配置SMTP邮件服务"></a>配置SMTP邮件服务</h3><p>进入<code>SMTP Email Settings</code></p>
+<h3 id="配置SMTP邮件服务"><a href="#配置SMTP邮件服务" class="headerlink" title="配置SMTP邮件服务"></a>配置SMTP邮件服务</h3><p>可选，但是强烈建议配置。开启后可以提供新设备登录提醒以及一系列邮件服务。</p>
+<p>进入<code>SMTP Email Settings</code></p>
 <table>
 <thead>
 <tr>
@@ -369,10 +378,9 @@
 </tbody></table>
 <p>下图实例为Outlook邮箱配置，若使用Gmail建议查阅<a target="_blank" rel="noopener" href="https://support.google.com/accounts/answer/6010255?hl=zh-Hans">安全性较低的应用和您的 Google 帐号</a></p>
 <p><img src="https://files.garryde.com/images/2103/20210306201752.png" alt="image-20210306201752575"></p>
-<h3 id="开启Email多重验证"><a href="#开启Email多重验证" class="headerlink" title="开启Email多重验证"></a>开启Email多重验证</h3><p>进入<code>Email 2FA Settings</code>，勾选<code>Enabled</code>。此设置允许您开启基于邮件验证码的二次验证<img src="https://files.garryde.com/images/2103/20210306203134.png" alt="image-20210306203133983"></p>
-<h2 id="8-下载客户端"><a href="#8-下载客户端" class="headerlink" title="8.下载客户端"></a>8.下载客户端</h2><p>前往<a target="_blank" rel="noopener" href="https://bitwarden.com/download%E4%B8%8B%E8%BD%BD%E5%90%84%E5%B9%B3%E5%8F%B0%E5%AE%A2%E6%88%B7%E7%AB%AF">https://bitwarden.com/download下载各平台客户端</a></p>
-<p><img src="https://files.garryde.com/images/2103/20210306203527.png" alt="image-20210306203526924"></p>
-<h2 id="9-配置Chrome自动填充选项"><a href="#9-配置Chrome自动填充选项" class="headerlink" title="9.配置Chrome自动填充选项"></a>9.配置Chrome自动填充选项</h2><h3 id="页面加载时自动填充"><a href="#页面加载时自动填充" class="headerlink" title="页面加载时自动填充"></a>页面加载时自动填充</h3><p>页面加载时自动填充是 Bitwarden 浏览器扩展提供的一个<strong>实验性的和可选的</strong>功能。当启用该功能时，Bitwarden 在加载与登录项目的 URI 值相对应的网页时将自动填充登录信息。</p>
+<h3 id="开启Email多重验证"><a href="#开启Email多重验证" class="headerlink" title="开启Email多重验证"></a>开启Email多重验证</h3><p>配置SMTP服务后可开启此选项。此设置允许您开启基于邮件验证码的二次验证</p>
+<p>进入<code>Email 2FA Settings</code>，勾选<code>Enabled</code>。<img src="https://files.garryde.com/images/2103/20210306203134.png" alt="image-20210306203133983"></p>
+<h2 id="10-配置Chrome自动填充选项"><a href="#10-配置Chrome自动填充选项" class="headerlink" title="10.配置Chrome自动填充选项"></a>10.配置Chrome自动填充选项</h2><h3 id="页面加载时自动填充"><a href="#页面加载时自动填充" class="headerlink" title="页面加载时自动填充"></a>页面加载时自动填充</h3><p>页面加载时自动填充是 Bitwarden 浏览器扩展提供的一个<strong>实验性的和可选的</strong>功能。当启用该功能时，Bitwarden 在加载与登录项目的 URI 值相对应的网页时将自动填充登录信息。</p>
 <p>如果有多个登录项目与检测到的 URI 相同，则自动填充操作将使用最后使用的登录项目。</p>
 <p>要启用此功能，请在浏览器扩展中导航到<strong>设置 → 选项</strong>，并选择<strong>启用页面加载时自动填充</strong>选项。</p>
 <h3 id="使用键盘快捷键"><a href="#使用键盘快捷键" class="headerlink" title="使用键盘快捷键"></a>使用键盘快捷键</h3><p>Bitwarden 浏览器扩展提供了一组键盘快捷键（也就是<em>热键</em>）来自动填充登录信息。您的密码库必须已解锁才能使用这些选项。</p>
@@ -520,7 +528,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-bitwarden-rs-%E6%98%AF%E4%BB%80%E4%B9%88"><span class="nav-text">1.bitwarden_rs 是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-bitwarden-rs-%E4%B8%8E-Bitwarden-%E5%AE%98%E6%96%B9%E7%89%88%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-text">2.bitwarden_rs 与 Bitwarden 官方版的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%89%8D%E7%BD%AE%E8%A6%81%E6%B1%82"><span class="nav-text">3.前置要求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E4%B8%8B%E8%BD%BD%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8"><span class="nav-text">4.下载启动容器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E8%AE%BF%E9%97%AE"><span class="nav-text">5.配置代理访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E9%85%8D%E7%BD%AE%E8%AF%81%E4%B9%A6"><span class="nav-text">6.配置证书</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E9%85%8D%E7%BD%AEBitwarden"><span class="nav-text">7.配置Bitwarden</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-%E4%B8%8B%E8%BD%BD%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="nav-text">8.下载客户端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-%E9%85%8D%E7%BD%AEChrome%E8%87%AA%E5%8A%A8%E5%A1%AB%E5%85%85%E9%80%89%E9%A1%B9"><span class="nav-text">9.配置Chrome自动填充选项</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-bitwarden-rs-%E6%98%AF%E4%BB%80%E4%B9%88"><span class="nav-text">1.bitwarden_rs 是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-bitwarden-rs-%E4%B8%8E-Bitwarden-%E5%AE%98%E6%96%B9%E7%89%88%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-text">2.bitwarden_rs 与 Bitwarden 官方版的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%89%8D%E7%BD%AE%E8%A6%81%E6%B1%82"><span class="nav-text">3.前置要求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E4%B8%8B%E8%BD%BD%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8"><span class="nav-text">4.下载启动容器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E8%AE%BF%E9%97%AE"><span class="nav-text">5.配置代理访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E9%85%8D%E7%BD%AE%E8%AF%81%E4%B9%A6"><span class="nav-text">6.配置证书</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E4%B8%8B%E8%BD%BD%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="nav-text">7.下载客户端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8"><span class="nav-text">8.注册使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-%E9%85%8D%E7%BD%AEBitwarden"><span class="nav-text">9.配置Bitwarden</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-%E9%85%8D%E7%BD%AEChrome%E8%87%AA%E5%8A%A8%E5%A1%AB%E5%85%85%E9%80%89%E9%A1%B9"><span class="nav-text">10.配置Chrome自动填充选项</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

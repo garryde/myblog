@@ -452,13 +452,6 @@
   </url>
   
   <url>
-    <loc>https://blog.garryde.com/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.garryde.com/tags/%E7%BA%AA%E5%BD%95%E7%89%87/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -507,17 +500,31 @@
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://blog.garryde.com/categories/italy/</loc>
+    <loc>https://blog.garryde.com/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.garryde.com/categories/Homeassistant/</loc>
+    <loc>https://blog.garryde.com/tags/%E5%A4%96%E4%BA%A4%E9%83%A8/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.garryde.com/tags/%E4%B8%AD%E5%9B%BD/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://blog.garryde.com/categories/italy/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -538,13 +545,6 @@
   </url>
   
   <url>
-    <loc>https://blog.garryde.com/categories/Npm/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.garryde.com/categories/game/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -553,6 +553,13 @@
   
   <url>
     <loc>https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.garryde.com/categories/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

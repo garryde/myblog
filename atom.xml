@@ -154,10 +154,12 @@
     
     
     
-    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    <category term="转载" scheme="https://blog.garryde.com/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="杂谈" scheme="https://blog.garryde.com/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="外交部" scheme="https://blog.garryde.com/tags/%E5%A4%96%E4%BA%A4%E9%83%A8/"/>
+    
+    <category term="中国" scheme="https://blog.garryde.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
   </entry>
   
@@ -236,7 +238,7 @@
     
     
     
-    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    <category term="转载" scheme="https://blog.garryde.com/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
     <category term="人物访谈" scheme="https://blog.garryde.com/tags/%E4%BA%BA%E7%89%A9%E8%AE%BF%E8%B0%88/"/>
@@ -261,10 +263,10 @@
     
     
     
-    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    <category term="转载" scheme="https://blog.garryde.com/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="杂谈" scheme="https://blog.garryde.com/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
     
     <category term="纪录片" scheme="https://blog.garryde.com/tags/%E7%BA%AA%E5%BD%95%E7%89%87/"/>
     
@@ -362,7 +364,7 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     
-    <category term="Npm" scheme="https://blog.garryde.com/categories/Npm/"/>
+    <category term="教程" scheme="https://blog.garryde.com/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="Npm" scheme="https://blog.garryde.com/tags/Npm/"/>
@@ -470,10 +472,12 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     
-    <category term="杂谈" scheme="https://blog.garryde.com/categories/bytalk/"/>
+    <category term="转载" scheme="https://blog.garryde.com/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
     <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
+    
+    <category term="新加坡" scheme="https://blog.garryde.com/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/"/>
     
   </entry>
   

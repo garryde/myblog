@@ -736,7 +736,7 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">switch:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">platform:</span> <span class="string">wake_on_lan</span></span><br><span class="line">    <span class="attr">mac_address:</span> <span class="string">&quot;UNIX_MAC&quot;</span></span><br><span class="line">    <span class="attr">host:</span> <span class="string">UNIX_IP</span></span><br><span class="line">    <span class="attr">name:</span> <span class="string">&quot;unix&quot;</span></span><br><span class="line">    <span class="attr">turn_off:</span></span><br><span class="line">      <span class="attr">service:</span> <span class="string">shell_command.unix_off</span></span><br></pre></td></tr></table></figure>
 <h2 id="四、参考"><a href="#四、参考" class="headerlink" title="四、参考"></a>四、参考</h2><h5 id="1-How-to-run-privileged-sudo-commands-without-the-password"><a href="#1-How-to-run-privileged-sudo-commands-without-the-password" class="headerlink" title="1.How to run privileged (sudo) commands without the password"></a><a href="https://ubuntu-mate.community/t/how-to-run-privileged-sudo-commands-without-the-password/2940">1.How to run privileged (sudo) commands without the password</a></h5><h5 id="2-SSH-login-without-password"><a href="#2-SSH-login-without-password" class="headerlink" title="2.SSH login without password"></a><a href="http://www.linuxproblem.org/art_9.html">2.SSH login without password</a></h5><h5 id="3-Hass-io-shell-command-error"><a href="#3-Hass-io-shell-command-error" class="headerlink" title="3.Hass.io shell_command error"></a><a href="https://community.home-assistant.io/t/hass-io-shell-command-error/36312/15">3.Hass.io shell_command error</a></h5>]]></content>
       <categories>
-        <category>Homeassistant</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Homeassistant</tag>
@@ -838,10 +838,11 @@
 <source src="https://files.garryde.com/videos/SingaporeNewCoronavirus.mp4">
 </video>]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>转载</category>
       </categories>
       <tags>
         <tag>COVID-19</tag>
+        <tag>新加坡</tag>
       </tags>
   </entry>
   <entry>
@@ -1020,7 +1021,7 @@
 <h3 id="4-执行命令行工具初始化"><a href="#4-执行命令行工具初始化" class="headerlink" title="4.执行命令行工具初始化"></a>4.执行命令行工具初始化</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo xcode-select --reset</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Npm</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Npm</tag>
@@ -1108,10 +1109,10 @@ width="448" height="252"
 <p>监制：克莱尔·威廉姆斯（Claire Williams）、亚当·格里姆利（Adam Grimley）、张晧宇、薇薇安·吴（Vivian Wu）</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8xfFp1bVByQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>转载</category>
       </categories>
       <tags>
-        <tag>杂谈</tag>
+        <tag>COVID-19</tag>
         <tag>纪录片</tag>
       </tags>
   </entry>
@@ -1128,7 +1129,7 @@ width="448" height="252"
 <p>“其实我们就是那些人，我们就是我们自己内心里边理想中反对的那些人，我们自己在年轻人面前也一样。”</p>
 <iframe width="560" height="400" src="https://v.qq.com/txp/iframe/player.html?vid=c03329cdpup" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>转载</category>
       </categories>
       <tags>
         <tag>人物访谈</tag>
@@ -1207,10 +1208,11 @@ width="448" height="252"
 </blockquote>
 ]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>转载</category>
       </categories>
       <tags>
-        <tag>杂谈</tag>
+        <tag>外交部</tag>
+        <tag>中国</tag>
       </tags>
   </entry>
   <entry>

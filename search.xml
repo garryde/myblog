@@ -1383,6 +1383,9 @@ width="448" height="252"
 <p><strong>某错误引用：</strong></p>
 <img src="https://files.garryde.com/images/2103/20210303153236.jpg" width="512" />
 
+<p><strong>3月10日更新</strong></p>
+<p>钟南山：以色列接种疫苗人数占总人口比例为103.7%</p>
+<p><img src="https://files.garryde.com/images/2103/20210310200130.png" alt="image-20210310200130403"></p>
 <blockquote>
 <p>微信文章链接：<a href="https://mp.weixin.qq.com/s/JidKo4pcVlndBxpbVo71bw">点此查看</a></p>
 </blockquote>
@@ -1393,32 +1396,6 @@ width="448" height="252"
       <tags>
         <tag>COVID-19</tag>
         <tag>新冠疫苗</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo 如何隐藏文章</title>
-    <url>/archives/37712.html</url>
-    <content><![CDATA[<p>本 Hexo 插件可以在博客中隐藏指定的文章，并使它们仅可通过链接访问。</p>
-<p>当一篇文章被设置为「隐藏」时，它不会出现在任何列表中（包括首页、存档、分类页面、标签页面、Feed、站点地图等），也不会被搜索引擎索引（前提是搜索引擎遵守 noindex 标签）。</p>
-<p>只有知道文章链接的人才可以访问被隐藏的文章。</p>
-<a id="more"></a>
-
-<p>Github地址：<a href="https://github.com/printempw/hexo-hide-posts">https://github.com/printempw/hexo-hide-posts</a></p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-hide-posts --save</code></p>
-<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>在站点目录下的<code>_config.yml</code>中如下配置：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo-hide-posts</span></span><br><span class="line"><span class="attr">hide_posts:</span></span><br><span class="line">  <span class="comment"># 可以改成其他你喜欢的名字</span></span><br><span class="line">  <span class="attr">filter:</span> <span class="string">hidden</span></span><br><span class="line">  <span class="comment"># 指定你想要传递隐藏文章的位置，比如让所有隐藏文章在存档页面可见</span></span><br><span class="line">  <span class="comment"># 常见的位置有：index, tag, category, archive, sitemap, feed, etc.</span></span><br><span class="line">  <span class="comment"># 留空则默认全部隐藏</span></span><br><span class="line">  <span class="attr">public_generators:</span> []</span><br><span class="line">  <span class="comment"># 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录</span></span><br><span class="line">  <span class="attr">noindex:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<p>举个栗子：设置 <code>filter: secret</code> 之后，你就可以在 front-matter 中使用 <code>secret: true</code> 来隐藏文章了。</p>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在文章的属性中定义 <code>hidden: true</code> 即可隐藏文章。</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#x27;Hidden Post&#x27;</span><br><span class="line">date: &#x27;2021/03/05 21:45:14&#x27;</span><br><span class="line">hidden: true</span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>虽然首页上被隐藏了，但你仍然可以通过 <code>https://hexo.test/lorem-ipsum/</code> 链接访问它。</p>
-<p>你可以在命令行运行 <code>hexo hidden:list</code> 来获取当前所有的已隐藏文章列表。</p>
-<p>插件也在 <a href="https://hexo.io/api/locals">Local Variables</a> 中添加了 <code>all_posts</code> 和 <code>hidden_posts</code> 变量，供自定义主题使用。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1738,6 +1715,32 @@ width="448" height="252"
       <tags>
         <tag>意大利</tag>
         <tag>签证</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 如何隐藏文章</title>
+    <url>/archives/37712.html</url>
+    <content><![CDATA[<p>本 Hexo 插件可以在博客中隐藏指定的文章，并使它们仅可通过链接访问。</p>
+<p>当一篇文章被设置为「隐藏」时，它不会出现在任何列表中（包括首页、存档、分类页面、标签页面、Feed、站点地图等），也不会被搜索引擎索引（前提是搜索引擎遵守 noindex 标签）。</p>
+<p>只有知道文章链接的人才可以访问被隐藏的文章。</p>
+<a id="more"></a>
+
+<p>Github地址：<a href="https://github.com/printempw/hexo-hide-posts">https://github.com/printempw/hexo-hide-posts</a></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-hide-posts --save</code></p>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>在站点目录下的<code>_config.yml</code>中如下配置：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo-hide-posts</span></span><br><span class="line"><span class="attr">hide_posts:</span></span><br><span class="line">  <span class="comment"># 可以改成其他你喜欢的名字</span></span><br><span class="line">  <span class="attr">filter:</span> <span class="string">hidden</span></span><br><span class="line">  <span class="comment"># 指定你想要传递隐藏文章的位置，比如让所有隐藏文章在存档页面可见</span></span><br><span class="line">  <span class="comment"># 常见的位置有：index, tag, category, archive, sitemap, feed, etc.</span></span><br><span class="line">  <span class="comment"># 留空则默认全部隐藏</span></span><br><span class="line">  <span class="attr">public_generators:</span> []</span><br><span class="line">  <span class="comment"># 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录</span></span><br><span class="line">  <span class="attr">noindex:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>举个栗子：设置 <code>filter: secret</code> 之后，你就可以在 front-matter 中使用 <code>secret: true</code> 来隐藏文章了。</p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在文章的属性中定义 <code>hidden: true</code> 即可隐藏文章。</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#x27;Hidden Post&#x27;</span><br><span class="line">date: &#x27;2021/03/05 21:45:14&#x27;</span><br><span class="line">hidden: true</span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>虽然首页上被隐藏了，但你仍然可以通过 <code>https://hexo.test/lorem-ipsum/</code> 链接访问它。</p>
+<p>你可以在命令行运行 <code>hexo hidden:list</code> 来获取当前所有的已隐藏文章列表。</p>
+<p>插件也在 <a href="https://hexo.io/api/locals">Local Variables</a> 中添加了 <code>all_posts</code> 和 <code>hidden_posts</code> 变量，供自定义主题使用。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>

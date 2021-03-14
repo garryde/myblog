@@ -6,7 +6,7 @@
   <link href="https://blog.garryde.com/atom.xml" rel="self"/>
   
   <link href="https://blog.garryde.com/"/>
-  <updated>2021-03-06T18:00:33.000Z</updated>
+  <updated>2021-03-14T20:08:09.000Z</updated>
   <id>https://blog.garryde.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>View from Emsique</title>
+    <link href="https://blog.garryde.com/archives/35270.html"/>
+    <id>https://blog.garryde.com/archives/35270.html</id>
+    <published>2021-03-14T20:08:09.000Z</published>
+    <updated>2021-03-14T20:08:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Two comments from the New York Times article<br><a href="https://www.nytimes.com/2020/12/14/world/asia/china-nationalists-covid.html">China’s Combative Nationalists See a World Turning Their Way</a></p><a id="more"></a><h1 id="Comment-from-Emsique"><a href="#Comment-from-Emsique" class="headerlink" title="Comment from Emsique"></a>Comment from Emsique</h1><p>I lived and worked in China for 11 years.  Even before COVID, the US was quickly losing respect with the election of Trump. His shabby performance as president was the single best anti democracy propaganda we could have provided.</p><p>The media there had no need to massage news regarding America’s flailing White House.  It was obvious to anyone.</p><p>In my years there, I saw China slide into a more controlling dictatorship than it already was.  In exchange for this, there has been a dramatic reduction in (blatant) corruption, pollution has been reduced, infrastructure projects have continued at breakneck pace, and the overall standard of living has improved.  Controlling the COVID outbreak is a huge accomplishment, although much easier with a vice like grip on the population.</p><p>Recent crackdowns on Uighurs and Hong Kong as well as other government intrusions into people’s privacy make me glad to be no longer living there.</p><p>Much of what you see there is superficial.  Fancy facades hide shabby architecture.  Modern, massive government buildings house creaky, corrupt, incompetent bureaucracies. Greed is the prevailing motive for most enterprises.Education is a stifling exercise in mind control.</p><p>China does not have a lock on being the future world’s greatest superpower.  It could just as easily slide into the kind of madness that enveloped it during Mao’s reign.</p><h1 id="Comment-from-Kc"><a href="#Comment-from-Kc" class="headerlink" title="Comment from Kc"></a>Comment from Kc</h1><p>In the case of Covid-19, both the West and the Chinese are missing the point. The global pandemic is indeed a disaster where a top-down system has advantage. The good of the collective definitely outweighs that of the individual. Here China shows great resolve and its people sacrificed greatly in just a few months to get things under control.</p><p>The West is afraid of acknowledging this point for fear of praising an authoritative state. They cast about and praise the like of Taiwan or South Korea. But the population size makes a huge difference! It’s one thing to contain the virus on an island; it’s quite different for a country of hundreds of millions of people, as is painful evident in the cases of US and India.</p><p>The Chinese is also missing the point. The pandemic is a once-in-a-century disaster. Few other challenges in today’s world would be like that. When this is over, a democratic society with free thoughts will boost innovation and progress, while a rigid system could kill them. </p><p>What the world needs now is not dogma, but to look at the problems analytically for solutions, and decide their merits wherever they exist.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Two comments from the New York Times article&lt;br&gt;&lt;a href=&quot;https://www.nytimes.com/2020/12/14/world/asia/china-nationalists-covid.html&quot;&gt;China’s Combative Nationalists See a World Turning Their Way&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转载" scheme="https://blog.garryde.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="观点" scheme="https://blog.garryde.com/tags/%E8%A7%82%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>群晖Docker搭建Bitwarden密码服务器</title>
@@ -500,34 +521,6 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     <category term="Hexo" scheme="https://blog.garryde.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>伦敦航拍</title>
-    <link href="https://blog.garryde.com/archives/43782.html"/>
-    <id>https://blog.garryde.com/archives/43782.html</id>
-    <published>2020-02-11T23:39:56.000Z</published>
-    <updated>2020-02-11T23:39:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>视频场景：格林尼治公园，伦敦塔桥，泰晤士河</p><h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/sPVf2Pt7keY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><iframe width="560" height="315" src="https://files.garryde.com/videos/London.MP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--<video width="560" height="315" controls><source src="https://files.garryde.com/videos/London.MP4"></video>-->]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;视频场景：格林尼治公园，伦敦塔桥，泰晤士河&lt;/p&gt;
-&lt;h2 id=&quot;YouTube&quot;&gt;&lt;a href=&quot;#YouTube&quot; class=&quot;headerlink&quot; title=&quot;YouTube&quot;&gt;&lt;/a&gt;YouTube&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sPVf2Pt7keY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
-    
-    
-    
-    <category term="旅记" scheme="https://blog.garryde.com/categories/trip/"/>
-    
-    
-    <category term="伦敦" scheme="https://blog.garryde.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-    <category term="航拍" scheme="https://blog.garryde.com/tags/%E8%88%AA%E6%8B%8D/"/>
-    
-    <category term="旅记" scheme="https://blog.garryde.com/tags/%E6%97%85%E8%AE%B0/"/>
-    
-    <category term="英国" scheme="https://blog.garryde.com/tags/%E8%8B%B1%E5%9B%BD/"/>
     
   </entry>
   

@@ -6,7 +6,7 @@
   <link href="https://blog.garryde.com/atom.xml" rel="self"/>
   
   <link href="https://blog.garryde.com/"/>
-  <updated>2021-03-22T21:54:18.000Z</updated>
+  <updated>2021-03-24T22:30:31.000Z</updated>
   <id>https://blog.garryde.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>zheng</title>
+    <link href="https://blog.garryde.com/archives/16312.html"/>
+    <id>https://blog.garryde.com/archives/16312.html</id>
+    <published>2021-03-24T22:30:31.000Z</published>
+    <updated>2021-03-24T22:30:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="da80818dccc8ff0c45451f22d3efc622ed17f5a95a7b77c2cc7418b7d411218a">8b866b9068e727be170383c8435bf614ac59578e4eb6a8e237520f9356bb69c607c9301b6c9eebe5a3273b23479e65a551deba025865c4f48178ff19b5e7d22f2cf500f604b379cf2734d07ddfbb00bacea5d3ebbf63cfb2339a8e3b386a19bb7c6b1958a9c32280ad84baae813199e22c4796ffe830e7e1edde422bb7c2720be5fa1e8bd05153cca40783024afe71cf</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>荷兰Orientation Year(找工作)签证申请指南</title>
@@ -493,38 +510,6 @@ width=&quot;448&quot; height=&quot;252&quot;
     
     
     <category term="意大利" scheme="https://blog.garryde.com/tags/%E6%84%8F%E5%A4%A7%E5%88%A9/"/>
-    
-    <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>新加坡卫生部长：应对新冠病毒勤洗手比口罩更重要</title>
-    <link href="https://blog.garryde.com/archives/53497.html"/>
-    <id>https://blog.garryde.com/archives/53497.html</id>
-    <published>2020-03-03T17:58:17.000Z</published>
-    <updated>2020-03-03T17:58:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="新加坡卫生部长在国会解释新冠病毒和预防措施"><a href="#新加坡卫生部长在国会解释新冠病毒和预防措施" class="headerlink" title="新加坡卫生部长在国会解释新冠病毒和预防措施"></a>新加坡卫生部长在国会解释新冠病毒和预防措施</h3><p>部分内容摘要：</p><blockquote><p>目前证据显示：传播主要通过飞沫。病毒是在感染者在咳嗽或打喷嚏时飞沫在近距离传播的。如果接触这些口沫的手直接或间接的接触到一个人的眼鼻口，这个人可能就会被感染。</p></blockquote><blockquote><p>目前没有证据表明新型冠状病毒是通过空气传播的。而其他病毒如水痘可以通过空气流动轻易传播。</p></blockquote><blockquote><p>健康人戴口罩往往会给我们一种错误的安全感，当我们不断调整口罩时，我们更有可能接触到自己的脸，这恰好是疾病传播的一种方式。</p></blockquote><a id="more"></a><video width="480" height="320" controls><source src="https://files.garryde.com/videos/SingaporeNewCoronavirus.mp4"></video>]]></content>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;新加坡卫生部长在国会解释新冠病毒和预防措施&quot;&gt;&lt;a href=&quot;#新加坡卫生部长在国会解释新冠病毒和预防措施&quot; class=&quot;headerlink&quot; title=&quot;新加坡卫生部长在国会解释新冠病毒和预防措施&quot;&gt;&lt;/a&gt;新加坡卫生部长在国会解释新冠病毒和预防措施&lt;/h3&gt;&lt;p&gt;部分内容摘要：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;目前证据显示：传播主要通过飞沫。病毒是在感染者在咳嗽或打喷嚏时飞沫在近距离传播的。如果接触这些口沫的手直接或间接的接触到一个人的眼鼻口，这个人可能就会被感染。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;目前没有证据表明新型冠状病毒是通过空气传播的。而其他病毒如水痘可以通过空气流动轻易传播。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;健康人戴口罩往往会给我们一种错误的安全感，当我们不断调整口罩时，我们更有可能接触到自己的脸，这恰好是疾病传播的一种方式。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="转载" scheme="https://blog.garryde.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="新加坡" scheme="https://blog.garryde.com/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/"/>
     
     <category term="COVID-19" scheme="https://blog.garryde.com/tags/COVID-19/"/>
     

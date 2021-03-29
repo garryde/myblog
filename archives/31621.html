@@ -23,12 +23,12 @@
   </script>
 
 <script data-ad-client="ca-pub-9969238025754989" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <meta name="description" content="安装hexo-deployer-cos插件 1npm install hexo-deployer-cos --save 打开博客根目录的_config.yml配置文件，将原来的deploy替换为下面的内容： 1234567deploy:   type: cos  appId: yourAPPID  secretId: yourSecretId  secretKey: yourSecretKey">
+  <meta name="description" content="安装hexo-deployer-cos插件 1npm install hexo-deployer-cos --save">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 发布blog到腾讯云cos">
 <meta property="og:url" content="https://blog.garryde.com/archives/31621.html">
 <meta property="og:site_name" content="咖里De">
-<meta property="og:description" content="安装hexo-deployer-cos插件 1npm install hexo-deployer-cos --save 打开博客根目录的_config.yml配置文件，将原来的deploy替换为下面的内容： 1234567deploy:   type: cos  appId: yourAPPID  secretId: yourSecretId  secretKey: yourSecretKey">
+<meta property="og:description" content="安装hexo-deployer-cos插件 1npm install hexo-deployer-cos --save">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-07-11T20:24:32.000Z">
 <meta property="article:modified_time" content="2019-07-11T20:24:32.000Z">
@@ -307,6 +307,7 @@
       
         <p>安装<code>hexo-deployer-cos</code>插件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-cos --save</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>打开博客根目录的<code>_config.yml</code>配置文件，将原来的<code>deploy</code>替换为下面的内容：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span> </span><br><span class="line">  <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">  <span class="attr">appId:</span> <span class="string">yourAPPID</span></span><br><span class="line">  <span class="attr">secretId:</span> <span class="string">yourSecretId</span></span><br><span class="line">  <span class="attr">secretKey:</span> <span class="string">yourSecretKey</span></span><br><span class="line">  <span class="attr">bucket:</span> <span class="string">yourBucketName-yourAPPID</span></span><br><span class="line">  <span class="attr">region:</span> <span class="string">yourRegion</span></span><br></pre></td></tr></table></figure>
 <p>部署</p>

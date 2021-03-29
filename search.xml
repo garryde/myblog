@@ -1628,6 +1628,8 @@ width="448" height="252"
     <content><![CDATA[<h2 id="1-组件"><a href="#1-组件" class="headerlink" title="1.组件"></a>1.组件</h2><p>hexo-abbrlink</p>
 <p>项目地址：<a href="https://github.com/rozbo/hexo-abbrlink">https://github.com/rozbo/hexo-abbrlink</a></p>
 <h2 id="2-原理"><a href="#2-原理" class="headerlink" title="2.原理"></a>2.原理</h2><p>对<code>标题</code>+<code>时间</code>进行<code>md5</code>然后再转<code>base64</code>，保存在<code>front-matter</code>中。</p>
+<a id="more"></a>
+
 <h2 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
 
 
@@ -1652,6 +1654,7 @@ width="448" height="252"
     <content><![CDATA[<h2 id="1-注册Leancloud"><a href="#1-注册Leancloud" class="headerlink" title="1.注册Leancloud"></a>1.注册Leancloud</h2><p><a href="https://leancloud.cn/">https://leancloud.cn/</a></p>
 <p>注册-&gt;创建应用</p>
 <p> **进入应用-&gt;设置-&gt;应用key **获取你的appid 和 appkey</p>
+<a id="more"></a>
 <h2 id="2-修改主题配置"><a href="#2-修改主题配置" class="headerlink" title="2.修改主题配置"></a>2.修改主题配置</h2><p>打开<code>主题配置文件</code> 搜索 <strong>valine</strong>，填入appid 和 appkey</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">appid:</span> <span class="comment"># leancloud 应用 appid</span></span><br><span class="line"><span class="attr">appkey:</span> <span class="comment"># leancloud 应用 appkey</span></span><br><span class="line"><span class="attr">notify:</span> <span class="literal">false</span> <span class="comment">#邮件通知</span></span><br><span class="line"><span class="attr">verify:</span> <span class="literal">false</span> <span class="comment"># 验证码</span></span><br><span class="line"><span class="attr">placeholder:</span> <span class="string">Just</span> <span class="string">go</span> <span class="string">go</span> <span class="comment"># 评论框占位符</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="string">mm</span> <span class="comment"># Gravatar 风格</span></span><br><span class="line"><span class="attr">guest_info:</span> <span class="string">nick,mail,link</span> <span class="comment"># 自定义评论标题</span></span><br><span class="line"><span class="attr">pageSize:</span> <span class="number">10</span> <span class="comment"># 分页大小</span></span><br><span class="line"><span class="attr">language:</span> <span class="comment"># 语言，可用值: en, zh-cn</span></span><br><span class="line"><span class="attr">visitor:</span> <span class="literal">false</span> <span class="comment"># 文章阅读统计</span></span><br><span class="line"><span class="attr">comment_count:</span> <span class="literal">true</span> <span class="comment"># 如果为false，则评论计数将仅显示在帖子页面中，而不显示在主页中</span></span><br><span class="line"><span class="attr">recordIP:</span> <span class="literal">false</span> <span class="comment"># 是否记录评论者IP</span></span><br><span class="line"><span class="attr">serverURLs:</span> <span class="comment"># 启用自定义域名后，在此处填写（默认情况下会自动检测到该域名，无需填写）</span></span><br><span class="line"><span class="comment">#post_meta_order: 0</span></span><br></pre></td></tr></table></figure>
 
@@ -1670,6 +1673,7 @@ width="448" height="252"
     <title>Hexo Next 修改中文不生效</title>
     <url>/archives/46153.html</url>
     <content><![CDATA[<p>修改站点语言需要修站点目录下<code>_config.yml</code>中的<code>language</code>，设置的值要根据主题文件选择。</p>
+<a id="more"></a>
 <p>以next主题为例，检查<code>theme/next/languages/</code>目录可以看到中文存放于<code>zh-CN.yml</code>文件，所以上方配置修改为：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-CN.yml</span></span><br></pre></td></tr></table></figure>
 <p>若为<code>zh-Hans.yml</code>则赋值<code>zh-Hans</code></p>
@@ -1687,6 +1691,7 @@ width="448" height="252"
     <content><![CDATA[<p>该插件用于生成搜索索引文件，其中包含文章的所有必要数据，可用于为博客编写本地搜索引擎。支持XML和JSON格式输出。</p>
 <p>Github地址：<a href="https://github.com/theme-next/hexo-generator-searchdb">https://github.com/theme-next/hexo-generator-searchdb</a></p>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在站点根目录下执行<code>npm install hexo-generator-searchdb --save</code></p>
+<a id="more"></a>
 <h3 id="编辑站点配置文件"><a href="#编辑站点配置文件" class="headerlink" title="编辑站点配置文件"></a>编辑<code>站点</code>配置文件</h3><p>新增以下内容</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 <h3 id="编辑主题配置文件"><a href="#编辑主题配置文件" class="headerlink" title="编辑主题配置文件"></a>编辑<code>主题</code>配置文件</h3><p>修改以下内容</p>
@@ -1703,6 +1708,7 @@ width="448" height="252"
     <url>/archives/31621.html</url>
     <content><![CDATA[<p>安装<code>hexo-deployer-cos</code>插件</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-cos --save</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>打开博客根目录的<code>_config.yml</code>配置文件，将原来的<code>deploy</code>替换为下面的内容：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span> </span><br><span class="line">  <span class="attr">type:</span> <span class="string">cos</span></span><br><span class="line">  <span class="attr">appId:</span> <span class="string">yourAPPID</span></span><br><span class="line">  <span class="attr">secretId:</span> <span class="string">yourSecretId</span></span><br><span class="line">  <span class="attr">secretKey:</span> <span class="string">yourSecretKey</span></span><br><span class="line">  <span class="attr">bucket:</span> <span class="string">yourBucketName-yourAPPID</span></span><br><span class="line">  <span class="attr">region:</span> <span class="string">yourRegion</span></span><br></pre></td></tr></table></figure>
 <p>部署</p>
@@ -1719,6 +1725,7 @@ width="448" height="252"
     <url>/archives/50370.html</url>
     <content><![CDATA[<h3 id="添加头像"><a href="#添加头像" class="headerlink" title="添加头像"></a>添加头像</h3><p>编辑主题的 <code>_config.yml</code>，修改字段 <code>avatar</code>， 的<code>url</code>值设置成头像的链接地址。</p>
 <p>其中，头像的链接地址可以是：</p>
+<a id="more"></a>
 <p>1.完整的互联网 URL</p>
 <p>2.站点内的地址，例如：</p>
 <ul>
